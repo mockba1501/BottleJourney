@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Prototype_32Level_322",
-  "name": "Prototype Level 2",
+  "mangledName": "Prototype_32Level_322b",
+  "name": "Prototype Level 2b",
   "oglFOV": 90,
   "oglZFar": 500,
   "oglZNear": 1,
@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7877499999999968,
+    "zoomFactor": 0.5377110151290863,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -206,14 +206,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 607,
+      "height": 651,
       "layer": "",
       "locked": false,
-      "name": "VerticalLines",
-      "persistentUuid": "309c571e-105b-470c-bb87-2b6d8a6f6842",
-      "width": 4,
-      "x": 961,
-      "y": -1,
+      "name": "Obstacle",
+      "persistentUuid": "3cc7c519-453f-444f-be4b-5c72691c3f4c",
+      "width": 32,
+      "x": 900,
+      "y": -19,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -222,15 +222,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 607,
+      "height": 682,
       "layer": "",
       "locked": false,
-      "name": "VerticalLines",
-      "persistentUuid": "686ff212-9ce7-4c0e-8f92-29f5e627d045",
-      "width": 32,
-      "x": -188,
-      "y": 17,
-      "zOrder": 9,
+      "name": "Obstacle",
+      "persistentUuid": "dbb397be-f0af-414c-9629-362632393822",
+      "width": 25,
+      "x": -107,
+      "y": -19,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -365,24 +365,6 @@
     },
     {
       "height": 32,
-      "name": "VerticalLines",
-      "tags": "",
-      "texture": "NewFile-1.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "PathfindingObstacle",
-          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
-          "cost": 2,
-          "impassable": true
-        }
-      ]
-    },
-    {
-      "height": 32,
       "name": "Obstacle",
       "tags": "",
       "texture": "NewFile-1.png",
@@ -398,17 +380,6 @@
           "impassable": true
         }
       ]
-    },
-    {
-      "height": 32,
-      "name": "SeaBG",
-      "tags": "",
-      "texture": "NewFile-1-0.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
     }
   ],
   "events": [
@@ -970,7 +941,7 @@
           },
           "parameters": [
             "",
-            "\"PrototypeLevel2\"",
+            "\"Prototype Level 3\"",
             ""
           ],
           "subInstructions": []
@@ -1104,8 +1075,68 @@
       "disabled": false,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "Health",
+            "<=",
+            "0"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Prototype Start\"",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "Stamina",
+            "<=",
+            "0"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Prototype Start\"",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
       "events": []
     }
   ],

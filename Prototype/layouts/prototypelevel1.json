@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Prototype_32Level_322",
-  "name": "Prototype Level 2",
+  "mangledName": "PrototypeLevel1",
+  "name": "PrototypeLevel1",
   "oglFOV": 90,
   "oglZFar": 500,
   "oglZNear": 1,
@@ -970,7 +970,7 @@
           },
           "parameters": [
             "",
-            "\"PrototypeLevel2\"",
+            "\"Untitled scene2\"",
             ""
           ],
           "subInstructions": []

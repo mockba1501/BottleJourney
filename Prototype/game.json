@@ -22,7 +22,7 @@
     "author": "",
     "windowWidth": 800,
     "windowHeight": 600,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "G:\\My Drive\\Masters Digital Learning Games\\02 Spring 2022\\Design & Integration of Digital Assets\\Homeworks\\HW#1\\battleJourney",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -131,6 +131,32 @@
         "name": "NewFile-1-0.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Large Hole.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Large Hole.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Rolling Ball Pack/Hole/Large Hole.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Start button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Start button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/On-Screen Controls/Sprites/Flat Dark/Start button.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -141,7 +167,18 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "HP",
+          "type": "string",
+          "value": "50"
+        },
+        {
+          "name": "Oxgyn",
+          "type": "string",
+          "value": "50"
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -335,6 +372,17 @@
         "g": 255,
         "r": 255
       }
+    },
+    {
+      "height": 32,
+      "name": "SeaBG",
+      "tags": "",
+      "texture": "NewFile-1-0.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsGroups": [],
@@ -353,15 +401,23 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/prototype-level-1"
+      "referenceTo": "/layouts/prototype-start"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/prototype-level-2"
+      "referenceTo": "/layouts/prototype-level-2a"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/prototype-level-2b"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/prototype-level-3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/prototype-level-1"
     }
   ],
   "externalEvents": [],

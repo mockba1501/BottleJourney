@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Prototype_32Level_322",
-  "name": "Prototype Level 2",
+  "mangledName": "Prototype_32Level_322a",
+  "name": "Prototype Level 2a",
   "oglFOV": 90,
   "oglZFar": 500,
   "oglZNear": 1,
@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7877499999999968,
+    "zoomFactor": 0.7009999999999965,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -100,8 +100,8 @@
       "name": "BaconDish",
       "persistentUuid": "01d788a1-fc94-4e59-b1ee-9482e42c2a17",
       "width": 0,
-      "x": 307,
-      "y": 486,
+      "x": 741,
+      "y": 558,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -126,14 +126,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 30,
+      "height": 164,
       "layer": "",
       "locked": false,
       "name": "Obstacle",
       "persistentUuid": "11dfb2ab-58f8-419a-a64c-8e6acebf718f",
-      "width": 308,
-      "x": 88,
-      "y": 211,
+      "width": 50,
+      "x": 532,
+      "y": 179,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -148,8 +148,8 @@
       "name": "Obstacle",
       "persistentUuid": "4240de88-7bdc-42f8-90b9-abc3558ad5e0",
       "width": 83,
-      "x": 589.2940063476562,
-      "y": 479.6996154785156,
+      "x": 709.7059936523438,
+      "y": 451.6996154785156,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -158,14 +158,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 79,
+      "height": 651,
       "layer": "",
       "locked": false,
       "name": "Obstacle",
       "persistentUuid": "7c2281c9-8217-4211-bcf4-1fc65f762bb4",
-      "width": 296,
-      "x": 99,
-      "y": 494,
+      "width": 24,
+      "x": -174,
+      "y": -9,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -206,31 +206,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 607,
+      "height": 651,
       "layer": "",
       "locked": false,
-      "name": "VerticalLines",
-      "persistentUuid": "309c571e-105b-470c-bb87-2b6d8a6f6842",
-      "width": 4,
-      "x": 961,
-      "y": -1,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 607,
-      "layer": "",
-      "locked": false,
-      "name": "VerticalLines",
-      "persistentUuid": "686ff212-9ce7-4c0e-8f92-29f5e627d045",
-      "width": 32,
-      "x": -188,
-      "y": 17,
-      "zOrder": 9,
+      "name": "Obstacle",
+      "persistentUuid": "6fb1b38f-3cde-46cf-92f7-bfc530c07f41",
+      "width": 24,
+      "x": 1016,
+      "y": -3,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -365,24 +349,6 @@
     },
     {
       "height": 32,
-      "name": "VerticalLines",
-      "tags": "",
-      "texture": "NewFile-1.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "PathfindingObstacle",
-          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
-          "cost": 2,
-          "impassable": true
-        }
-      ]
-    },
-    {
-      "height": 32,
       "name": "Obstacle",
       "tags": "",
       "texture": "NewFile-1.png",
@@ -437,17 +403,6 @@
           "parameters": [
             "",
             "\"SpawnBubbles\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"SpawnFish\""
           ],
           "subInstructions": []
         }
@@ -553,75 +508,6 @@
             "Stamina",
             "=",
             "\"Stamina: \" + ToString(round(GlobalVariable(Stamina)))"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Bottle",
-            "Fish",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarObjetTxt"
-          },
-          "parameters": [
-            "Fish",
-            "direction",
-            "=",
-            "\"right\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "Health",
-            "-",
-            "5"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "Health",
-            "=",
-            "\"Health: \" + ToString(round(GlobalVariable(Health)))"
           ],
           "subInstructions": []
         }
@@ -901,55 +787,6 @@
         {
           "type": {
             "inverted": false,
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"SpawnFish\"",
-            ">",
-            "3"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "CreateByName"
-          },
-          "parameters": [
-            "",
-            "Fish",
-            "\"Fish\"",
-            "900",
-            "RandomInRange(40,500)",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"SpawnFish\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
             "value": "CollisionNP"
           },
           "parameters": [
@@ -970,7 +807,7 @@
           },
           "parameters": [
             "",
-            "\"PrototypeLevel2\"",
+            "\"Prototype Level 2b\"",
             ""
           ],
           "subInstructions": []
@@ -1104,8 +941,68 @@
       "disabled": false,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "Health",
+            "<=",
+            "0"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Prototype Start\"",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "Stamina",
+            "<=",
+            "0"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Prototype Start\"",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
       "events": []
     }
   ],

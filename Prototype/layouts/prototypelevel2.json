@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Prototype_32Level_321",
-  "name": "Prototype Level 1",
+  "mangledName": "PrototypeLevel2",
+  "name": "PrototypeLevel2",
   "oglFOV": 90,
   "oglZFar": 500,
   "oglZNear": 1,
@@ -46,14 +46,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 70,
+      "height": 102,
       "layer": "",
       "locked": false,
       "name": "Bubble",
       "persistentUuid": "6457330f-c376-41b4-b36d-d52e9fef8103",
-      "width": 91,
-      "x": 557,
-      "y": 486,
+      "width": 169,
+      "x": 593,
+      "y": 445,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -94,14 +94,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 59,
+      "height": 102,
       "layer": "",
       "locked": false,
       "name": "Bubble",
       "persistentUuid": "4721e19d-5139-4103-9f43-a62c9fec6fdd",
-      "width": 94,
+      "width": 169,
       "x": 44,
-      "y": 491,
+      "y": 448,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -110,14 +110,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 53,
+      "height": 102,
       "layer": "",
       "locked": false,
       "name": "Bubble",
       "persistentUuid": "436d38c7-39ca-4efe-9e84-78bb5de3d378",
-      "width": 83,
+      "width": 169,
       "x": 400,
-      "y": 499,
+      "y": 450,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -138,66 +138,9 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 70,
-      "layer": "",
-      "locked": false,
-      "name": "LargeHole",
-      "persistentUuid": "81d84396-da88-4910-a013-cd285669eb9a",
-      "width": 74,
-      "x": 667,
-      "y": 506,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
-  "objects": [
-    {
-      "name": "LargeHole",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.02500000037252903,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Large Hole.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ],
+  "objects": [],
   "events": [
     {
       "disabled": false,
@@ -442,6 +385,42 @@
         {
           "type": {
             "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Bottle",
+            "BaconDish",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Untitled scene2\"",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
             "value": "TopDownMovementBehavior::YVelocity"
           },
           "parameters": [
@@ -497,36 +476,8 @@
       "disabled": false,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Bottle",
-            "LargeHole",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Prototype Level 2\"",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
+      "conditions": [],
+      "actions": [],
       "events": []
     }
   ],
