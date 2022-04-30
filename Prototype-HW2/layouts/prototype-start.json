@@ -158,7 +158,7 @@
           "parameters": [
             "Stamina",
             "=",
-            "50"
+            "500"
           ],
           "subInstructions": []
         },
@@ -170,7 +170,7 @@
           "parameters": [
             "Health",
             "=",
-            "50"
+            "100"
           ],
           "subInstructions": []
         }

@@ -1,0 +1,15 @@
+{
+  "associatedLayout": "Prototype Level 2a",
+  "lastChangeTimeStamp": 0,
+  "name": "Untitled external events",
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    }
+  ]
+}

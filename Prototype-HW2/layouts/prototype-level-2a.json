@@ -49,7 +49,7 @@
       "height": 0,
       "layer": "UI",
       "locked": false,
-      "name": "Stamina",
+      "name": "StaminaTxt",
       "persistentUuid": "487b7690-6d44-463d-9e0a-6bea26e75145",
       "width": 0,
       "x": 654,
@@ -177,7 +177,7 @@
       "height": 0,
       "layer": "UI",
       "locked": false,
-      "name": "Health",
+      "name": "HealthTxt",
       "persistentUuid": "1153a26f-f050-422e-8283-eebb60325af3",
       "width": 0,
       "x": 670,
@@ -270,14 +270,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 322,
+      "height": 356,
       "layer": "Game over",
       "locked": false,
       "name": "NewPanelSprite",
       "persistentUuid": "2e323883-48bd-43ce-b542-14e7a39a3316",
-      "width": 721,
-      "x": 39,
-      "y": 147,
+      "width": 731,
+      "x": 41,
+      "y": 90,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -528,94 +528,6 @@
       ]
     },
     {
-      "additive": true,
-      "destroyWhenNoParticles": false,
-      "emitterAngleA": 0,
-      "emitterAngleB": 13,
-      "emitterForceMax": 45,
-      "emitterForceMin": -45,
-      "flow": 3,
-      "maxParticleNb": 300,
-      "name": "BubblesEmitterBottom",
-      "particleAlpha1": 200,
-      "particleAlpha2": 0,
-      "particleAlphaRandomness1": 0,
-      "particleAlphaRandomness2": 0,
-      "particleAngle1": 0,
-      "particleAngle2": 15,
-      "particleAngleRandomness1": 0,
-      "particleAngleRandomness2": 0,
-      "particleBlue1": 124,
-      "particleBlue2": 255,
-      "particleGravityX": 0,
-      "particleGravityY": -25,
-      "particleGreen1": 12,
-      "particleGreen2": 223,
-      "particleLifeTimeMax": 10,
-      "particleLifeTimeMin": 0.5,
-      "particleRed1": 0,
-      "particleRed2": 139,
-      "particleSize1": 25,
-      "particleSize2": 35,
-      "particleSizeRandomness1": 0,
-      "particleSizeRandomness2": 0,
-      "rendererParam1": 3,
-      "rendererParam2": 1,
-      "rendererType": "Quad",
-      "tags": "",
-      "tank": -1,
-      "textureParticleName": "bubblee.png",
-      "type": "ParticleSystem::ParticleEmitter",
-      "zoneRadius": 3,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "additive": true,
-      "destroyWhenNoParticles": false,
-      "emitterAngleA": 0,
-      "emitterAngleB": -2,
-      "emitterForceMax": 45,
-      "emitterForceMin": -45,
-      "flow": 3,
-      "maxParticleNb": 300,
-      "name": "BubblesEmitter",
-      "particleAlpha1": 255,
-      "particleAlpha2": 0,
-      "particleAlphaRandomness1": 0,
-      "particleAlphaRandomness2": 0,
-      "particleAngle1": 0,
-      "particleAngle2": 15,
-      "particleAngleRandomness1": 0,
-      "particleAngleRandomness2": 0,
-      "particleBlue1": 255,
-      "particleBlue2": 255,
-      "particleGravityX": 0,
-      "particleGravityY": -45,
-      "particleGreen1": 255,
-      "particleGreen2": 255,
-      "particleLifeTimeMax": 10,
-      "particleLifeTimeMin": 0.5,
-      "particleRed1": 255,
-      "particleRed2": 255,
-      "particleSize1": 15,
-      "particleSize2": 25,
-      "particleSizeRandomness1": 0,
-      "particleSizeRandomness2": 0,
-      "rendererParam1": 3,
-      "rendererParam2": 1,
-      "rendererType": "Quad",
-      "tags": "",
-      "tank": -1,
-      "textureParticleName": "bubblee.png",
-      "type": "ParticleSystem::ParticleEmitter",
-      "zoneRadius": 3,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
       "bottomMargin": 0,
       "height": 32,
       "leftMargin": 0,
@@ -656,6 +568,21 @@
     {
       "disabled": false,
       "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "",
+      "comment2": ""
+    },
+    {
+      "disabled": false,
+      "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -693,64 +620,74 @@
           "subInstructions": []
         }
       ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "events": [
         {
-          "type": {
-            "inverted": false,
-            "value": "VarGlobal"
-          },
-          "parameters": [
-            "Stamina",
-            ">=",
-            "100"
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Stamina",
+                ">=",
+                "500"
+              ],
+              "subInstructions": []
+            }
           ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "Stamina",
-            "=",
-            "100"
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Stamina",
+                "=",
+                "500"
+              ],
+              "subInstructions": []
+            }
           ],
-          "subInstructions": []
+          "events": []
         },
         {
-          "type": {
-            "inverted": false,
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "Stamina",
-            "=",
-            "\"Stamina: \" + ToString(round(GlobalVariable(Stamina)))"
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "StaminaTxt",
+                "=",
+                "\"Stamina: \" + ToString(round(GlobalVariable(Stamina)))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "RemoveTimer"
+              },
+              "parameters": [
+                "",
+                "\"ResetAnim\""
+              ],
+              "subInstructions": []
+            }
           ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "RemoveTimer"
-          },
-          "parameters": [
-            "",
-            "\"ResetAnim\""
-          ],
-          "subInstructions": []
+          "events": []
         }
-      ],
-      "events": []
+      ]
     },
     {
       "disabled": false,
@@ -779,7 +716,7 @@
           "parameters": [
             "Stamina",
             "<",
-            "100"
+            "500"
           ],
           "subInstructions": []
         }
@@ -826,7 +763,7 @@
             "value": "TextObject::String"
           },
           "parameters": [
-            "Stamina",
+            "StaminaTxt",
             "=",
             "\"Stamina: \" + ToString(round(GlobalVariable(Stamina)))"
           ],
@@ -1262,7 +1199,7 @@
             "value": "TextObject::String"
           },
           "parameters": [
-            "Stamina",
+            "StaminaTxt",
             "=",
             "\"Stamina: \" + ToString(round(GlobalVariable(Stamina)))"
           ],
@@ -1348,40 +1285,6 @@
             "Health",
             "<=",
             "0"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Prototype Start\"",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarGlobal"
-          },
-          "parameters": [
-            "Stamina",
-            "<=",
-            "-30"
           ],
           "subInstructions": []
         }
@@ -1532,7 +1435,7 @@
             "value": "TextObject::String"
           },
           "parameters": [
-            "Stamina",
+            "StaminaTxt",
             "=",
             "\"Stamina: \" + ToString(round(GlobalVariable(Stamina)))"
           ],
@@ -1590,6 +1493,52 @@
           },
           "parameters": [
             "Bubble",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"DeathByLosingOxygen\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"DeathByLosingOxygen\"",
+            ">",
+            "5"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Prototype Start\"",
             ""
           ],
           "subInstructions": []
@@ -1675,6 +1624,14 @@
           "subInstructions": []
         }
       ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
       "events": []
     }
   ],

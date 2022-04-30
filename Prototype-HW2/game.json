@@ -14,7 +14,7 @@
     "pixelsRounding": false,
     "projectUuid": "3caabecb-396a-4129-bde3-2774bdf8fe45",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptHeight",
+    "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "Game Assets",
@@ -22,7 +22,7 @@
     "author": "",
     "windowWidth": 800,
     "windowHeight": 600,
-    "latestCompilationDirectory": "G:\\My Drive\\Masters Digital Learning Games\\02 Spring 2022\\Design & Integration of Digital Assets\\Homeworks\\HW#1\\battleJourney",
+    "latestCompilationDirectory": "G:\\My Drive\\Masters Digital Learning Games\\02 Spring 2022\\Design & Integration of Digital Assets\\Homeworks\\HW#2\\BottleJourney2",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -202,6 +202,112 @@
         "name": "SeekPng.com_sprite-bottle-png_1729035 - Copy.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Brown Trout_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Brown Trout_No Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/Brown Trout_No Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Brown Trout_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Brown Trout_Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/Brown Trout_Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Old Boot_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Old Boot_No Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/Old Boot_No Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Old Boot_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Old Boot_Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/Old Boot_Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "deepSeaBackground.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "deepSeaBackground.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "deepSeaBackground2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "deepSeaBackground2.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "deepSeaBackground3.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "deepSeaBackground3.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fish1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fish1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shark.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shark.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ship.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ship.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -216,12 +322,12 @@
         {
           "name": "HP",
           "type": "string",
-          "value": "50"
+          "value": "100"
         },
         {
           "name": "Oxgyn",
           "type": "string",
-          "value": "50"
+          "value": "100"
         }
       ],
       "effects": [],
@@ -323,7 +429,7 @@
     {
       "bold": false,
       "italic": false,
-      "name": "Stamina",
+      "name": "StaminaTxt",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -341,7 +447,7 @@
           "topEdgeAnchor": 1
         }
       ],
-      "string": "Stamina: 50",
+      "string": "Stamina:",
       "font": "",
       "characterSize": 20,
       "color": {
@@ -447,7 +553,7 @@
     {
       "bold": false,
       "italic": false,
-      "name": "Health",
+      "name": "HealthTxt",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -455,7 +561,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Health: 50",
+      "string": "Health: 100",
       "font": "",
       "characterSize": 20,
       "color": {
@@ -503,6 +609,94 @@
           ]
         }
       ]
+    },
+    {
+      "additive": true,
+      "destroyWhenNoParticles": false,
+      "emitterAngleA": 0,
+      "emitterAngleB": -2,
+      "emitterForceMax": 45,
+      "emitterForceMin": -45,
+      "flow": 3,
+      "maxParticleNb": 300,
+      "name": "BubblesEmitter",
+      "particleAlpha1": 255,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 15,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 255,
+      "particleBlue2": 255,
+      "particleGravityX": 0,
+      "particleGravityY": -45,
+      "particleGreen1": 255,
+      "particleGreen2": 255,
+      "particleLifeTimeMax": 10,
+      "particleLifeTimeMin": 0.5,
+      "particleRed1": 255,
+      "particleRed2": 255,
+      "particleSize1": 15,
+      "particleSize2": 25,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 3,
+      "rendererParam2": 1,
+      "rendererType": "Quad",
+      "tags": "",
+      "tank": -1,
+      "textureParticleName": "bubblee.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 3,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "additive": true,
+      "destroyWhenNoParticles": false,
+      "emitterAngleA": 0,
+      "emitterAngleB": 13,
+      "emitterForceMax": 45,
+      "emitterForceMin": -45,
+      "flow": 3,
+      "maxParticleNb": 300,
+      "name": "BubblesEmitterBottom",
+      "particleAlpha1": 200,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 15,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 124,
+      "particleBlue2": 255,
+      "particleGravityX": 0,
+      "particleGravityY": -25,
+      "particleGreen1": 12,
+      "particleGreen2": 223,
+      "particleLifeTimeMax": 10,
+      "particleLifeTimeMin": 0.5,
+      "particleRed1": 0,
+      "particleRed2": 139,
+      "particleSize1": 25,
+      "particleSize2": 35,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 3,
+      "rendererParam2": 1,
+      "rendererType": "Quad",
+      "tags": "",
+      "tank": -1,
+      "textureParticleName": "bubblee.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 3,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsGroups": [],
@@ -510,12 +704,12 @@
     {
       "name": "Stamina",
       "type": "number",
-      "value": 50
+      "value": 600
     },
     {
       "name": "Health",
       "type": "number",
-      "value": 50
+      "value": 100
     }
   ],
   "layouts": [
@@ -540,8 +734,18 @@
       "referenceTo": "/layouts/prototype-level-1"
     }
   ],
-  "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/untitled-external-events"
+    }
+  ],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/untitledextension"
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
