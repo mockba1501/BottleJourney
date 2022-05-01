@@ -22,7 +22,7 @@
     "author": "",
     "windowWidth": 800,
     "windowHeight": 600,
-    "latestCompilationDirectory": "G:\\My Drive\\Masters Digital Learning Games\\02 Spring 2022\\Design & Integration of Digital Assets\\Homeworks\\HW#2\\BottleJourney2",
+    "latestCompilationDirectory": "C:\\xampp\\htdocs\\home\\BottleJourney2",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -719,25 +719,33 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/prototype-level-2a"
+      "referenceTo": "/layouts/prototype-level-1"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/prototype-level-2b"
+      "referenceTo": "/layouts/prototype-level-2"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/prototype-level-3"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/prototype-level-1"
     }
   ],
   "externalEvents": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/bottle"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/fish"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/bubble"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/lose"
     }
   ],
   "eventsFunctionsExtensions": [],
