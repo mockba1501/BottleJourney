@@ -307,7 +307,7 @@
         "metadata": "",
         "name": "ship.png",
         "smoothed": true,
-        "userAdded": true
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -748,7 +748,12 @@
       "referenceTo": "/externalEvents/lose"
     }
   ],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/obstaclecollision"
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }

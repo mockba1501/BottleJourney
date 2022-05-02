@@ -861,18 +861,23 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "LightObstacleBehavior",
+          "type": "Lighting::LightObstacleBehavior"
+        }
+      ],
       "animations": [
         {
-          "name": "",
+          "name": "ship",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "ship.png",
                   "points": [],
                   "originPoint": {
@@ -886,7 +891,84 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 332.6000061035156,
+                        "y": 133
+                      },
+                      {
+                        "x": 423.8000183105469,
+                        "y": 177.8000030517578
+                      },
+                      {
+                        "x": 400.6000061035156,
+                        "y": 204.1999969482422
+                      },
+                      {
+                        "x": 298.20001220703125,
+                        "y": 152.20001220703125
+                      }
+                    ],
+                    [
+                      {
+                        "x": 79,
+                        "y": 309
+                      },
+                      {
+                        "x": 109.4000015258789,
+                        "y": 291.3999938964844
+                      },
+                      {
+                        "x": 206.20001220703125,
+                        "y": 340.1999816894531
+                      },
+                      {
+                        "x": 178.20001220703125,
+                        "y": 375.3999938964844
+                      }
+                    ],
+                    [
+                      {
+                        "x": 122.20001220703125,
+                        "y": 190.60000610351562
+                      },
+                      {
+                        "x": 344.6000061035156,
+                        "y": 281.79998779296875
+                      },
+                      {
+                        "x": 327,
+                        "y": 327.3999938964844
+                      },
+                      {
+                        "x": 110.20001220703125,
+                        "y": 216.1999969482422
+                      }
+                    ],
+                    [
+                      {
+                        "x": 41.40000915527344,
+                        "y": 447.4000244140625
+                      },
+                      {
+                        "x": 472.6000061035156,
+                        "y": 94.60000610351562
+                      },
+                      {
+                        "x": 561.4000244140625,
+                        "y": 239.39999389648438
+                      },
+                      {
+                        "x": 415.79998779296875,
+                        "y": 445
+                      },
+                      {
+                        "x": 224.60000610351562,
+                        "y": 490.60003662109375
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -983,6 +1065,17 @@
               "parameters": [
                 "",
                 "\"SpawnFish\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"StartBubble\""
               ],
               "subInstructions": []
             }
@@ -1140,7 +1233,7 @@
                 "",
                 "Fish",
                 "\"Fish\"",
-                "900",
+                "RandomInRange(500,2000)",
                 "RandomInRange(40,500)",
                 ""
               ],
@@ -1164,49 +1257,8 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"SpawnBubbles\"",
-                ">",
-                "3"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CreateByName"
-              },
-              "parameters": [
-                "",
-                "Bubble",
-                "\"Bubble\"",
-                "RandomInRange(200,2400)",
-                "1100",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"SpawnBubbles\""
-              ],
-              "subInstructions": []
-            }
-          ],
+          "conditions": [],
+          "actions": [],
           "events": []
         }
       ],
@@ -1282,6 +1334,43 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "This is a genric function to take care of collision detection against any other object",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "obstacleCollision::obstacleCollision"
+              },
+              "parameters": [
+                "",
+                "Bottle",
+                "Ship",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "parameters": []
@@ -1305,6 +1394,14 @@
             "includeConfig": 0
           },
           "target": "Bubble"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
         }
       ],
       "parameters": []
@@ -1354,6 +1451,19 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "General Obstacles ",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
     }
   ],
   "layers": [
@@ -1395,6 +1505,10 @@
     {
       "name": "Anchor",
       "type": "AnchorBehavior::AnchorBehavior"
+    },
+    {
+      "name": "LightObstacleBehavior",
+      "type": "Lighting::LightObstacleBehavior"
     },
     {
       "name": "PathfindingObstacle",
