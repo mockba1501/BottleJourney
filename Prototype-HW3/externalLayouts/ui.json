@@ -1,0 +1,51 @@
+{
+  "associatedLayout": "Prototype Level 1",
+  "name": "UI",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "HealthTxt",
+      "persistentUuid": "4d9e8e09-752b-449f-9573-11efdb682bf6",
+      "width": 0,
+      "x": 666,
+      "y": 73,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "StaminaTxt",
+      "persistentUuid": "f4ba8350-4b13-487e-993d-c7874adcc967",
+      "width": 0,
+      "x": 650,
+      "y": 46,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 1,
+    "windowMask": false
+  }
+}

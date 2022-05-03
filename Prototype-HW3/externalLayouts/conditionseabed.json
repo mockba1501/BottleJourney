@@ -1,0 +1,51 @@
+{
+  "associatedLayout": "Prototype Level 1",
+  "name": "ConditionSeaBed",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 356,
+      "layer": "UI",
+      "locked": false,
+      "name": "NewPanelSprite",
+      "persistentUuid": "118cb88e-0f0d-432f-aa4e-a10aa5498451",
+      "width": 731,
+      "x": 39,
+      "y": 111,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "ConditionSeaBedText",
+      "persistentUuid": "c9fbcc94-cbf0-4bbd-926b-9725b0dea1e4",
+      "width": 0,
+      "x": 189,
+      "y": 264,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.6999999999999997,
+    "windowMask": false
+  }
+}
