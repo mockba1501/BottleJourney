@@ -1,19 +1,19 @@
 {
   "associatedLayout": "Prototype Level 1",
-  "name": "UI",
+  "name": "ConditionCollected",
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 356,
       "layer": "UI",
       "locked": false,
-      "name": "HealthTxt",
-      "persistentUuid": "4d9e8e09-752b-449f-9573-11efdb682bf6",
-      "width": 0,
-      "x": 666,
-      "y": 73,
-      "zOrder": 8,
+      "name": "NewPanelSprite",
+      "persistentUuid": "118cb88e-0f0d-432f-aa4e-a10aa5498451",
+      "width": 731,
+      "x": 39,
+      "y": 111,
+      "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -24,12 +24,12 @@
       "height": 0,
       "layer": "UI",
       "locked": false,
-      "name": "StaminaTxt",
-      "persistentUuid": "f4ba8350-4b13-487e-993d-c7874adcc967",
+      "name": "ConditionCollectedText",
+      "persistentUuid": "68894c59-4178-49e7-99d2-eaa009c766e6",
       "width": 0,
-      "x": 650,
-      "y": 46,
-      "zOrder": 3,
+      "x": 121,
+      "y": 254,
+      "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -45,7 +45,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7999999999999998,
+    "zoomFactor": 0.6999999999999997,
     "windowMask": false
   }
 }

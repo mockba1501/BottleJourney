@@ -1,0 +1,1196 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Garbage_32Collector_32Test",
+  "name": "Garbage Collector Test",
+  "oglFOV": 90,
+  "oglZFar": 500,
+  "oglZNear": 1,
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.225,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 76,
+      "layer": "",
+      "locked": false,
+      "name": "Bottle",
+      "persistentUuid": "bb7682a6-2f9c-43da-a80a-8754d1974955",
+      "width": 23.45142936706543,
+      "x": 169.54856872558594,
+      "y": 233,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 11,
+      "layer": "",
+      "locked": false,
+      "name": "CollideDown",
+      "persistentUuid": "787b6101-035e-465f-9286-967f9f512f40",
+      "width": 340,
+      "x": 305,
+      "y": -248,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 15,
+      "layer": "",
+      "locked": false,
+      "name": "CollideUp",
+      "persistentUuid": "f5a62e49-f2e0-4ca8-90f9-46675bc0c036",
+      "width": 73,
+      "x": 395,
+      "y": 515,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 15,
+      "layer": "",
+      "locked": false,
+      "name": "CollideUp",
+      "persistentUuid": "687fed34-be7c-4696-9705-f3ce57b041b9",
+      "width": 73,
+      "x": 670,
+      "y": 708,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 15,
+      "layer": "",
+      "locked": false,
+      "name": "CollideUp",
+      "persistentUuid": "cf73b2be-72a5-4c8d-83b0-5f9dd0cf27b2",
+      "width": 73,
+      "x": 1022,
+      "y": 579,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 15,
+      "layer": "",
+      "locked": false,
+      "name": "CollideUp",
+      "persistentUuid": "18feffa5-de02-4eef-8f4a-1af2de726299",
+      "width": 73,
+      "x": 1376,
+      "y": 674,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 11,
+      "layer": "",
+      "locked": false,
+      "name": "CollideDown",
+      "persistentUuid": "d5add657-82dd-40cc-b084-0a42416abcd8",
+      "width": 71.47998046875,
+      "x": 679,
+      "y": -164,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 11,
+      "layer": "",
+      "locked": false,
+      "name": "CollideDown",
+      "persistentUuid": "2925160f-f1c6-4d6e-bde2-f821bbfea6d6",
+      "width": 71.47998046875,
+      "x": 1374.52001953125,
+      "y": -138,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 374.41387939453125,
+      "layer": "",
+      "locked": false,
+      "name": "GarbageCollector",
+      "persistentUuid": "e7a0c03f-c5a1-4a78-b4b1-7599fdbb5dc1",
+      "width": 192,
+      "x": 402,
+      "y": -18.67438507080078,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 495.9768371582031,
+      "layer": "",
+      "locked": false,
+      "name": "GarbageCollector",
+      "persistentUuid": "67a19e64-1db1-40f1-8272-1f9a2d20c6b5",
+      "width": 163,
+      "x": 686,
+      "y": 160.0231475830078,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 228,
+      "layer": "",
+      "locked": false,
+      "name": "GarbageCollector",
+      "persistentUuid": "e0b8d4b7-7dce-4882-a631-4878c96cb05e",
+      "width": 144,
+      "x": 1038,
+      "y": 132,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 505.7018737792969,
+      "layer": "",
+      "locked": false,
+      "name": "GarbageCollector",
+      "persistentUuid": "53e96278-fdad-4f60-a35f-61faa1a3520d",
+      "width": 215,
+      "x": 1390,
+      "y": 38.460201263427734,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1200,
+      "layer": "",
+      "locked": true,
+      "name": "oceanBG",
+      "persistentUuid": "3632e7b3-7f49-49b9-9658-f2effd7f8dd7",
+      "width": 3600,
+      "x": -13,
+      "y": -3,
+      "zOrder": -10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 11,
+      "layer": "",
+      "locked": false,
+      "name": "CollideDown",
+      "persistentUuid": "6d8d046f-dd4b-4414-b4bc-d072aea27f13",
+      "width": 340,
+      "x": 1690,
+      "y": -248,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 11,
+      "layer": "",
+      "locked": false,
+      "name": "CollideDown",
+      "persistentUuid": "15ce6577-3861-4838-bea6-7f008b8a337d",
+      "width": 71.47998046875,
+      "x": 2064,
+      "y": -164,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 11,
+      "layer": "",
+      "locked": false,
+      "name": "CollideDown",
+      "persistentUuid": "77438fc1-b24f-452d-8719-d42d1e2cae67",
+      "width": 71.47998046875,
+      "x": 2759.52001953125,
+      "y": -138,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 539.739501953125,
+      "layer": "",
+      "locked": false,
+      "name": "GarbageCollector",
+      "persistentUuid": "582fa98b-fc82-4c2b-be7a-1e764c984c66",
+      "width": 198,
+      "x": 1787,
+      "y": -184,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 15,
+      "layer": "",
+      "locked": false,
+      "name": "CollideUp",
+      "persistentUuid": "b7f445c7-d1f0-47d2-997f-212768ca984b",
+      "width": 73,
+      "x": 1780,
+      "y": 515,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 15,
+      "layer": "",
+      "locked": false,
+      "name": "CollideUp",
+      "persistentUuid": "265b198e-228a-4822-8f03-4c15f4a789bc",
+      "width": 73,
+      "x": 2055,
+      "y": 708,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 15,
+      "layer": "",
+      "locked": false,
+      "name": "CollideUp",
+      "persistentUuid": "d39d9fde-a67f-4da6-bbe2-6a61966f7213",
+      "width": 73,
+      "x": 2761,
+      "y": 674,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 408.4515075683594,
+      "layer": "",
+      "locked": false,
+      "name": "GarbageCollector",
+      "persistentUuid": "505336a7-00a6-455d-9232-a630a7dfd96f",
+      "width": 205,
+      "x": 2071,
+      "y": 247.54847717285156,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 471.66424560546875,
+      "layer": "",
+      "locked": false,
+      "name": "GarbageCollector",
+      "persistentUuid": "d1a4b884-9e36-4f3c-a511-17ac5498dd19",
+      "width": 207,
+      "x": 2775,
+      "y": 72.4978256225586,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 15,
+      "layer": "",
+      "locked": false,
+      "name": "CollideUp",
+      "persistentUuid": "efa7a50c-2e9c-4c7f-8fab-4590fd623975",
+      "width": 73,
+      "x": 2407,
+      "y": 579,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 277.1635437011719,
+      "layer": "",
+      "locked": false,
+      "name": "GarbageCollector",
+      "persistentUuid": "6d72bc29-9ede-4849-a64b-816298e8163a",
+      "width": 187,
+      "x": 2423,
+      "y": 200.13893127441406,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 214.7034454345703,
+      "layer": "",
+      "locked": false,
+      "name": "MonsterCollector",
+      "persistentUuid": "46b99f8f-8993-4de7-9b38-fd8e37d03dd2",
+      "width": 362,
+      "x": 1239,
+      "y": 603.2965698242188,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "locked": false,
+      "name": "DiverHome",
+      "persistentUuid": "f4fe08ca-2ec8-47e2-be36-3251ec29d34c",
+      "width": 128,
+      "x": 1774,
+      "y": 674,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "1800269e-054b-45c1-8625-8046ebb3ebdb",
+      "width": 3700,
+      "x": -12,
+      "y": 821,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "locked": false,
+      "name": "SeaBed",
+      "persistentUuid": "522cb28b-ab1a-4cc2-9a0f-327613a41d3e",
+      "width": 3786,
+      "x": -59,
+      "y": 836,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "height": 32,
+      "name": "CollideUp",
+      "tags": "",
+      "texture": "NewFile-1-4.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "height": 32,
+      "name": "DiverHome",
+      "tags": "",
+      "texture": "NewFile-1-4.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "height": 32,
+      "name": "CollideDown",
+      "tags": "",
+      "texture": "NewFile-1-5.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "name": "GarbageCollector",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "direction",
+          "type": "string",
+          "value": "down"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "nett.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 142.20001220703125,
+                        "y": 126.60000610351562
+                      },
+                      {
+                        "x": 269.3999938964844,
+                        "y": 16.199996948242188
+                      },
+                      {
+                        "x": 515.7999877929688,
+                        "y": 414.60003662109375
+                      },
+                      {
+                        "x": 134.20001220703125,
+                        "y": 534.6000366210938
+                      },
+                      {
+                        "x": 24.600006103515625,
+                        "y": 490.6000061035156
+                      },
+                      {
+                        "x": 82.19999694824219,
+                        "y": 268.20001220703125
+                      }
+                    ],
+                    [
+                      {
+                        "x": 380.60003662109375,
+                        "y": 148.20001220703125
+                      },
+                      {
+                        "x": 511.79998779296875,
+                        "y": 101.80000305175781
+                      },
+                      {
+                        "x": 567,
+                        "y": 413
+                      },
+                      {
+                        "x": 334.20001220703125,
+                        "y": 457
+                      },
+                      {
+                        "x": 291.8000183105469,
+                        "y": 191.39999389648438
+                      }
+                    ],
+                    [
+                      {
+                        "x": 23,
+                        "y": 500.20001220703125
+                      },
+                      {
+                        "x": 98.19999694824219,
+                        "y": 523.4000244140625
+                      },
+                      {
+                        "x": 55.80000305175781,
+                        "y": 709
+                      },
+                      {
+                        "x": 0,
+                        "y": 720
+                      }
+                    ],
+                    [
+                      {
+                        "x": 175,
+                        "y": 517.7999877929688
+                      },
+                      {
+                        "x": 570.2000122070312,
+                        "y": 411.4000244140625
+                      },
+                      {
+                        "x": 583.7999877929688,
+                        "y": 513
+                      },
+                      {
+                        "x": 343,
+                        "y": 604.2000122070312
+                      },
+                      {
+                        "x": 206.20001220703125,
+                        "y": 580.2000122070312
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MonsterCollector",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "diver.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.60003662109375,
+                        "y": 146.3000030517578
+                      },
+                      {
+                        "x": 575.7999877929688,
+                        "y": 229.50001525878906
+                      },
+                      {
+                        "x": 587,
+                        "y": 391.9000244140625
+                      },
+                      {
+                        "x": 418.20001220703125,
+                        "y": 417.5
+                      },
+                      {
+                        "x": 332.6000061035156,
+                        "y": 280.70001220703125
+                      },
+                      {
+                        "x": 24.600006103515625,
+                        "y": 289.5000305175781
+                      },
+                      {
+                        "x": 79,
+                        "y": 213.50001525878906
+                      },
+                      {
+                        "x": 163,
+                        "y": 156.6999969482422
+                      },
+                      {
+                        "x": 63.80000305175781,
+                        "y": 0.699999988079071
+                      },
+                      {
+                        "x": 123,
+                        "y": 0.699999988079071
+                      },
+                      {
+                        "x": 278.20001220703125,
+                        "y": 135.90000915527344
+                      },
+                      {
+                        "x": 364.60003662109375,
+                        "y": 138.3000030517578
+                      },
+                      {
+                        "x": 271.8000183105469,
+                        "y": 47.10000991821289
+                      },
+                      {
+                        "x": 390.20001220703125,
+                        "y": 7.899996757507324
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "oceanBG",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "deepSeaBackground.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": 32,
+      "name": "Obstacle",
+      "tags": "",
+      "texture": "NewFile-1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarObjetTxt"
+          },
+          "parameters": [
+            "GarbageCollector",
+            "direction",
+            "=",
+            "\"down\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"UI\"",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "CollideUp"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "CollideDown"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "DiverHome"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Camera Setup",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "FixCamera"
+              },
+              "parameters": [
+                "",
+                "Bottle",
+                "0",
+                "0",
+                "3600",
+                "1200",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Bottle Behavior",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Bottle"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Winning Condition should be different in depending on the current & next scenes",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Bottle",
+                "BaconDish",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Prototype Level 3\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "This is a genric function to take care of collision detection against any other object",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Stamina",
+                ">",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "obstacleCollision::obstacleCollision"
+              },
+              "parameters": [
+                "",
+                "Bottle",
+                "Ship",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Distance"
+          },
+          "parameters": [
+            "MonsterCollector",
+            "Bottle",
+            "600",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "AddForceVers"
+          },
+          "parameters": [
+            "MonsterCollector",
+            "Bottle",
+            "100",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "RotateTowardPosition"
+          },
+          "parameters": [
+            "MonsterCollector",
+            "Bottle.X()",
+            "Bottle.Y()",
+            "0",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "Distance"
+          },
+          "parameters": [
+            "MonsterCollector",
+            "Bottle",
+            "600",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "AddForceVers"
+          },
+          "parameters": [
+            "MonsterCollector",
+            "DiverHome",
+            "100",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "RotateTowardPosition"
+          },
+          "parameters": [
+            "MonsterCollector",
+            "DiverHome.X()",
+            "DiverHome.Y()",
+            "0",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Collector"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Lose"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 7559624,
+      "ambientLightColorG": 150995054,
+      "ambientLightColorR": 1869182049,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 117440512,
+      "ambientLightColorG": 6037952,
+      "ambientLightColorR": 8085560,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "UI",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
+    {
+      "name": "PathfindingObstacle",
+      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    }
+  ]
+}

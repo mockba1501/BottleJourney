@@ -1,14 +1,14 @@
 {
-  "associatedLayout": "Prototype Level 2",
+  "associatedLayout": "Garbage Collector Test",
   "lastChangeTimeStamp": 0,
-  "name": "Fish",
+  "name": "Collector",
   "events": [
     {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "Fish Movement Behavior",
+      "name": "Collector Movement Behavior",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -21,10 +21,10 @@
                 "value": "VarObjetTxt"
               },
               "parameters": [
-                "Fish",
+                "GarbageCollector",
                 "direction",
                 "=",
-                "\"left\""
+                "\"down\""
               ],
               "subInstructions": []
             }
@@ -36,20 +36,9 @@
                 "value": "AddForceXY"
               },
               "parameters": [
-                "Fish",
-                "-90",
+                "GarbageCollector",
                 "0",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "FlipX"
-              },
-              "parameters": [
-                "Fish",
+                "90",
                 ""
               ],
               "subInstructions": []
@@ -66,10 +55,10 @@
                 "value": "VarObjetTxt"
               },
               "parameters": [
-                "Fish",
+                "GarbageCollector",
                 "direction",
                 "=",
-                "\"right\""
+                "\"up\""
               ],
               "subInstructions": []
             }
@@ -81,21 +70,10 @@
                 "value": "AddForceXY"
               },
               "parameters": [
-                "Fish",
-                "90",
+                "GarbageCollector",
                 "0",
+                "-90",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "FlipX"
-              },
-              "parameters": [
-                "Fish",
-                "yes"
               ],
               "subInstructions": []
             }
@@ -104,6 +82,76 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "GarbageCollector",
+            "CollideUp",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarObjetTxt"
+          },
+          "parameters": [
+            "GarbageCollector",
+            "direction",
+            "=",
+            "\"up\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "GarbageCollector",
+            "CollideDown",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarObjetTxt"
+          },
+          "parameters": [
+            "GarbageCollector",
+            "direction",
+            "=",
+            "\"down\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
