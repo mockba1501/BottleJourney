@@ -24,8 +24,6 @@
       "sentence": "Move _PARAM1_ away from _PARAM2_",
       "events": [
         {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {

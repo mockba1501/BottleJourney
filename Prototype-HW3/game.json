@@ -20,9 +20,9 @@
     "name": "Game Assets",
     "description": "",
     "author": "",
-    "windowWidth": 800,
-    "windowHeight": 600,
-    "latestCompilationDirectory": "C:\\xampp\\htdocs\\home\\BottleJourney2",
+    "windowWidth": 1920,
+    "windowHeight": 1080,
+    "latestCompilationDirectory": "C:\\xampp\\htdocs\\home\\BottleJourneyTesting",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -362,6 +362,141 @@
         "name": "nett.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/backgrounds/lvl1/blvl1.1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\backgrounds\\lvl1\\blvl1.1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/backgrounds/lvl1/blvl1.2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\backgrounds\\lvl1\\blvl1.2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/backgrounds/lvl1/p1.lvl1.1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\backgrounds\\lvl1\\p1.lvl1.1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/backgrounds/lvl1/p2.lvl1.1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\backgrounds\\lvl1\\p2.lvl1.1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bottle/bottle1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bottle\\bottle1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bottle/bottle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bottle\\bottle2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fish/fish1.1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fish\\fish1.1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fish/fish1.2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fish\\fish1.2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/backgrounds/lvl1/lvl1.2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\backgrounds\\lvl1\\lvl1.2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/nets/net1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\nets\\net1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/octopus/octopus2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\octopus\\octopus2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/octopus/octopus3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\octopus\\octopus3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/octopus/octopus1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\octopus\\octopus1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/backgrounds/lvl1/p1.lvl1.2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\backgrounds\\lvl1\\p1.lvl1.2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/backgrounds/lvl1/p2.lvl1.2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\backgrounds\\lvl1\\p2.lvl1.2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -409,11 +544,11 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "SeekPng.com_sprite-bottle-png_1729035.png",
+                  "image": "assets\\bottle\\bottle1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -442,7 +577,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "SeekPng.com_sprite-bottle-png_1729035 - Copy.png",
+                  "image": "assets\\bottle\\bottle1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -459,7 +594,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "SeekPng.com_sprite-bottle-png_1729035.png",
+                  "image": "assets\\bottle\\bottle2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -868,6 +1003,364 @@
         "g": 255,
         "r": 255
       }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "HealthDec2",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "-20",
+      "font": "",
+      "characterSize": 25,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "name": "Fish",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "direction",
+          "type": "string",
+          "value": "left"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\fish\\fish1.1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\fish\\fish1.2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GeneralNet",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\nets\\net1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1285.5,
+                        "y": 194.00003051757812
+                      },
+                      {
+                        "x": 1453.5,
+                        "y": 596
+                      },
+                      {
+                        "x": 1463.5,
+                        "y": 817.9999389648438
+                      },
+                      {
+                        "x": 897.5,
+                        "y": 852.0000610351562
+                      },
+                      {
+                        "x": 97.50001525878906,
+                        "y": 808
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Octopos",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "SineMovement",
+          "type": "SineMovement::SineMovement",
+          "HorizontalSpeed": 30,
+          "VerticalSpeed": 10,
+          "HorizontalDistance": 300,
+          "VerticalDistance": 60,
+          "CenterPointX": 0,
+          "CenterPointY": 0,
+          "SineProgressX": 0,
+          "SineProgressY": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\octopus\\octopus2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 302.9000244140625,
+                        "y": 10.599998474121094
+                      },
+                      {
+                        "x": 369.29998779296875,
+                        "y": 195.39999389648438
+                      },
+                      {
+                        "x": 348.5,
+                        "y": 512.2000122070312
+                      },
+                      {
+                        "x": 50.899993896484375,
+                        "y": 513.7999877929688
+                      },
+                      {
+                        "x": 97.30001831054688,
+                        "y": 319.3999938964844
+                      },
+                      {
+                        "x": 224.5,
+                        "y": 13
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\octopus\\octopus3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 302.9000244140625,
+                        "y": 10.599998474121094
+                      },
+                      {
+                        "x": 369.29998779296875,
+                        "y": 195.39999389648438
+                      },
+                      {
+                        "x": 348.5,
+                        "y": 512.2000122070312
+                      },
+                      {
+                        "x": 50.899993896484375,
+                        "y": 513.7999877929688
+                      },
+                      {
+                        "x": 97.30001831054688,
+                        "y": 319.3999938964844
+                      },
+                      {
+                        "x": 224.5,
+                        "y": 13
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\octopus\\octopus2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 302.9000244140625,
+                        "y": 10.599998474121094
+                      },
+                      {
+                        "x": 369.29998779296875,
+                        "y": 195.39999389648438
+                      },
+                      {
+                        "x": 348.5,
+                        "y": 512.2000122070312
+                      },
+                      {
+                        "x": 50.899993896484375,
+                        "y": 513.7999877929688
+                      },
+                      {
+                        "x": 97.30001831054688,
+                        "y": 319.3999938964844
+                      },
+                      {
+                        "x": 224.5,
+                        "y": 13
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\octopus\\octopus1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 302.9000244140625,
+                        "y": 10.599998474121094
+                      },
+                      {
+                        "x": 369.29998779296875,
+                        "y": 195.39999389648438
+                      },
+                      {
+                        "x": 348.5,
+                        "y": 512.2000122070312
+                      },
+                      {
+                        "x": 50.899993896484375,
+                        "y": 513.7999877929688
+                      },
+                      {
+                        "x": 97.30001831054688,
+                        "y": 319.3999938964844
+                      },
+                      {
+                        "x": 224.5,
+                        "y": 13
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [],
@@ -875,7 +1368,7 @@
     {
       "name": "Stamina",
       "type": "number",
-      "value": 60
+      "value": 500
     },
     {
       "name": "Health",
@@ -887,6 +1380,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/prototype-start"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/prototype-level-1a"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -928,6 +1425,14 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/parallax"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/sinemovement"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/obstaclecollision"

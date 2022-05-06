@@ -274,6 +274,29 @@
             "0"
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TopDownMovementBehavior::IgnoreDefaultControls"
+          },
+          "parameters": [
+            "Bottle",
+            "TopDownMovement",
+            "yes"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Delete"
+          },
+          "parameters": [
+            "Bottle",
+            ""
+          ],
+          "subInstructions": []
         }
       ],
       "events": []
@@ -315,6 +338,29 @@
             "\"ConditionCollected\"",
             "0",
             "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TopDownMovementBehavior::IgnoreDefaultControls"
+          },
+          "parameters": [
+            "Bottle",
+            "TopDownMovement",
+            "yes"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Delete"
+          },
+          "parameters": [
+            "Bottle",
+            ""
           ],
           "subInstructions": []
         }

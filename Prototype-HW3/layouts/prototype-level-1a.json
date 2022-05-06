@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Prototype_32Level_322",
-  "name": "Prototype Level 2",
+  "mangledName": "Prototype_32Level_321A",
+  "name": "Prototype Level 1A",
   "oglFOV": 90,
   "oglZFar": 500,
   "oglZNear": 1,
@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.25685595378875303,
+    "zoomFactor": 0.37002171871661726,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -30,14 +30,30 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 165,
+      "height": 208,
+      "layer": "",
+      "locked": false,
+      "name": "Bottle",
+      "persistentUuid": "71ce644a-5ebf-4bdc-9154-8b6ea85015cf",
+      "width": 95,
+      "x": 313.548583984375,
+      "y": 125,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 119,
       "layer": "",
       "locked": false,
       "name": "BaconDish",
       "persistentUuid": "01d788a1-fc94-4e59-b1ee-9482e42c2a17",
       "width": 32,
-      "x": 2978,
-      "y": 400,
+      "x": 3818,
+      "y": -22,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -48,28 +64,12 @@
       "customSize": true,
       "height": 30,
       "layer": "",
-      "locked": false,
+      "locked": true,
       "name": "Obstacle",
       "persistentUuid": "ed58d09a-d042-426f-a91a-e2a5fcc117cd",
-      "width": 3600,
-      "x": -12,
-      "y": 1231,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 318.6385192871094,
-      "customSize": true,
-      "height": 94,
-      "layer": "",
-      "locked": false,
-      "name": "Obstacle",
-      "persistentUuid": "4240de88-7bdc-42f8-90b9-abc3558ad5e0",
-      "width": 83,
-      "x": 516.7059936523438,
-      "y": 586.6996459960938,
+      "width": 3900,
+      "x": -5,
+      "y": 1080,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -78,15 +78,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 1205,
+      "height": 164,
       "layer": "",
       "locked": false,
       "name": "Obstacle",
-      "persistentUuid": "3cc7c519-453f-444f-be4b-5c72691c3f4c",
-      "width": 32,
-      "x": 3593,
-      "y": 0,
-      "zOrder": 9,
+      "persistentUuid": "11dfb2ab-58f8-419a-a64c-8e6acebf718f",
+      "width": 43,
+      "x": 534,
+      "y": 914,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -94,78 +94,30 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 1200,
-      "layer": "",
-      "locked": false,
-      "name": "Obstacle",
-      "persistentUuid": "dbb397be-f0af-414c-9629-362632393822",
-      "width": 25,
-      "x": -21,
-      "y": 1,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "oceanBG",
-      "persistentUuid": "b524ac16-30ce-4928-979f-990bbe95934c",
-      "width": 0,
-      "x": -289,
-      "y": -83,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 1200,
+      "height": 1100,
       "layer": "",
       "locked": true,
-      "name": "oceanBG",
-      "persistentUuid": "d1bd42a3-f499-4376-80cd-1d4e824143ea",
-      "width": 3600,
-      "x": 0,
-      "y": 0,
-      "zOrder": -10,
+      "name": "Obstacle",
+      "persistentUuid": "7c2281c9-8217-4211-bcf4-1fc65f762bb4",
+      "width": 24,
+      "x": -26,
+      "y": -11,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Obstacle",
-      "persistentUuid": "94d047b7-3db6-4c9c-a369-a682185c7ddd",
-      "width": 0,
-      "x": 3460,
-      "y": 1012,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 17.027706146240234,
       "customSize": true,
-      "height": 158.88308715820312,
+      "height": 1100,
       "layer": "",
-      "locked": false,
+      "locked": true,
       "name": "Obstacle",
-      "persistentUuid": "86d9585a-4d29-4545-ab10-2fee4a7c8830",
-      "width": 140.29039001464844,
-      "x": 761.188232421875,
-      "y": 793.0584716796875,
+      "persistentUuid": "6fb1b38f-3cde-46cf-92f7-bfc530c07f41",
+      "width": 24,
+      "x": 3840,
+      "y": -10,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -176,12 +128,108 @@
       "customSize": true,
       "height": 30,
       "layer": "",
+      "locked": true,
+      "name": "Obstacle",
+      "persistentUuid": "d0b383a4-0ed5-4e8c-84c1-8f781370b7e9",
+      "width": 3900,
+      "x": -20,
+      "y": -32,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 358.0471496582031,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BubblesEmitterBottom",
+      "persistentUuid": "71c7f522-ea19-4be8-8b66-f536b925e3a9",
+      "width": 0,
+      "x": 931.8562622070312,
+      "y": 1081.143798828125,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 186.34423828125,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BubblesEmitterBottom",
+      "persistentUuid": "8974a570-5500-41a5-a7c0-aa4364507cbf",
+      "width": 0,
+      "x": 557.68017578125,
+      "y": 912.68017578125,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 353.03057861328125,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BubblesEmitterBottom",
+      "persistentUuid": "e0078353-7320-4188-b771-9ac2a6b678d7",
+      "width": 0,
+      "x": 1454.2928466796875,
+      "y": 733.2928466796875,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 184.5940704345703,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BubblesEmitterBottom",
+      "persistentUuid": "e0478c05-18ef-45ec-94d9-4aaf822906a4",
+      "width": 0,
+      "x": 216.07949829101562,
+      "y": 947.0794677734375,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Background",
+      "locked": true,
+      "name": "background_lvl1_1",
+      "persistentUuid": "671a53b4-f62c-4cb8-899e-8777a57f6609",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": -10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 89.62592315673828,
+      "customSize": true,
+      "height": 136.11422729492188,
+      "layer": "",
       "locked": false,
       "name": "Obstacle",
-      "persistentUuid": "b8f5660f-44db-4340-83a4-3fc01bcf7034",
-      "width": 3600,
-      "x": -2,
-      "y": -18,
+      "persistentUuid": "36250a27-b8bb-4ebb-8550-4841ca4995fc",
+      "width": 136.11422729492188,
+      "x": 138.04701232910156,
+      "y": 949.44287109375,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -189,207 +237,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "BubblesEmitterBottom",
-      "persistentUuid": "882cddfb-369f-445b-9bc7-024ac00610f7",
-      "width": 0,
-      "x": 335,
-      "y": 1176,
-      "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "BubblesEmitterBottom",
-      "persistentUuid": "d96a4756-9eb6-4b37-91d9-c8485c3220cb",
-      "width": 0,
-      "x": 792,
-      "y": 775,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "BubblesEmitterBottom",
-      "persistentUuid": "a58d4ff0-5580-4663-a8b3-f6071b8c3fbf",
-      "width": 0,
-      "x": 1498,
-      "y": 949,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
-      "height": 50,
+      "height": 460,
       "layer": "",
       "locked": false,
       "name": "Obstacle",
-      "persistentUuid": "dc52e69d-ee58-425d-92b4-f1b73f3d04b6",
-      "width": 317,
-      "x": 1145,
-      "y": 369,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 458,
-      "layer": "",
-      "locked": false,
-      "name": "Obstacle",
-      "persistentUuid": "6650adc7-0164-4764-bb60-c339cdf4085c",
-      "width": 32,
-      "x": 808,
-      "y": 47,
-      "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 50.634613037109375,
-      "customSize": true,
-      "height": 32,
-      "layer": "",
-      "locked": false,
-      "name": "Obstacle",
-      "persistentUuid": "4bbe3378-4f2d-458b-adf0-21e86846d79f",
-      "width": 555,
-      "x": 1338.8780517578125,
-      "y": 605.6881713867188,
-      "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 325.2800598144531,
-      "customSize": true,
-      "height": 41.873844146728516,
-      "layer": "",
-      "locked": false,
-      "name": "Obstacle",
-      "persistentUuid": "83feeae6-20f9-4912-8986-3a0d0cd578b1",
-      "width": 216.20574951171875,
-      "x": 1210.6767578125,
-      "y": 36.28238296508789,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 280,
-      "layer": "",
-      "locked": false,
-      "name": "Obstacle",
-      "persistentUuid": "1d4f1431-f5d6-401a-8426-0a6cd701bcd3",
-      "width": 672,
-      "x": 1818,
-      "y": 233,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 456,
-      "layer": "",
-      "locked": false,
-      "name": "Obstacle",
-      "persistentUuid": "fd051062-63a4-4e36-97a2-b04c474631d2",
-      "width": 164,
-      "x": 2079,
-      "y": 729,
-      "zOrder": 25,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 1181,
-      "layer": "",
-      "locked": false,
-      "name": "Obstacle",
-      "persistentUuid": "bcb39b47-13b7-4132-b521-2245cbffc57f",
-      "width": 590,
-      "x": 2998,
-      "y": 1,
-      "zOrder": 26,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "BubblesEmitterBottom",
-      "persistentUuid": "07af4b89-908b-4791-9795-5d00e36be0d5",
-      "width": 0,
-      "x": 2090,
-      "y": 730,
-      "zOrder": 27,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Ship",
-      "persistentUuid": "9c7a36c9-5bea-47a8-b4fe-aef94d98de04",
-      "width": 0,
-      "x": 1008,
-      "y": 808,
-      "zOrder": 31,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "OldBoot",
-      "persistentUuid": "5b505b3a-4e49-4ff4-8024-d5a105e3eb2c",
-      "width": 0,
-      "x": 669,
-      "y": 830,
+      "persistentUuid": "2666a8b0-c1bc-427c-84df-b61a036e82bb",
+      "width": 87,
+      "x": 880,
+      "y": -12,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -397,15 +253,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 286,
       "layer": "",
       "locked": false,
-      "name": "OldBoot",
-      "persistentUuid": "4c14f246-3efa-48c4-9561-b5958bb030b4",
-      "width": 0,
-      "x": 1736,
-      "y": 150,
+      "name": "Obstacle",
+      "persistentUuid": "5c90adb8-62c5-4b77-a618-514c4b972793",
+      "width": 32,
+      "x": 913,
+      "y": 409,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -417,28 +273,12 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "OldBoot",
-      "persistentUuid": "a72fb9a6-4522-47dd-8e2f-957060540a85",
+      "name": "BubblesEmitterBottom",
+      "persistentUuid": "34fd13cd-e72c-4ebc-aca1-e180d31dfe5f",
       "width": 0,
-      "x": 494,
-      "y": 91,
-      "zOrder": 34,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "",
-      "locked": false,
-      "name": "SeaBed",
-      "persistentUuid": "dd48dc27-4077-4552-8e72-f336cacab63e",
-      "width": 3628,
-      "x": -11,
-      "y": 1199,
-      "zOrder": 25,
+      "x": 1089,
+      "y": 895,
+      "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -447,30 +287,46 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BubblesEmitterBottom",
+      "persistentUuid": "b3a6bf37-c3e2-4e10-af42-ff3123e99414",
+      "width": 0,
+      "x": 1791,
+      "y": 544,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 595,
       "layer": "",
       "locked": false,
       "name": "GeneralNet",
-      "persistentUuid": "9dc0fdc8-313d-4992-8d63-43db3cafcc72",
-      "width": 0,
-      "x": -1225,
-      "y": 182,
-      "zOrder": 35,
+      "persistentUuid": "f1f99d9c-5fc2-4639-8119-e1063dad7150",
+      "width": 908,
+      "x": 1046,
+      "y": 413,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 179.05592346191406,
       "customSize": true,
-      "height": 363,
+      "height": 401.4010009765625,
       "layer": "",
       "locked": false,
-      "name": "Octopos",
-      "persistentUuid": "70339e82-56bc-4b2f-b1b3-5a2cb5dc6c26",
-      "width": 208,
-      "x": 2518,
-      "y": 493,
-      "zOrder": 36,
+      "name": "GeneralNet",
+      "persistentUuid": "3f70acb5-d2c1-4102-9566-1d71556e580a",
+      "width": 544.2506713867188,
+      "x": 1211.4793701171875,
+      "y": -12.543571472167969,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -479,14 +335,46 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Background",
       "locked": false,
-      "name": "Bottle",
-      "persistentUuid": "5e5b2d7f-37ef-4a47-a533-2fe4b74350c2",
+      "name": "background_lvl1_2",
+      "persistentUuid": "61c1eea4-3944-4f2f-a9be-de90535b33eb",
       "width": 0,
-      "x": 113,
-      "y": 53,
-      "zOrder": 37,
+      "x": 1920,
+      "y": 0,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1080,
+      "layer": "Parallex1",
+      "locked": true,
+      "name": "p1_lvl1",
+      "persistentUuid": "f95661a6-bcdf-4594-8986-c7224c40baa5",
+      "width": 7680,
+      "x": -1920,
+      "y": 0,
+      "zOrder": -5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1080,
+      "layer": "Parallex2",
+      "locked": true,
+      "name": "p2_lvl1",
+      "persistentUuid": "768cfdee-1d92-48eb-8aaf-e4dd4a8fa02a",
+      "width": 7680,
+      "x": -1920,
+      "y": 0,
+      "zOrder": -3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -574,6 +462,70 @@
       ]
     },
     {
+      "name": "Fish",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "direction",
+          "type": "string",
+          "value": "left"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "deeee.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": 32,
+      "name": "BubbleSpawner",
+      "tags": "",
+      "texture": "NewFile-2-1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
+        }
+      ]
+    },
+    {
       "height": 32,
       "name": "Obstacle",
       "tags": "",
@@ -592,152 +544,7 @@
       ]
     },
     {
-      "name": "BrownTrout",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "No Shadow",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.02500000037252903,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Brown Trout_No Shadow.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Shadow",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.02500000037252903,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Brown Trout_Shadow.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "OldBoot",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "PathfindingObstacle",
-          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
-          "cost": 2,
-          "impassable": true
-        }
-      ],
-      "animations": [
-        {
-          "name": "No Shadow",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.02500000037252903,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Old Boot_No Shadow.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Shadow",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.02500000037252903,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Old Boot_Shadow.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "oceanBG",
+      "name": "background_lvl1_1",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -755,7 +562,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\backgrounds\\lvl1\\lvl1.2.png",
+                  "image": "assets\\backgrounds\\lvl1\\blvl1.1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -777,129 +584,7 @@
       ]
     },
     {
-      "name": "Ship",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "LightObstacleBehavior",
-          "type": "Lighting::LightObstacleBehavior"
-        }
-      ],
-      "animations": [
-        {
-          "name": "ship",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "ship.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 332.6000061035156,
-                        "y": 133
-                      },
-                      {
-                        "x": 423.8000183105469,
-                        "y": 177.8000030517578
-                      },
-                      {
-                        "x": 400.6000061035156,
-                        "y": 204.1999969482422
-                      },
-                      {
-                        "x": 298.20001220703125,
-                        "y": 152.20001220703125
-                      }
-                    ],
-                    [
-                      {
-                        "x": 79,
-                        "y": 309
-                      },
-                      {
-                        "x": 109.4000015258789,
-                        "y": 291.3999938964844
-                      },
-                      {
-                        "x": 206.20001220703125,
-                        "y": 340.1999816894531
-                      },
-                      {
-                        "x": 178.20001220703125,
-                        "y": 375.3999938964844
-                      }
-                    ],
-                    [
-                      {
-                        "x": 122.20001220703125,
-                        "y": 190.60000610351562
-                      },
-                      {
-                        "x": 344.6000061035156,
-                        "y": 281.79998779296875
-                      },
-                      {
-                        "x": 327,
-                        "y": 327.3999938964844
-                      },
-                      {
-                        "x": 110.20001220703125,
-                        "y": 216.1999969482422
-                      }
-                    ],
-                    [
-                      {
-                        "x": 41.40000915527344,
-                        "y": 447.4000244140625
-                      },
-                      {
-                        "x": 472.6000061035156,
-                        "y": 94.60000610351562
-                      },
-                      {
-                        "x": 561.4000244140625,
-                        "y": 239.39999389648438
-                      },
-                      {
-                        "x": 415.79998779296875,
-                        "y": 445
-                      },
-                      {
-                        "x": 224.60000610351562,
-                        "y": 490.60003662109375
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Shark",
+      "name": "background_lvl1_2",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -917,7 +602,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "shark.png",
+                  "image": "assets\\backgrounds\\lvl1\\blvl1.2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -937,6 +622,192 @@
           ]
         }
       ]
+    },
+    {
+      "name": "parallax_mid_lvl1_2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\backgrounds\\lvl1\\p1.lvl1.2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bottle2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "deceleration": 800,
+          "ignoreDefaultControls": false,
+          "maxSpeed": 200,
+          "movementAngleOffset": 0,
+          "name": "TopDownMovement",
+          "rotateObject": true,
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "viewpoint": "TopDown"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.33329999446868896,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\bottle\\bottle1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\bottle\\bottle2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "parallax_forward_lvl1_2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\backgrounds\\lvl1\\p2.lvl1.2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": 1080,
+      "name": "p1_lvl1",
+      "tags": "",
+      "texture": "assets\\backgrounds\\lvl1\\p1.lvl1.1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 3840,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "height": 32,
+      "name": "NewTiledSprite",
+      "tags": "",
+      "texture": "",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "height": 1080,
+      "name": "p2_lvl1",
+      "tags": "",
+      "texture": "assets\\backgrounds\\lvl1\\p2.lvl1.1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 3840,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "events": [
@@ -972,17 +843,6 @@
               "parameters": [
                 "",
                 "\"SpawnBubbles\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"SpawnFish\""
               ],
               "subInstructions": []
             },
@@ -1085,6 +945,17 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "RemoveTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"DeathByLosingOxygen\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "TextObject::String"
                   },
                   "parameters": [
@@ -1125,10 +996,52 @@
                 "Bottle",
                 "0",
                 "0",
-                "3600",
-                "1200",
+                "3840",
+                "1080",
                 "",
                 "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetCameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Bottle.X()*0.7",
+                "\"Parallex1\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetCameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Bottle.X()*0.9",
+                "\"Parallex2\"",
                 ""
               ],
               "subInstructions": []
@@ -1147,61 +1060,7 @@
       "name": "Spawning Objects",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"SpawnFish\"",
-                ">",
-                "3"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CreateByName"
-              },
-              "parameters": [
-                "",
-                "Fish",
-                "\"Fish\"",
-                "RandomInRange(500,2000)",
-                "RandomInRange(40,500)",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"SpawnFish\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
-        }
-      ],
+      "events": [],
       "parameters": []
     },
     {
@@ -1230,7 +1089,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Winning Condition should be different in depending on the current & next scenes",
+          "comment": "Winning Destination",
           "comment2": ""
         },
         {
@@ -1259,79 +1118,12 @@
               },
               "parameters": [
                 "",
-                "\"Garbage Collector Test\"",
+                "\"Prototype Level 2\"",
                 ""
               ],
               "subInstructions": []
             }
           ],
-          "events": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "This is a genric function to take care of collision detection against any other object",
-          "comment2": ""
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "Stamina",
-                ">",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "obstacleCollision::obstacleCollision"
-              },
-              "parameters": [
-                "",
-                "Bottle",
-                "Ship",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Bottle",
-                "OldBoot",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [],
           "events": []
         }
       ],
@@ -1352,12 +1144,6 @@
             "includeConfig": 0
           },
           "target": "Bubble"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
         }
       ],
       "parameters": []
@@ -1367,26 +1153,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "Fish Behavior",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Fish"
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "General lose conditions",
+      "name": "Lose Conditions",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -1399,20 +1166,42 @@
         }
       ],
       "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "General Obstacles ",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [],
-      "parameters": []
     }
   ],
   "layers": [
+    {
+      "ambientLightColorB": 150994994,
+      "ambientLightColorG": 6037952,
+      "ambientLightColorR": 8158336,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Background",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": -2147483616,
+      "ambientLightColorG": 6037952,
+      "ambientLightColorR": 8158336,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Parallex1",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": -2147483616,
+      "ambientLightColorG": 6037952,
+      "ambientLightColorR": 8158336,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Parallex2",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
     {
       "ambientLightColorB": 32,
       "ambientLightColorG": 0,
@@ -1445,16 +1234,23 @@
       "visibility": true,
       "cameras": [],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 13,
+      "ambientLightColorG": 6034128,
+      "ambientLightColorR": 8340736,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Game over",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
   "behaviorsSharedData": [
     {
       "name": "Anchor",
       "type": "AnchorBehavior::AnchorBehavior"
-    },
-    {
-      "name": "LightObstacleBehavior",
-      "type": "Lighting::LightObstacleBehavior"
     },
     {
       "name": "PathfindingObstacle",

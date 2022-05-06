@@ -474,6 +474,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 238,
+      "layer": "",
+      "locked": false,
+      "name": "BaconDish",
+      "persistentUuid": "d0fb2cdd-1818-4e5b-92a5-2b77a0ad0b33",
+      "width": 32,
+      "x": 3562,
+      "y": 311,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -487,6 +503,46 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "name": "BaconDish",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Bacon Dish.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "height": 32,
@@ -876,7 +932,39 @@
           "subInstructions": []
         }
       ],
-      "events": []
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "StaminaTxt",
+                "=",
+                "\"Stamina: \" + ToString(round(GlobalVariable(Stamina)))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "HealthTxt",
+                "=",
+                "\"Health: \" + ToString(round(GlobalVariable(Health)))"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
     },
     {
       "colorB": 228,

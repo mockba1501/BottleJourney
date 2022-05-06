@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7009999999999963,
+    "zoomFactor": 0.6509999999999962,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -622,6 +622,18 @@
                     "\"DeathByLosingOxygen\""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "HealthTxt",
+                    "=",
+                    "\"Health: \" + ToString(round(GlobalVariable(Health)))"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -785,6 +797,39 @@
     }
   ],
   "layers": [
+    {
+      "ambientLightColorB": 9203920,
+      "ambientLightColorG": 6037952,
+      "ambientLightColorR": 9198536,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Background",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 9203920,
+      "ambientLightColorG": 6037952,
+      "ambientLightColorR": 9198536,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Parallex1",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 167797870,
+      "ambientLightColorG": 6037952,
+      "ambientLightColorR": 9198536,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Parallex2",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
     {
       "ambientLightColorB": 32,
       "ambientLightColorG": 0,
