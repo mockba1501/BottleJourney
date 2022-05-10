@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8249999999999997,
+    "zoomFactor": 0.3249999999999993,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -33,12 +33,12 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "StartButton",
-      "persistentUuid": "ae1e8dab-e223-4b84-be8b-cc83289c8cc9",
+      "name": "StartBtn",
+      "persistentUuid": "5bc0429b-114e-45ac-84bc-2ab11873ebf1",
       "width": 0,
-      "x": 345,
-      "y": 348,
-      "zOrder": 1,
+      "x": 769,
+      "y": 627,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -49,12 +49,44 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "NewText",
-      "persistentUuid": "e5478ecc-085f-4955-a779-5163f66d958b",
+      "name": "MenuBottle",
+      "persistentUuid": "c9cf33b6-d073-4815-b4ca-9a386631764d",
       "width": 0,
-      "x": 219,
-      "y": 200,
-      "zOrder": 2,
+      "x": 332,
+      "y": -3,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "OptionsBtn",
+      "persistentUuid": "74c0df05-1934-430d-968f-9c843c373fdc",
+      "width": 0,
+      "x": 1155,
+      "y": 615,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "FactsBtn",
+      "persistentUuid": "0ee84bfc-3263-43fb-9b7d-e7107d43b2cc",
+      "width": 0,
+      "x": 486,
+      "y": 619,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -120,6 +152,595 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "name": "StartBtn",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\startmenu\\startbutton.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 121.5,
+                        "y": 53.59999465942383
+                      },
+                      {
+                        "x": 219.9000244140625,
+                        "y": 59.20000076293945
+                      },
+                      {
+                        "x": 273.5,
+                        "y": 140.00001525878906
+                      },
+                      {
+                        "x": 245.5,
+                        "y": 215.1999969482422
+                      },
+                      {
+                        "x": 135.10000610351562,
+                        "y": 244.00001525878906
+                      },
+                      {
+                        "x": 37.5,
+                        "y": 159.1999969482422
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\startmenu\\startbutton2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 121.5,
+                        "y": 53.59999465942383
+                      },
+                      {
+                        "x": 219.9000244140625,
+                        "y": 59.20000076293945
+                      },
+                      {
+                        "x": 273.5,
+                        "y": 140.00001525878906
+                      },
+                      {
+                        "x": 245.5,
+                        "y": 215.1999969482422
+                      },
+                      {
+                        "x": 135.10000610351562,
+                        "y": 244.00001525878906
+                      },
+                      {
+                        "x": 37.5,
+                        "y": 159.1999969482422
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\startmenu\\startbutton3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 121.5,
+                        "y": 53.59999465942383
+                      },
+                      {
+                        "x": 219.9000244140625,
+                        "y": 59.20000076293945
+                      },
+                      {
+                        "x": 273.5,
+                        "y": 140.00001525878906
+                      },
+                      {
+                        "x": 245.5,
+                        "y": 215.1999969482422
+                      },
+                      {
+                        "x": 135.10000610351562,
+                        "y": 244.00001525878906
+                      },
+                      {
+                        "x": 37.5,
+                        "y": 159.1999969482422
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MenuBottle",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\startmenu\\menubottle.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OptionsBtn",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\startmenu\\optionsbutton.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 146.20001220703125,
+                        "y": 10.699999809265137
+                      },
+                      {
+                        "x": 228.60003662109375,
+                        "y": 49.09999465942383
+                      },
+                      {
+                        "x": 251.79998779296875,
+                        "y": 85.09999084472656
+                      },
+                      {
+                        "x": 258.20001220703125,
+                        "y": 153.09999084472656
+                      },
+                      {
+                        "x": 204.60000610351562,
+                        "y": 226.6999969482422
+                      },
+                      {
+                        "x": 23.800018310546875,
+                        "y": 208.3000030517578
+                      },
+                      {
+                        "x": 35,
+                        "y": 53.09999465942383
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\startmenu\\optionsbutton2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 146.20001220703125,
+                        "y": 10.699999809265137
+                      },
+                      {
+                        "x": 228.60003662109375,
+                        "y": 49.09999465942383
+                      },
+                      {
+                        "x": 251.79998779296875,
+                        "y": 85.09999084472656
+                      },
+                      {
+                        "x": 258.20001220703125,
+                        "y": 153.09999084472656
+                      },
+                      {
+                        "x": 204.60000610351562,
+                        "y": 226.6999969482422
+                      },
+                      {
+                        "x": 23.800018310546875,
+                        "y": 208.3000030517578
+                      },
+                      {
+                        "x": 35,
+                        "y": 53.09999465942383
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\startmenu\\optionsbutton3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 146.20001220703125,
+                        "y": 10.699999809265137
+                      },
+                      {
+                        "x": 228.60003662109375,
+                        "y": 49.09999465942383
+                      },
+                      {
+                        "x": 251.79998779296875,
+                        "y": 85.09999084472656
+                      },
+                      {
+                        "x": 258.20001220703125,
+                        "y": 153.09999084472656
+                      },
+                      {
+                        "x": 204.60000610351562,
+                        "y": 226.6999969482422
+                      },
+                      {
+                        "x": 23.800018310546875,
+                        "y": 208.3000030517578
+                      },
+                      {
+                        "x": 35,
+                        "y": 53.09999465942383
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FactsBtn",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\startmenu\\factsbutton.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 203.9000244140625,
+                        "y": 39.50001907348633
+                      },
+                      {
+                        "x": 216.70001220703125,
+                        "y": 141.09999084472656
+                      },
+                      {
+                        "x": 156.70001220703125,
+                        "y": 205.09999084472656
+                      },
+                      {
+                        "x": 42.300018310546875,
+                        "y": 210.6999969482422
+                      },
+                      {
+                        "x": 7.100006103515625,
+                        "y": 92.30000305175781
+                      },
+                      {
+                        "x": 76.70001220703125,
+                        "y": 28.300006866455078
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\startmenu\\factsbutton2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 203.9000244140625,
+                        "y": 39.50001907348633
+                      },
+                      {
+                        "x": 216.70001220703125,
+                        "y": 141.09999084472656
+                      },
+                      {
+                        "x": 156.70001220703125,
+                        "y": 205.09999084472656
+                      },
+                      {
+                        "x": 42.300018310546875,
+                        "y": 210.6999969482422
+                      },
+                      {
+                        "x": 7.100006103515625,
+                        "y": 92.30000305175781
+                      },
+                      {
+                        "x": 76.70001220703125,
+                        "y": 28.300006866455078
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\startmenu\\factsbutton3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 203.9000244140625,
+                        "y": 39.50001907348633
+                      },
+                      {
+                        "x": 216.70001220703125,
+                        "y": 141.09999084472656
+                      },
+                      {
+                        "x": 156.70001220703125,
+                        "y": 205.09999084472656
+                      },
+                      {
+                        "x": 42.300018310546875,
+                        "y": 210.6999969482422
+                      },
+                      {
+                        "x": 7.100006103515625,
+                        "y": 92.30000305175781
+                      },
+                      {
+                        "x": 76.70001220703125,
+                        "y": 28.300006866455078
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -176,6 +797,7 @@
       "events": []
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -186,6 +808,26 @@
           "parameters": [
             "StartButton",
             "Left"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "StartBtn",
+            "",
+            "",
+            ""
           ],
           "subInstructions": []
         }
@@ -207,8 +849,21 @@
       "events": []
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Return"
+          ],
+          "subInstructions": []
+        }
+      ],
       "actions": [],
       "events": []
     }
@@ -241,6 +896,10 @@
     {
       "name": "Anchor",
       "type": "AnchorBehavior::AnchorBehavior"
+    },
+    {
+      "name": "SineMovement",
+      "type": "SineMovement::SineMovement"
     },
     {
       "name": "TopDownMovement",

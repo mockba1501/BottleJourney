@@ -419,24 +419,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/fish/fish1.1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\fish\\fish1.1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/fish/fish1.2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\fish\\fish1.2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/backgrounds/lvl1/lvl1.2.png",
         "kind": "image",
         "metadata": "",
@@ -495,6 +477,141 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\backgrounds\\lvl1\\p2.lvl1.2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fish/fish1.1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fish\\fish1.1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fish/fish1.2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fish\\fish1.2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fish/fish1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fish\\fish1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fish/fish1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fish\\fish1-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/backgrounds/for parallax effect/bigbackground.0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\backgrounds\\for parallax effect\\bigbackground.0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/startmenu/startbutton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\startmenu\\startbutton.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/startmenu/startbutton2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\startmenu\\startbutton2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/startmenu/startbutton3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\startmenu\\startbutton3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/startmenu/menubottle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\startmenu\\menubottle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/startmenu/optionsbutton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\startmenu\\optionsbutton.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/startmenu/optionsbutton2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\startmenu\\optionsbutton2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/startmenu/optionsbutton3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\startmenu\\optionsbutton3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/startmenu/factsbutton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\startmenu\\factsbutton.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/startmenu/factsbutton2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\startmenu\\factsbutton2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/startmenu/factsbutton3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\startmenu\\factsbutton3.png",
         "smoothed": true,
         "userAdded": true
       }
@@ -1040,7 +1157,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "fish1",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1400,6 +1517,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/garbage-collector-test"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/fullgameonecompletelevel"
     }
   ],
   "externalEvents": [

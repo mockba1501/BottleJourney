@@ -11,8 +11,8 @@
       "name": "NewPanelSprite",
       "persistentUuid": "118cb88e-0f0d-432f-aa4e-a10aa5498451",
       "width": 731,
-      "x": 39,
-      "y": 111,
+      "x": 519,
+      "y": 326,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -27,8 +27,8 @@
       "name": "ConditionSeaBedText",
       "persistentUuid": "c9fbcc94-cbf0-4bbd-926b-9725b0dea1e4",
       "width": 0,
-      "x": 183,
-      "y": 263,
+      "x": 663,
+      "y": 478,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -45,7 +45,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6999999999999997,
+    "zoomFactor": 0.3499999999999994,
     "windowMask": false
   }
 }

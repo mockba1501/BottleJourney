@@ -304,19 +304,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarObjetTxt"
-              },
-              "parameters": [
-                "Fish",
-                "direction",
-                "=",
-                "\"right\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "ModVarGlobal"
               },
               "parameters": [

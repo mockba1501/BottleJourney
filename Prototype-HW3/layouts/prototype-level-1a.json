@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.37002171871661726,
+    "zoomFactor": 0.2950217187166172,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -46,7 +46,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 119,
+      "height": 164,
       "layer": "",
       "locked": false,
       "name": "BaconDish",
@@ -112,7 +112,7 @@
       "customSize": true,
       "height": 1100,
       "layer": "",
-      "locked": true,
+      "locked": false,
       "name": "Obstacle",
       "persistentUuid": "6fb1b38f-3cde-46cf-92f7-bfc530c07f41",
       "width": 24,
@@ -180,8 +180,8 @@
       "name": "BubblesEmitterBottom",
       "persistentUuid": "e0078353-7320-4188-b771-9ac2a6b678d7",
       "width": 0,
-      "x": 1454.2928466796875,
-      "y": 733.2928466796875,
+      "x": 3426.292724609375,
+      "y": 491.2928466796875,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -237,38 +237,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "height": 460,
-      "layer": "",
-      "locked": false,
-      "name": "Obstacle",
-      "persistentUuid": "2666a8b0-c1bc-427c-84df-b61a036e82bb",
-      "width": 87,
-      "x": 880,
-      "y": -12,
-      "zOrder": 32,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 286,
-      "layer": "",
-      "locked": false,
-      "name": "Obstacle",
-      "persistentUuid": "5c90adb8-62c5-4b77-a618-514c4b972793",
-      "width": 32,
-      "x": 913,
-      "y": 409,
-      "zOrder": 33,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -292,8 +260,8 @@
       "name": "BubblesEmitterBottom",
       "persistentUuid": "b3a6bf37-c3e2-4e10-af42-ff3123e99414",
       "width": 0,
-      "x": 1791,
-      "y": 544,
+      "x": 2721,
+      "y": 896,
       "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
@@ -302,14 +270,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 595,
+      "height": 1042,
       "layer": "",
       "locked": false,
       "name": "GeneralNet",
       "persistentUuid": "f1f99d9c-5fc2-4639-8119-e1063dad7150",
-      "width": 908,
-      "x": 1046,
-      "y": 413,
+      "width": 1288,
+      "x": 2640,
+      "y": 51,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -324,8 +292,8 @@
       "name": "GeneralNet",
       "persistentUuid": "3f70acb5-d2c1-4102-9566-1d71556e580a",
       "width": 544.2506713867188,
-      "x": 1211.4793701171875,
-      "y": -12.543571472167969,
+      "x": 686.2698974609375,
+      "y": -37.54357147216797,
       "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
@@ -375,6 +343,70 @@
       "x": -1920,
       "y": 0,
       "zOrder": -3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Fish",
+      "persistentUuid": "535797cd-0936-4053-bf3c-144fd0c79190",
+      "width": 0,
+      "x": 1634,
+      "y": 584,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Fish",
+      "persistentUuid": "66337e93-e4c1-4693-a701-4563954c3036",
+      "width": 0,
+      "x": 526,
+      "y": 201,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Octopos",
+      "persistentUuid": "9c5b672e-9e00-4c43-a370-95a054597f27",
+      "width": 0,
+      "x": 414,
+      "y": 533,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Octopos",
+      "persistentUuid": "2941b09a-c787-4969-a48b-82147f10bdf5",
+      "width": 0,
+      "x": 1261,
+      "y": 35,
+      "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -477,16 +509,33 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "fish1",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
+              "looping": true,
+              "timeBetweenFrames": 0.5,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "deeee.png",
+                  "image": "assets\\fish\\fish1-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\fish\\fish1-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -672,6 +721,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -681,9 +732,7 @@
           "ignoreDefaultControls": false,
           "maxSpeed": 200,
           "movementAngleOffset": 0,
-          "name": "TopDownMovement",
           "rotateObject": true,
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "viewpoint": "TopDown"
         }
       ],
@@ -878,6 +927,28 @@
               "parameters": [
                 "",
                 "\"Game over\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"FishMovementTimerRight\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"FishMovementTimerLeft\""
               ],
               "subInstructions": []
             }
@@ -1125,6 +1196,25 @@
             }
           ],
           "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "BaconDish",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "parameters": []
@@ -1166,6 +1256,37 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Fish Behavior",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Fish"
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
     }
   ],
   "layers": [
