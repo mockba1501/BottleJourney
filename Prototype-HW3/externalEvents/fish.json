@@ -14,12 +14,6 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -30,20 +24,7 @@
                 "Fish",
                 "direction",
                 "=",
-                "\"left\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"FishMovementTimerLeft\"",
-                "<=",
-                "10"
+                "\"right\""
               ],
               "subInstructions": []
             }
@@ -69,7 +50,7 @@
               },
               "parameters": [
                 "Fish",
-                ""
+                "no"
               ],
               "subInstructions": []
             }
@@ -88,20 +69,7 @@
                 "Fish",
                 "direction",
                 "=",
-                "\"right\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"FishMovementTimerRight\"",
-                "<=",
-                "10"
+                "\"left\""
               ],
               "subInstructions": []
             }
@@ -136,6 +104,25 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -152,19 +139,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarObjetTxt"
-              },
-              "parameters": [
-                "Fish",
-                "direction",
-                "=",
-                "\"left\""
-              ],
-              "subInstructions": []
-            },
             {
               "type": {
                 "inverted": false,
@@ -191,6 +165,7 @@
           "events": []
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -208,19 +183,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarObjetTxt"
-              },
-              "parameters": [
-                "Fish",
-                "direction",
-                "=",
-                "\"right\""
-              ],
-              "subInstructions": []
-            },
             {
               "type": {
                 "inverted": false,
@@ -267,43 +229,7 @@
           "subInstructions": []
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarObjetTxt"
-          },
-          "parameters": [
-            "Fish",
-            "direction",
-            "=",
-            "\"right\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "Fish",
-            "\"FishMovementTimerRight\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "RemoveObjectTimer"
-          },
-          "parameters": [
-            "Fish",
-            "\"FishMovementTimerLeft\""
-          ],
-          "subInstructions": []
-        }
-      ],
+      "actions": [],
       "events": []
     },
     {
@@ -324,43 +250,144 @@
           "subInstructions": []
         }
       ],
-      "actions": [
+      "actions": [],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Fish Spwan",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
         {
           "type": {
             "inverted": false,
-            "value": "ModVarObjetTxt"
+            "value": "CompareTimer"
           },
           "parameters": [
-            "Fish",
-            "direction",
-            "=",
-            "\"right\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "Fish",
-            "\"FishMovementTimerRight\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "RemoveObjectTimer"
-          },
-          "parameters": [
-            "Fish",
-            "\"FishMovementTimerLeft\""
+            "",
+            "\"FishMovementTimer\"",
+            ">",
+            "15"
           ],
           "subInstructions": []
         }
       ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"FishMovementTimer\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "LeftFishSpwaner",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Fish",
+                "LeftFishSpwaner.X()",
+                "LeftFishSpwaner.Y()",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "Fish",
+                "\"Poison\"",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "RightFishSpwaner",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Fish",
+                "RightFishSpwaner.X()",
+                "RightFishSpwaner.Y()",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "Fish",
+                "\"Poison\"",
+                "no"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "Fish",
+                "direction",
+                "=",
+                "\"right\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
       "events": []
     },
     {

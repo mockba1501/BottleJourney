@@ -137,6 +137,10 @@
       "type": "AnchorBehavior::AnchorBehavior"
     },
     {
+      "name": "SineMovement",
+      "type": "SineMovement::SineMovement"
+    },
+    {
       "name": "TopDownMovement",
       "type": "TopDownMovementBehavior::TopDownMovementBehavior"
     }

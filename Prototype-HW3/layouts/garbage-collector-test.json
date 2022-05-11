@@ -1277,6 +1277,10 @@
       "type": "PathfindingBehavior::PathfindingObstacleBehavior"
     },
     {
+      "name": "SineMovement",
+      "type": "SineMovement::SineMovement"
+    },
+    {
       "name": "TopDownMovement",
       "type": "TopDownMovementBehavior::TopDownMovementBehavior"
     }

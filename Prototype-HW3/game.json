@@ -614,6 +614,28 @@
         "name": "assets\\startmenu\\factsbutton3.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/backgrounds/lvl1b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\backgrounds\\lvl1b.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Blue Platform.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Blue Platform.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Tiles/Small Blue Platform.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -1153,7 +1175,21 @@
           "value": "left"
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Poison",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 1,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "#ffffff"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -1279,9 +1315,9 @@
           "name": "SineMovement",
           "type": "SineMovement::SineMovement",
           "HorizontalSpeed": 30,
-          "VerticalSpeed": 10,
-          "HorizontalDistance": 300,
-          "VerticalDistance": 60,
+          "VerticalSpeed": 20,
+          "HorizontalDistance": 600,
+          "VerticalDistance": 200,
           "CenterPointX": 0,
           "CenterPointY": 0,
           "SineProgressX": 0,
@@ -1472,6 +1508,86 @@
                       }
                     ]
                   ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LeftFishSpwaner",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Small Blue Platform.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RightFishSpwaner",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Small Blue Platform.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }

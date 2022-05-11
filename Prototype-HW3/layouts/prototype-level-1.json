@@ -398,52 +398,6 @@
       ]
     },
     {
-      "name": "Fish",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "name": "direction",
-          "type": "string",
-          "value": "left"
-        }
-      ],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "deeee.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "height": 32,
       "name": "BubbleSpawner",
       "tags": "",
@@ -883,6 +837,10 @@
     {
       "name": "PathfindingObstacle",
       "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+    },
+    {
+      "name": "SineMovement",
+      "type": "SineMovement::SineMovement"
     },
     {
       "name": "TopDownMovement",

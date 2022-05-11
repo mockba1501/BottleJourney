@@ -324,6 +324,18 @@
                 "\"Health: \" + ToString(round(GlobalVariable(Health)))"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "Fish",
+                "\"Poison\"",
+                "yes"
+              ],
+              "subInstructions": []
             }
           ],
           "events": [
