@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.1450217187166172,
+    "zoomFactor": 0.34502171871661724,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -247,22 +247,6 @@
       "x": 2586,
       "y": 102,
       "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 179.05592346191406,
-      "customSize": true,
-      "height": 401.4010009765625,
-      "layer": "",
-      "locked": false,
-      "name": "GeneralNet",
-      "persistentUuid": "3f70acb5-d2c1-4102-9566-1d71556e580a",
-      "width": 544.2506713867188,
-      "x": 686.2698974609375,
-      "y": -37.54357147216797,
-      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []

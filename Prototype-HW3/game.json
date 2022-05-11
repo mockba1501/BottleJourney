@@ -1228,7 +1228,7 @@
               "timeBetweenFrames": 1,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\fish\\fish1.1.png",
                   "points": [],
                   "originPoint": {
@@ -1242,10 +1242,33 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 49,
+                        "y": 10.000018119812012
+                      },
+                      {
+                        "x": 181.79998779296875,
+                        "y": 26.800006866455078
+                      },
+                      {
+                        "x": 163.4000244140625,
+                        "y": 104.40000915527344
+                      },
+                      {
+                        "x": 14.600006103515625,
+                        "y": 90.00001525878906
+                      },
+                      {
+                        "x": 7.399993896484375,
+                        "y": 37.20000076293945
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\fish\\fish1.2.png",
                   "points": [],
                   "originPoint": {
@@ -1259,7 +1282,30 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 49,
+                        "y": 10.000018119812012
+                      },
+                      {
+                        "x": 181.79998779296875,
+                        "y": 26.800006866455078
+                      },
+                      {
+                        "x": 163.4000244140625,
+                        "y": 104.40000915527344
+                      },
+                      {
+                        "x": 14.600006103515625,
+                        "y": 90.00001525878906
+                      },
+                      {
+                        "x": 7.399993896484375,
+                        "y": 37.20000076293945
+                      }
+                    ]
+                  ]
                 }
               ]
             }
