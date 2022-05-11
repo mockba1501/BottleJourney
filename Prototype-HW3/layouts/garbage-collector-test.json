@@ -930,6 +930,48 @@
             "DiverHome"
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "happy.mp3",
+            "yes",
+            "15",
+            "0.85"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sad.wav",
+            "yes",
+            "80",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "amb.wav",
+            "yes",
+            "60",
+            ""
+          ],
+          "subInstructions": []
         }
       ],
       "events": [

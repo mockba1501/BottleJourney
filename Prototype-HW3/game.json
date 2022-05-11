@@ -708,6 +708,132 @@
         "name": "assets\\turtle\\turle2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "happy.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "happy.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "sad.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sad.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "happy.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "happy.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "amb.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "amb.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "bubble.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "bubble.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "fish.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fish.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "fish2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fish2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "ouch.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "ouch.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "fish.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fish.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "transition.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "transition.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "menu.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "menu.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "buttonstart.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "buttonstart.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "buttonhover.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "buttonhover.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -732,6 +858,13 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "Flash",
+          "type": "Flash::Flash",
+          "HalfPeriodTime": 0.1,
+          "IsFlashing": false,
+          "FlashDuration": 0
+        },
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
@@ -1048,8 +1181,8 @@
       "particleLifeTimeMin": 0.5,
       "particleRed1": 255,
       "particleRed2": 255,
-      "particleSize1": 15,
-      "particleSize2": 25,
+      "particleSize1": 30,
+      "particleSize2": 50,
       "particleSizeRandomness1": 0,
       "particleSizeRandomness2": 0,
       "rendererParam1": 3,
@@ -1780,6 +1913,38 @@
           ]
         }
       ]
+    },
+    {
+      "height": 32,
+      "name": "BlackFadeOut",
+      "tags": "",
+      "texture": "NewFile-1-6.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "height": 32,
+      "name": "BlackFadeIn",
+      "tags": "",
+      "texture": "NewFile-1-6.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
     }
   ],
   "objectsGroups": [],
@@ -1848,6 +2013,10 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/rectangularmovement"

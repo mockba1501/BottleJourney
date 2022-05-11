@@ -11,8 +11,8 @@
       "name": "HealthTxt",
       "persistentUuid": "4d9e8e09-752b-449f-9573-11efdb682bf6",
       "width": 0,
-      "x": 666,
-      "y": 73,
+      "x": 1756,
+      "y": 63,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -27,8 +27,8 @@
       "name": "StaminaTxt",
       "persistentUuid": "f4ba8350-4b13-487e-993d-c7874adcc967",
       "width": 0,
-      "x": 650,
-      "y": 46,
+      "x": 1740,
+      "y": 36,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -45,7 +45,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.37499999999999967,
+    "zoomFactor": 0.3249999999999996,
     "windowMask": false
   }
 }

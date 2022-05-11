@@ -50,6 +50,19 @@
                 "Bottle"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Flash::Flash::Flash"
+              },
+              "parameters": [
+                "Bottle",
+                "Flash",
+                "0.1",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -251,6 +264,20 @@
             {
               "type": {
                 "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "bubble.wav",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -328,12 +355,39 @@
             {
               "type": {
                 "inverted": false,
+                "value": "Flash::Flash::Flash"
+              },
+              "parameters": [
+                "Bottle",
+                "Flash",
+                "0.1",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "EnableEffect"
               },
               "parameters": [
                 "Fish",
                 "\"Poison\"",
                 "yes"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "fish.mp3",
+                "",
+                "50",
+                "1.4"
               ],
               "subInstructions": []
             }
@@ -485,6 +539,33 @@
                 "HealthTxt",
                 "=",
                 "\"Health: \" + ToString(round(GlobalVariable(Health)))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "fish.mp3",
+                "",
+                "50",
+                "1.4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Flash::Flash::Flash"
+              },
+              "parameters": [
+                "Bottle",
+                "Flash",
+                "0.1",
+                ""
               ],
               "subInstructions": []
             }
