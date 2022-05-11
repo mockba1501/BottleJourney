@@ -636,6 +636,33 @@
           "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Tiles/Small Blue Platform.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/backgrounds/hope these ones will work/lvl2b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\backgrounds\\hope these ones will work\\lvl2b.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/backgrounds/hope these ones will work/background2.1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\backgrounds\\hope these ones will work\\background2.1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/backgrounds/hope these ones will work/background2.2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\backgrounds\\hope these ones will work\\background2.2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

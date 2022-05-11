@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4200217187166173,
+    "zoomFactor": 0.1450217187166172,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1095,6 +1095,28 @@
                 "1080",
                 "",
                 "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetCameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(Camera.X(),Bottle.X(),0.7)",
+                "\"Parallex1\"",
                 ""
               ],
               "subInstructions": []

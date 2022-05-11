@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.08185595378875307,
+    "zoomFactor": 0.18185595378875305,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -51,9 +51,9 @@
       "locked": false,
       "name": "Obstacle",
       "persistentUuid": "ed58d09a-d042-426f-a91a-e2a5fcc117cd",
-      "width": 3600,
-      "x": -12,
-      "y": 1231,
+      "width": 3840,
+      "x": 0,
+      "y": 2161,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -78,13 +78,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 1205,
+      "height": 2170,
       "layer": "",
       "locked": false,
       "name": "Obstacle",
       "persistentUuid": "3cc7c519-453f-444f-be4b-5c72691c3f4c",
       "width": 32,
-      "x": 3593,
+      "x": 3840,
       "y": 0,
       "zOrder": 9,
       "numberProperties": [],
@@ -94,7 +94,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 1200,
+      "height": 2170,
       "layer": "",
       "locked": false,
       "name": "Obstacle",
@@ -118,22 +118,6 @@
       "width": 0,
       "x": -289,
       "y": -83,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 1200,
-      "layer": "",
-      "locked": true,
-      "name": "oceanBG",
-      "persistentUuid": "d1bd42a3-f499-4376-80cd-1d4e824143ea",
-      "width": 3600,
-      "x": 0,
-      "y": 0,
       "zOrder": -10,
       "numberProperties": [],
       "stringProperties": [],
@@ -179,7 +163,7 @@
       "locked": false,
       "name": "Obstacle",
       "persistentUuid": "b8f5660f-44db-4340-83a4-3fc01bcf7034",
-      "width": 3600,
+      "width": 3840,
       "x": -2,
       "y": -18,
       "zOrder": 7,
@@ -333,22 +317,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "height": 1181,
-      "layer": "",
-      "locked": false,
-      "name": "Obstacle",
-      "persistentUuid": "bcb39b47-13b7-4132-b521-2245cbffc57f",
-      "width": 590,
-      "x": 2998,
-      "y": 1,
-      "zOrder": 26,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -429,22 +397,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "",
-      "locked": false,
-      "name": "SeaBed",
-      "persistentUuid": "dd48dc27-4077-4552-8e72-f336cacab63e",
-      "width": 3628,
-      "x": -11,
-      "y": 1199,
-      "zOrder": 25,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -484,9 +436,57 @@
       "name": "Bottle",
       "persistentUuid": "5e5b2d7f-37ef-4a47-a533-2fe4b74350c2",
       "width": 0,
-      "x": 113,
-      "y": 53,
+      "x": 240,
+      "y": 1139,
       "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Background",
+      "locked": true,
+      "name": "BackgroundLevel2",
+      "persistentUuid": "6b3aacf6-527f-4bb0-8594-16d3adc2442e",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": -10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Parallex1",
+      "locked": true,
+      "name": "Background_Parallax_Mid",
+      "persistentUuid": "63baed70-bc44-443d-9fcb-3a295e1a6900",
+      "width": 0,
+      "x": -1920,
+      "y": 525,
+      "zOrder": -5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Parallex2",
+      "locked": true,
+      "name": "Background_Parallax_Forward",
+      "persistentUuid": "6ba627b6-17b3-4ff2-a8df-ab07f4ddd220",
+      "width": 0,
+      "x": -1920,
+      "y": 532,
+      "zOrder": -3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -937,6 +937,126 @@
           ]
         }
       ]
+    },
+    {
+      "name": "BackgroundLevel2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\backgrounds\\hope these ones will work\\lvl2b.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Background_Parallax_Mid",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\backgrounds\\hope these ones will work\\background2.1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Background_Parallax_Forward",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\backgrounds\\hope these ones will work\\background2.2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -1125,10 +1245,127 @@
                 "Bottle",
                 "0",
                 "0",
-                "3600",
-                "1200",
+                "3840",
+                "2160",
                 "",
                 "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Background\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
+                "\"Parallax\"",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Parallex1\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Parallex2\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetCameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Bottle.X()*0.7",
+                "\"Parallex1\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetCameraY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Bottle.Y()*0.7",
+                "\"Parallex1\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetCameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Bottle.X()*0.9",
+                "\"Parallex2\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetCameraY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Bottle.Y()*0.9",
+                "\"Parallex2\"",
                 ""
               ],
               "subInstructions": []
@@ -1149,6 +1386,7 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1413,6 +1651,39 @@
     }
   ],
   "layers": [
+    {
+      "ambientLightColorB": 9384440,
+      "ambientLightColorG": 9384440,
+      "ambientLightColorR": 0,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Background",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 9972872,
+      "ambientLightColorG": 6037952,
+      "ambientLightColorR": 8813752,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Parallex1",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 117440512,
+      "ambientLightColorG": 16777216,
+      "ambientLightColorR": 0,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Parallex2",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
     {
       "ambientLightColorB": 32,
       "ambientLightColorG": 0,
