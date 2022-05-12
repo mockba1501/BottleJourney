@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.19999999999999937,
+    "zoomFactor": 0.3249999999999994,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -56,7 +56,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Stay toned to continue exploring the bottle's journey",
+      "string": "Stay tuned to continue exploring the bottle's journey",
       "font": "",
       "characterSize": 20,
       "color": {
@@ -106,7 +106,54 @@
       ]
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sad.wav",
+            "yes",
+            "40",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "amb.wav",
+            "yes",
+            "25",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 7842744,
@@ -137,12 +184,20 @@
       "type": "AnchorBehavior::AnchorBehavior"
     },
     {
+      "name": "Flash",
+      "type": "Flash::Flash"
+    },
+    {
       "name": "SineMovement",
       "type": "SineMovement::SineMovement"
     },
     {
       "name": "TopDownMovement",
       "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     }
   ]
 }

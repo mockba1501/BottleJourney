@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.12002171871661715,
+    "zoomFactor": 0.17002171871661698,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -491,7 +491,7 @@
       "persistentUuid": "eca3ca06-448e-458b-9823-b1a18c528ebb",
       "width": 2506,
       "x": 1615,
-      "y": -348,
+      "y": -179,
       "zOrder": 300,
       "numberProperties": [],
       "stringProperties": [],
@@ -523,8 +523,56 @@
       "persistentUuid": "6b992220-6dd5-4d55-928d-3589d0df8124",
       "width": 3491,
       "x": -1219,
-      "y": -507,
+      "y": -338,
       "zOrder": 301,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 226.8117218017578,
+      "layer": "",
+      "locked": false,
+      "name": "SceneTitle",
+      "persistentUuid": "4e36a072-d3f5-4ab6-86f8-519e3f22f954",
+      "width": 747.9163208007812,
+      "x": 634,
+      "y": 390,
+      "zOrder": 303,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 286.09527587890625,
+      "layer": "",
+      "locked": false,
+      "name": "SceneYear",
+      "persistentUuid": "ccb07612-cf87-4ee6-bc92-6f503d827ed8",
+      "width": 456.790771484375,
+      "x": 798,
+      "y": 563,
+      "zOrder": 303,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "Phrase1",
+      "persistentUuid": "2d5b2537-d14f-4188-97a6-9f1251b91aca",
+      "width": 0,
+      "x": 450,
+      "y": 900,
+      "zOrder": 303,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -912,6 +960,118 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "SceneTitle",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 1,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "type": "AnchorBehavior::AnchorBehavior"
+        }
+      ],
+      "string": "Baltic Sea",
+      "font": "KgCompassionSimpleRegular-p2DD.ttf",
+      "characterSize": 200,
+      "color": {
+        "b": 82,
+        "g": 59,
+        "r": 55
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "SceneYear",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 1,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "type": "AnchorBehavior::AnchorBehavior"
+        }
+      ],
+      "string": "~1970",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 120,
+      "color": {
+        "b": 82,
+        "g": 59,
+        "r": 55
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "Phrase1",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.03
+        }
+      ],
+      "string": "                            Ew! Cold water! How did I get here?\n          I was just having a picnic with a cool bunch on the beach\nMaybe I can find other bottles? I’ve heard about the Garbage Patches.",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 50,
+      "color": {
+        "b": 223,
+        "g": 223,
+        "r": 223
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "Phrase2",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.02
+        }
+      ],
+      "string": "                                                    90% of us end up there.\nIf fish don’t eat you before. Or if you don’t lose air and slowly sink to the seabed. \n                                             Brrr… let’s get out of here. Quick!\n",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 50,
+      "color": {
+        "b": 223,
+        "g": 223,
+        "r": 223
+      }
     }
   ],
   "events": [
@@ -1172,7 +1332,31 @@
               "parameters": [
                 "BlackFadeIn",
                 "-",
-                "5"
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "SceneTitle",
+                "-",
+                "0.5"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "SceneYear",
+                "-",
+                "0.5"
               ],
               "subInstructions": []
             }
@@ -1228,6 +1412,17 @@
                 "yes",
                 "40",
                 "0.85"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Phrase1\""
               ],
               "subInstructions": []
             }
@@ -1534,6 +1729,114 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "name": "Phrases",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Phrase1\"",
+                ">",
+                "8"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Phrase1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Phrase2",
+                "350",
+                "900",
+                "\"UI\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"PhraseDelete\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"PhraseDelete\"",
+                ">",
+                "13"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Phrase2",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
       "name": "Lose Conditions",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1706,6 +2009,10 @@
     {
       "name": "SineMovement",
       "type": "SineMovement::SineMovement"
+    },
+    {
+      "name": "Text_AutoTyping",
+      "type": "AutoTyping::Text_AutoTyping"
     },
     {
       "name": "TopDownMovement",

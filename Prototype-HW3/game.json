@@ -834,6 +834,45 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": true
+      },
+      {
+        "file": "KgCompassionBigRegular-3y0M.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "KgCompassionBigRegular-3y0M.ttf",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TEST4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TEST4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "KgCompassionRegular-xXGO.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "KgCompassionRegular-xXGO.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "KgCompassionSimpleRegular-p2DD.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "KgCompassionSimpleRegular-p2DD.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "elec.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "elec.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1329,7 +1368,7 @@
       "behaviors": []
     },
     {
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "HealthDec",
       "smoothed": true,
@@ -1340,16 +1379,16 @@
       "effects": [],
       "behaviors": [],
       "string": "-5",
-      "font": "",
-      "characterSize": 25,
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 35,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 223,
+        "g": 223,
+        "r": 223
       }
     },
     {
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "HealthDec2",
       "smoothed": true,
@@ -1360,12 +1399,12 @@
       "effects": [],
       "behaviors": [],
       "string": "-20",
-      "font": "",
-      "characterSize": 25,
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 35,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 223,
+        "g": 223,
+        "r": 223
       }
     },
     {
@@ -1875,7 +1914,7 @@
               "timeBetweenFrames": 0.5,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\turtle\\turle1.png",
                   "points": [],
                   "originPoint": {
@@ -1889,10 +1928,33 @@
                     "x": 159.60000610351562,
                     "y": 75
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 196.4000244140625,
+                        "y": 50.20000076293945
+                      },
+                      {
+                        "x": 242.79998779296875,
+                        "y": 70.19999694824219
+                      },
+                      {
+                        "x": 107.60000610351562,
+                        "y": 139.8000030517578
+                      },
+                      {
+                        "x": 49.20001220703125,
+                        "y": 120.59999084472656
+                      },
+                      {
+                        "x": 12.399993896484375,
+                        "y": 60.59999465942383
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\turtle\\turle2.png",
                   "points": [],
                   "originPoint": {
@@ -1906,7 +1968,30 @@
                     "x": 159.60000610351562,
                     "y": 75
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 196.4000244140625,
+                        "y": 50.20000076293945
+                      },
+                      {
+                        "x": 242.79998779296875,
+                        "y": 70.19999694824219
+                      },
+                      {
+                        "x": 107.60000610351562,
+                        "y": 139.8000030517578
+                      },
+                      {
+                        "x": 49.20001220703125,
+                        "y": 120.59999084472656
+                      },
+                      {
+                        "x": 12.399993896484375,
+                        "y": 60.59999465942383
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -2013,6 +2098,10 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/flash"
