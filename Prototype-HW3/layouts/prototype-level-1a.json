@@ -973,13 +973,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 0,
           "leftEdgeAnchor": 1,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 0,
-          "topEdgeAnchor": 0,
-          "type": "AnchorBehavior::AnchorBehavior"
+          "topEdgeAnchor": 0
         }
       ],
       "string": "Baltic Sea",
@@ -1003,13 +1003,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 0,
           "leftEdgeAnchor": 1,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 0,
-          "topEdgeAnchor": 0,
-          "type": "AnchorBehavior::AnchorBehavior"
+          "topEdgeAnchor": 0
         }
       ],
       "string": "~1970",

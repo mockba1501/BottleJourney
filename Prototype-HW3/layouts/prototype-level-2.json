@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.20069497699736094,
+    "zoomFactor": 0.15069497699736095,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -30,14 +30,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 165,
+      "height": 649,
       "layer": "",
       "locked": false,
       "name": "BaconDish",
       "persistentUuid": "01d788a1-fc94-4e59-b1ee-9482e42c2a17",
-      "width": 32,
-      "x": 3813,
-      "y": 106,
+      "width": 81,
+      "x": 3805,
+      "y": -59,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -62,14 +62,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 2170,
+      "height": 2169,
       "layer": "",
       "locked": false,
       "name": "Obstacle",
       "persistentUuid": "3cc7c519-453f-444f-be4b-5c72691c3f4c",
       "width": 32,
       "x": 3840,
-      "y": 0,
+      "y": 1,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -402,22 +402,6 @@
       "initialVariables": []
     },
     {
-      "angle": 180,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Turtle",
-      "persistentUuid": "6435874e-51cd-489f-bd44-b2098edf8c5a",
-      "width": 0,
-      "x": 2935.800048828125,
-      "y": 772.5999755859375,
-      "zOrder": 48,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 0,
       "customSize": true,
       "height": 3234,
@@ -506,12 +490,18 @@
       "name": "Turtle",
       "persistentUuid": "fd53984b-0506-438d-8989-4a2a185a6f63",
       "width": 0,
-      "x": 1261.800048828125,
-      "y": 856.5999755859375,
+      "x": 1596.800048828125,
+      "y": 465.5999755859375,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "Direction",
+          "type": "string",
+          "value": "-1"
+        }
+      ]
     },
     {
       "angle": 180,
@@ -522,25 +512,31 @@
       "name": "Turtle",
       "persistentUuid": "4d680f65-f880-4179-be80-8da25ab882e1",
       "width": 0,
-      "x": 1942.800048828125,
-      "y": 609.5999755859375,
+      "x": 3098.800048828125,
+      "y": 1043.5999755859375,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "Direction",
+          "type": "string",
+          "value": "1"
+        }
+      ]
     },
     {
-      "angle": 180,
+      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "Turtle",
-      "persistentUuid": "94caa401-0695-488c-98e0-b1938ed54990",
+      "name": "GeneralNet4",
+      "persistentUuid": "8aa8b0e8-e965-4d93-857c-5226e6e7bab7",
       "width": 0,
-      "x": 2520.800048828125,
-      "y": 836.5999755859375,
-      "zOrder": 48,
+      "x": 2063,
+      "y": 455,
+      "zOrder": 65,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1313,6 +1309,86 @@
       ]
     },
     {
+      "name": "GeneralNet3",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\nets\\net3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GeneralNet4",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\nets\\net4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Electronics1",
       "tags": "",
       "type": "Sprite",
@@ -1453,39 +1529,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"SpawnBubbles\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"SpawnFish\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"StartBubble\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
               },
               "parameters": [
@@ -1522,68 +1565,173 @@
             {
               "type": {
                 "inverted": false,
-                "value": "PlaySound"
+                "value": "Opacity"
               },
               "parameters": [
-                "",
-                "sad.wav",
-                "yes",
-                "90",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "amb.wav",
-                "yes",
-                "85",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TiledSpriteObject::SetOpacity"
-              },
-              "parameters": [
-                "BlackFadeOut",
+                "BaconDish",
                 "=",
                 "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TiledSpriteObject::SetOpacity"
-              },
-              "parameters": [
-                "BlackFadeIn",
-                "=",
-                "255"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"StartAudio\""
               ],
               "subInstructions": []
             }
           ],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Timers",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"SpawnBubbles\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"SpawnFish\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"StartBubble\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Audio",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"StartAudio\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "sad.wav",
+                    "yes",
+                    "90",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "amb.wav",
+                    "yes",
+                    "85",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Fade In",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::SetOpacity"
+                  },
+                  "parameters": [
+                    "BlackFadeOut",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::SetOpacity"
+                  },
+                  "parameters": [
+                    "BlackFadeIn",
+                    "=",
+                    "255"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -1659,7 +1807,19 @@
               "events": []
             }
           ]
-        },
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Fade In Effect",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
@@ -2113,7 +2273,7 @@
               },
               "parameters": [
                 "",
-                "\"Garbage Collector Test\"",
+                "\"Prototype Level 3\"",
                 ""
               ],
               "subInstructions": []
@@ -2367,209 +2527,28 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "General Obstacles ",
+      "name": "Turtle Behavior",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Turtle"
+        }
+      ],
       "parameters": []
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Distance"
-          },
-          "parameters": [
-            "Turtle",
-            "Bottle",
-            "500",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "AddForceVers"
-          },
-          "parameters": [
-            "Turtle",
-            "Bottle",
-            "200",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "RotateTowardPosition"
-          },
-          "parameters": [
-            "Turtle",
-            "Bottle.X()",
-            "Bottle.Y()",
-            "0",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "SetObjectVariableAsBoolean"
-          },
-          "parameters": [
-            "Turtle",
-            "Chasing",
-            "True"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "Distance"
-          },
-          "parameters": [
-            "Turtle",
-            "Bottle",
-            "500",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SetObjectVariableAsBoolean"
-          },
-          "parameters": [
-            "Turtle",
-            "Chasing",
-            "False"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ObjectVariableAsBoolean"
-          },
-          "parameters": [
-            "Turtle",
-            "Chasing",
-            "True"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "FlipX"
-          },
-          "parameters": [
-            "Turtle",
-            "no"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "AddForceVers"
-          },
-          "parameters": [
-            "Shark",
-            "BrownTrout",
-            "75",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "RotateTowardPosition"
-          },
-          "parameters": [
-            "Shark",
-            "Center.X()",
-            "Center.Y()",
-            "0",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ObjectVariableAsBoolean"
-          },
-          "parameters": [
-            "Turtle",
-            "Chasing",
-            "False"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SetAngle"
-          },
-          "parameters": [
-            "Turtle",
-            "=",
-            "180"
-          ],
-          "subInstructions": []
-        }
-      ],
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "General Obstacles ",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -2577,27 +2556,13 @@
             {
               "type": {
                 "inverted": false,
-                "value": "VarObjet"
+                "value": "CollisionNP"
               },
               "parameters": [
-                "Turtle",
-                "Direction",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceXY"
-              },
-              "parameters": [
-                "Turtle",
-                "-150",
-                "0",
+                "Bottle",
+                "Electronics1",
+                "",
+                "",
                 ""
               ],
               "subInstructions": []
@@ -2605,31 +2570,9 @@
             {
               "type": {
                 "inverted": false,
-                "value": "FlipX"
+                "value": "BuiltinCommonInstructions::Once"
               },
-              "parameters": [
-                "Turtle",
-                "no"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "Turtle",
-                "Direction",
-                "=",
-                "0"
-              ],
+              "parameters": [],
               "subInstructions": []
             }
           ],
@@ -2637,174 +2580,22 @@
             {
               "type": {
                 "inverted": false,
-                "value": "AddForceXY"
+                "value": "PlaySound"
               },
               "parameters": [
-                "Turtle",
-                "150",
-                "0",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "FlipX"
-              },
-              "parameters": [
-                "Turtle",
-                "yes"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PosX"
-              },
-              "parameters": [
-                "Turtle",
-                ">",
-                "3600"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "Turtle",
-                "Direction",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PosX"
-              },
-              "parameters": [
-                "Turtle",
-                "<",
-                "200"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "Turtle",
-                "Direction",
-                "=",
-                "0"
+                "",
+                "elec.wav",
+                "",
+                "80",
+                "1.25"
               ],
               "subInstructions": []
             }
           ],
           "events": []
         }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Bottle",
-            "Electronics1",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
       ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "elec.wav",
-            "",
-            "80",
-            "1.25"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Bottle",
-            "Turtle",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Delete"
-          },
-          "parameters": [
-            "Turtle",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
+      "parameters": []
     }
   ],
   "layers": [
