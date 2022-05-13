@@ -792,6 +792,12 @@
         }
       ],
       "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
     }
   ]
 }

@@ -245,7 +245,7 @@
           },
           "parameters": [
             "Bottle",
-            "MonsterCollector",
+            "GeneralNet2",
             "",
             "",
             ""
@@ -311,7 +311,7 @@
           },
           "parameters": [
             "Bottle",
-            "GarbageCollector",
+            "GeneralNet4",
             "",
             "",
             ""

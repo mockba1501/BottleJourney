@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.20069497699736094,
+    "zoomFactor": 0.15069497699736095,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -146,22 +146,6 @@
       "layer": "",
       "locked": false,
       "name": "BubblesEmitterBottom",
-      "persistentUuid": "a58d4ff0-5580-4663-a8b3-f6071b8c3fbf",
-      "width": 0,
-      "x": 3392,
-      "y": 814,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "BubblesEmitterBottom",
       "persistentUuid": "07af4b89-908b-4791-9795-5d00e36be0d5",
       "width": 0,
       "x": 3165,
@@ -183,22 +167,6 @@
       "x": 60,
       "y": 44,
       "zOrder": 37,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Background",
-      "locked": true,
-      "name": "BackgroundLevel2",
-      "persistentUuid": "6b3aacf6-527f-4bb0-8594-16d3adc2442e",
-      "width": 0,
-      "x": 0,
-      "y": 0,
-      "zOrder": -10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -276,8 +244,8 @@
       "name": "RightFishSpwaner",
       "persistentUuid": "b349601f-570d-405b-ae7f-bb1490718c02",
       "width": 0,
-      "x": 4301,
-      "y": 1228,
+      "x": 4205,
+      "y": 825,
       "zOrder": 42,
       "numberProperties": [],
       "stringProperties": [],
@@ -402,22 +370,6 @@
       ]
     },
     {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "GeneralNet4",
-      "persistentUuid": "8aa8b0e8-e965-4d93-857c-5226e6e7bab7",
-      "width": 0,
-      "x": -1469,
-      "y": 454,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 305.638916015625,
       "customSize": false,
       "height": 0,
@@ -442,8 +394,8 @@
       "name": "PlasticBag",
       "persistentUuid": "b015bb3a-9245-4da6-9261-695e5b4b4774",
       "width": 179.6456298828125,
-      "x": 1677.1358642578125,
-      "y": 216.39512634277344,
+      "x": 372.2185363769531,
+      "y": 140.04783630371094,
       "zOrder": 66,
       "numberProperties": [],
       "stringProperties": [],
@@ -474,8 +426,8 @@
       "name": "PlasticBag",
       "persistentUuid": "37e2e4aa-647a-434c-9b40-9db7d1d24c8a",
       "width": 216.3450164794922,
-      "x": 1175.123291015625,
-      "y": 1096.9222412109375,
+      "x": 1314.932861328125,
+      "y": 1212.9222412109375,
       "zOrder": 68,
       "numberProperties": [],
       "stringProperties": [],
@@ -570,9 +522,57 @@
       "name": "Electronics2",
       "persistentUuid": "c5424cd4-c0e6-4c42-bd53-8136d765049a",
       "width": 0,
-      "x": 681.3087768554688,
-      "y": 1511.4881591796875,
+      "x": 282.69122314453125,
+      "y": 1555.4881591796875,
       "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Background",
+      "locked": true,
+      "name": "BackgroundLevel3",
+      "persistentUuid": "3db4dfe1-61df-4b24-984f-58c607171e1e",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": -10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "locked": false,
+      "name": "SeaBed",
+      "persistentUuid": "a41a5e29-bc31-4266-bbcb-0aa8a9b166ba",
+      "width": 3859,
+      "x": -9,
+      "y": 2166,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "GeneralNet4",
+      "persistentUuid": "72524b8d-8f66-421d-bf63-f7c8e6aa98f8",
+      "width": 0,
+      "x": -1394,
+      "y": 583,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1036,46 +1036,6 @@
       ]
     },
     {
-      "name": "BackgroundLevel2",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\backgrounds\\hope these ones will work\\lvl2b.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Background_Parallax_Mid",
       "tags": "",
       "type": "Sprite",
@@ -1176,7 +1136,7 @@
           "topEdgeAnchor": 0
         }
       ],
-      "string": "Still the Baltic Sea",
+      "string": "Somewhere in the middle of the ocean",
       "font": "KgCompassionSimpleRegular-p2DD.ttf",
       "characterSize": 250,
       "color": {
@@ -1206,7 +1166,7 @@
           "topEdgeAnchor": 0
         }
       ],
-      "string": "~2000",
+      "string": "",
       "font": "KgCompassionBigRegular-3y0M.ttf",
       "characterSize": 150,
       "color": {
@@ -1364,46 +1324,6 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\nets\\net3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "GeneralNet4",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\nets\\net4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1609,6 +1529,46 @@
           ]
         }
       ]
+    },
+    {
+      "name": "BackgroundLevel3",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\backgrounds\\hope these ones will work\\lvl3b.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -1721,7 +1681,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"SpawnFish\""
+                    "\"StartBubble\""
                   ],
                   "subInstructions": []
                 },
@@ -1732,7 +1692,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"StartBubble\""
+                    "\"FishMovementTimer\""
                   ],
                   "subInstructions": []
                 }
@@ -2436,27 +2396,6 @@
             }
           ],
           "events": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Bottle",
-                "OldBoot",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [],
-          "events": []
         }
       ],
       "parameters": []
@@ -2670,7 +2609,7 @@
               },
               "parameters": [
                 "Bottle",
-                "Electronics1",
+                "Electronics2",
                 "",
                 "",
                 ""
@@ -2706,6 +2645,60 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Bottle",
+            "PlasticBag",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Bottle",
+            "PlasticBag",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "AddForceXY"
+          },
+          "parameters": [
+            "PlasticBag",
+            "Bottle.TopDownMovement::XVelocity()/2",
+            "Bottle.TopDownMovement::YVelocity()/2",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
     }
   ],
   "layers": [

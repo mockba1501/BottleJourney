@@ -927,6 +927,15 @@
         "name": "assets\\electronics\\phone2.2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/backgrounds/hope these ones will work/lvl3b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\backgrounds\\hope these ones will work\\lvl3b.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1396,7 +1405,7 @@
           "relativeToOriginalWindowSize": true
         }
       ],
-      "string": "The bottle was collected out of the ocean",
+      "string": "The bottle got trapped in the net",
       "font": "",
       "characterSize": 30,
       "color": {
@@ -2094,11 +2103,17 @@
       "effects": [],
       "behaviors": [
         {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        },
+        {
           "name": "SineMovement",
           "type": "SineMovement::SineMovement",
           "HorizontalSpeed": 60,
           "VerticalSpeed": 60,
-          "HorizontalDistance": 100,
+          "HorizontalDistance": 0,
           "VerticalDistance": 0,
           "CenterPointX": 0,
           "CenterPointY": 0,
@@ -2116,7 +2131,7 @@
               "timeBetweenFrames": 0.20000000298023224,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\other objects\\plasticbag1.png",
                   "points": [],
                   "originPoint": {
@@ -2130,10 +2145,47 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 109.80001831054688,
+                        "y": 5.699999809265137
+                      },
+                      {
+                        "x": 199.4000244140625,
+                        "y": 35.30000686645508
+                      },
+                      {
+                        "x": 182.60003662109375,
+                        "y": 272.9000244140625
+                      },
+                      {
+                        "x": 113.80001831054688,
+                        "y": 162.50001525878906
+                      }
+                    ],
+                    [
+                      {
+                        "x": 17,
+                        "y": 61.70000076293945
+                      },
+                      {
+                        "x": 109,
+                        "y": 2.5000336170196533
+                      },
+                      {
+                        "x": 112.20001220703125,
+                        "y": 155.3000030517578
+                      },
+                      {
+                        "x": 33,
+                        "y": 242.50001525878906
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\other objects\\plasticbag2.png",
                   "points": [],
                   "originPoint": {
@@ -2147,7 +2199,300 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 109.80001831054688,
+                        "y": 5.699999809265137
+                      },
+                      {
+                        "x": 199.4000244140625,
+                        "y": 35.30000686645508
+                      },
+                      {
+                        "x": 182.60003662109375,
+                        "y": 272.9000244140625
+                      },
+                      {
+                        "x": 113.80001831054688,
+                        "y": 162.50001525878906
+                      }
+                    ],
+                    [
+                      {
+                        "x": 17,
+                        "y": 61.70000076293945
+                      },
+                      {
+                        "x": 109,
+                        "y": 2.5000336170196533
+                      },
+                      {
+                        "x": 112.20001220703125,
+                        "y": 155.3000030517578
+                      },
+                      {
+                        "x": 33,
+                        "y": 242.50001525878906
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StartBtn",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\startmenu\\startbutton.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 121.5,
+                        "y": 53.59999465942383
+                      },
+                      {
+                        "x": 219.9000244140625,
+                        "y": 59.20000076293945
+                      },
+                      {
+                        "x": 273.5,
+                        "y": 140.00001525878906
+                      },
+                      {
+                        "x": 245.5,
+                        "y": 215.1999969482422
+                      },
+                      {
+                        "x": 135.10000610351562,
+                        "y": 244.00001525878906
+                      },
+                      {
+                        "x": 37.5,
+                        "y": 159.1999969482422
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\startmenu\\startbutton2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 121.5,
+                        "y": 53.59999465942383
+                      },
+                      {
+                        "x": 219.9000244140625,
+                        "y": 59.20000076293945
+                      },
+                      {
+                        "x": 273.5,
+                        "y": 140.00001525878906
+                      },
+                      {
+                        "x": 245.5,
+                        "y": 215.1999969482422
+                      },
+                      {
+                        "x": 135.10000610351562,
+                        "y": 244.00001525878906
+                      },
+                      {
+                        "x": 37.5,
+                        "y": 159.1999969482422
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\startmenu\\startbutton3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 121.5,
+                        "y": 53.59999465942383
+                      },
+                      {
+                        "x": 219.9000244140625,
+                        "y": 59.20000076293945
+                      },
+                      {
+                        "x": 273.5,
+                        "y": 140.00001525878906
+                      },
+                      {
+                        "x": 245.5,
+                        "y": 215.1999969482422
+                      },
+                      {
+                        "x": 135.10000610351562,
+                        "y": 244.00001525878906
+                      },
+                      {
+                        "x": 37.5,
+                        "y": 159.1999969482422
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GeneralNet4",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Danger",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 1,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;116;116"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\nets\\net4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1987.0001220703125,
+                        "y": 172.50003051757812
+                      },
+                      {
+                        "x": 1887.0001220703125,
+                        "y": 832.5
+                      },
+                      {
+                        "x": 1507,
+                        "y": 900.5
+                      },
+                      {
+                        "x": 851.0000610351562,
+                        "y": 824.4999389648438
+                      },
+                      {
+                        "x": 547.0000610351562,
+                        "y": 612.5000610351562
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -2227,6 +2572,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/turtle"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/buttons"
     }
   ],
   "eventsFunctionsExtensions": [

@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.15069497699736095,
+    "zoomFactor": 0.1256949769973609,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -196,8 +196,8 @@
       "name": "Bottle",
       "persistentUuid": "5e5b2d7f-37ef-4a47-a533-2fe4b74350c2",
       "width": 0,
-      "x": 60,
-      "y": 44,
+      "x": 83.30001831054688,
+      "y": 151.39999389648438,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -276,8 +276,8 @@
       "name": "Octopos",
       "persistentUuid": "ac29067c-7e5f-40cc-845c-22956e75f8d9",
       "width": 0,
-      "x": 1786,
-      "y": 1542,
+      "x": 1472,
+      "y": 1346,
       "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
@@ -292,8 +292,8 @@
       "name": "LeftFishSpwaner",
       "persistentUuid": "48d2825a-9aee-4dd4-b4fd-6041719fd2e5",
       "width": 0,
-      "x": -591,
-      "y": 499,
+      "x": -318,
+      "y": 166,
       "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
@@ -537,6 +537,54 @@
       "x": 2063,
       "y": 455,
       "zOrder": 65,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 303.61724853515625,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Electronics1",
+      "persistentUuid": "4f56ddcd-9b61-44d3-83cf-cea181a093ef",
+      "width": 0,
+      "x": 2931,
+      "y": 1616,
+      "zOrder": 66,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 341.75189208984375,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Electronics1",
+      "persistentUuid": "35e8fa3a-066c-449f-a86f-823af2e9cf39",
+      "width": 0,
+      "x": 774,
+      "y": 1357,
+      "zOrder": 67,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "locked": false,
+      "name": "SeaBed",
+      "persistentUuid": "cfd191ee-1f07-4f58-ae62-936f36bc03c0",
+      "width": 3913,
+      "x": -38,
+      "y": 2175,
+      "zOrder": 68,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1237,7 +1285,21 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Danger",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 1,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;116;116"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -1266,38 +1328,34 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 506.00006103515625,
-                        "y": 808.666748046875
+                        "x": 632.5000610351562,
+                        "y": 769.5000610351562
                       },
                       {
-                        "x": 1119.333251953125,
-                        "y": 264.66668701171875
+                        "x": 1108.5,
+                        "y": 329.5000305175781
                       },
                       {
-                        "x": 1314,
-                        "y": 798
-                      },
-                      {
-                        "x": 1018,
-                        "y": 899.3333129882812
+                        "x": 1280.5,
+                        "y": 973.5
                       }
                     ],
                     [
                       {
-                        "x": 1292.6666259765625,
-                        "y": 800.6666870117188
+                        "x": 1236.4998779296875,
+                        "y": 917.5000610351562
                       },
                       {
                         "x": 2023.33349609375,
                         "y": 1781.9998779296875
                       },
                       {
-                        "x": 1551.333251953125,
-                        "y": 1710
+                        "x": 1596.4998779296875,
+                        "y": 1665.5
                       },
                       {
-                        "x": 911.3333129882812,
-                        "y": 843.3333129882812
+                        "x": 948.5000610351562,
+                        "y": 785.5001220703125
                       }
                     ]
                   ]
@@ -1349,52 +1407,26 @@
       ]
     },
     {
-      "name": "GeneralNet4",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\nets\\net4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Electronics1",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Danger",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 1,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;116;116"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "RectangularMovement",
@@ -1553,6 +1585,18 @@
             {
               "type": {
                 "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "BaconDish",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "EnableEffect"
               },
               "parameters": [
@@ -1565,12 +1609,36 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Opacity"
+                "value": "EnableEffect"
               },
               "parameters": [
-                "BaconDish",
-                "=",
-                "0"
+                "Electronics1",
+                "\"Danger\"",
+                "no"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "GeneralNet2",
+                "\"Danger\"",
+                "no"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "GeneralNet4",
+                "\"Danger\"",
+                "no"
               ],
               "subInstructions": []
             }
@@ -1611,7 +1679,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"SpawnFish\""
+                    "\"FishMovementTimer\""
                   ],
                   "subInstructions": []
                 },
@@ -2593,6 +2661,224 @@
             }
           ],
           "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Electronics1",
+                "Bottle",
+                "400",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "Electronics1",
+                "\"Danger\"",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Electronics1",
+                "Bottle",
+                "400",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "Electronics1",
+                "\"Danger\"",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Distance"
+              },
+              "parameters": [
+                "GeneralNet2",
+                "Bottle",
+                "1000",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "GeneralNet2",
+                "\"Danger\"",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "GeneralNet2",
+                "Bottle",
+                "1000",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "GeneralNet2",
+                "\"Danger\"",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Distance"
+              },
+              "parameters": [
+                "GeneralNet4",
+                "Bottle",
+                "1500",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "GeneralNet4",
+                "\"Danger\"",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "GeneralNet4",
+                "Bottle",
+                "1500",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "GeneralNet4",
+                "\"Danger\"",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Buttons",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Buttons"
         }
       ],
       "parameters": []

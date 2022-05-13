@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.17002171871661698,
+    "zoomFactor": 0.12002171871661699,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -573,6 +573,22 @@
       "x": 450,
       "y": 900,
       "zOrder": 303,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "locked": false,
+      "name": "SeaBed",
+      "persistentUuid": "faab7dd5-caa7-4b91-89fd-775ae973c4a7",
+      "width": 3865,
+      "x": -5,
+      "y": 1098,
+      "zOrder": 304,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
