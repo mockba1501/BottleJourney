@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.17499999999999935,
+    "zoomFactor": 0.3249999999999994,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1415,6 +1415,22 @@
       "x": 518,
       "y": 339,
       "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "c15088c8-5a2f-4de8-b52d-6b58ed86bd54",
+      "width": 0,
+      "x": 2757,
+      "y": -3,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
