@@ -936,6 +936,60 @@
         "name": "assets\\backgrounds\\hope these ones will work\\lvl3b.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI/textboxUI.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\textboxUI.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI/bubblesUI.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\bubblesUI.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/backgrounds/hope these ones will work/lvl4b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\backgrounds\\hope these ones will work\\lvl4b.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/electronics/phone3.1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\electronics\\phone3.1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/electronics/phone3.2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\electronics\\phone3.2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/backgrounds/hope these ones will work/background1.1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\backgrounds\\hope these ones will work\\background1.1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1062,7 +1116,7 @@
       ]
     },
     {
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "StaminaTxt",
       "smoothed": true,
@@ -1082,13 +1136,13 @@
           "topEdgeAnchor": 1
         }
       ],
-      "string": "Stamina:",
-      "font": "",
-      "characterSize": 20,
+      "string": "500",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 50,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 82,
+        "g": 59,
+        "r": 55
       }
     },
     {
@@ -1207,8 +1261,8 @@
         }
       ],
       "string": "Health: 100",
-      "font": "",
-      "characterSize": 20,
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 40,
       "color": {
         "b": 255,
         "g": 255,
@@ -1405,9 +1459,9 @@
           "relativeToOriginalWindowSize": true
         }
       ],
-      "string": "The bottle got trapped in the net",
-      "font": "",
-      "characterSize": 30,
+      "string": "Joe got trapped in the net",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 120,
       "color": {
         "b": 255,
         "g": 255,
@@ -2860,6 +2914,174 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\electronics\\phone2.2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electronics3",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Danger",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 1,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;116;116"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "RectangularMovement",
+          "type": "RectangularMovement::RectangularMovement",
+          "HorizontalSpeed": 100,
+          "VerticalSpeed": 50,
+          "HorizontalDistance": 0,
+          "VerticalDistance": 300,
+          "CenterPointX": 0,
+          "CenterPointY": 0,
+          "ProgressX": 0,
+          "ProgressY": 0,
+          "RectangularCounter": 0,
+          "ConstantSpeed": false,
+          "CounterClockwise": false,
+          "CurrentDirection": ""
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.20000000298023224,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\electronics\\phone3.1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\electronics\\phone3.2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TextBox",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\UI\\textboxUI.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BubbleCount",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\UI\\bubblesUI.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

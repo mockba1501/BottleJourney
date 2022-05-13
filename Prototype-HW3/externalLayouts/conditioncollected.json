@@ -4,22 +4,6 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": true,
-      "height": 356,
-      "layer": "UI",
-      "locked": false,
-      "name": "NewPanelSprite",
-      "persistentUuid": "118cb88e-0f0d-432f-aa4e-a10aa5498451",
-      "width": 731,
-      "x": 39,
-      "y": 111,
-      "zOrder": 31,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "UI",
@@ -27,8 +11,8 @@
       "name": "ConditionCollectedText",
       "persistentUuid": "68894c59-4178-49e7-99d2-eaa009c766e6",
       "width": 0,
-      "x": 121,
-      "y": 254,
+      "x": 500,
+      "y": 403,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -45,7 +29,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5499999999999996,
+    "zoomFactor": 0.3749999999999995,
     "windowMask": false
   }
 }

@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3249999999999994,
+    "zoomFactor": 0.17499999999999935,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -36,9 +36,1385 @@
       "name": "WinMessage",
       "persistentUuid": "54924c58-f4af-4a3d-bb3b-78725c329876",
       "width": 0,
-      "x": 372,
-      "y": 520,
+      "x": 474.44842529296875,
+      "y": 755,
       "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": true,
+      "name": "Background",
+      "persistentUuid": "cc2b0a94-9679-4044-8e27-622ef6fd8aad",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Bottle",
+      "persistentUuid": "970d67b4-b16b-45b7-8337-8a986293f8e3",
+      "width": 0,
+      "x": 87.30001831054688,
+      "y": 477.3999938964844,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 58,
+      "layer": "",
+      "locked": true,
+      "name": "Obstacle",
+      "persistentUuid": "ec0358f6-31ed-45d0-b99d-199c64a1bfa6",
+      "width": 4058,
+      "x": -169,
+      "y": 1082,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 2217,
+      "layer": "",
+      "locked": true,
+      "name": "Obstacle",
+      "persistentUuid": "bd294830-bbcd-4e16-9cdb-b5b36f4a530b",
+      "width": 84,
+      "x": -88,
+      "y": -18,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 58,
+      "layer": "",
+      "locked": true,
+      "name": "Obstacle",
+      "persistentUuid": "7c99ced5-4f20-44da-bbbe-0883b6bf70fa",
+      "width": 4058,
+      "x": -136,
+      "y": -61,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 2217,
+      "layer": "",
+      "locked": true,
+      "name": "Obstacle",
+      "persistentUuid": "9825bc93-9ef4-4beb-82d6-2143e20aa1db",
+      "width": 84,
+      "x": 3842,
+      "y": -18,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Electronics3",
+      "persistentUuid": "f2ca314d-7a3b-4528-b198-686a30862ef4",
+      "width": 0,
+      "x": 717.4484252929688,
+      "y": 643,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "PlasticBag",
+      "persistentUuid": "b6056e44-b38c-42bb-a773-32c4c7233468",
+      "width": 0,
+      "x": 624.4484252929688,
+      "y": 866,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1080,
+      "layer": "Parallex1",
+      "locked": false,
+      "name": "p1_lvl1",
+      "persistentUuid": "9caf96c4-1bb1-44bf-a773-92b426ed090c",
+      "width": 3840,
+      "x": -1230,
+      "y": 0,
+      "zOrder": -3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Parallex2",
+      "locked": false,
+      "name": "p2_lvl1",
+      "persistentUuid": "3a4a23c3-b189-4049-a30d-bdc771c26ecd",
+      "width": 0,
+      "x": -1209,
+      "y": 0,
+      "zOrder": -3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1080,
+      "layer": "Parallex1",
+      "locked": false,
+      "name": "p1_lvl1",
+      "persistentUuid": "a6a44970-a301-4df7-9ef8-028654ba3660",
+      "width": 3840,
+      "x": 2563,
+      "y": 0,
+      "zOrder": -3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Parallex2",
+      "locked": false,
+      "name": "p2_lvl1",
+      "persistentUuid": "9bf15511-d3fc-4fe3-87d0-1c450165503c",
+      "width": 0,
+      "x": 2532,
+      "y": 0,
+      "zOrder": -3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 59.5399055480957,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Electronics1",
+      "persistentUuid": "16edd227-53e4-491f-b38e-7956d215218c",
+      "width": 0,
+      "x": 859.4484252929688,
+      "y": 976,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 86.1947021484375,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Electronics2",
+      "persistentUuid": "834660c6-ba7f-464c-80df-e8ccc6ca24d8",
+      "width": 0,
+      "x": 314.44842529296875,
+      "y": 752,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 254.4366455078125,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "PlasticBag",
+      "persistentUuid": "68ef7f2a-aa31-46b5-bed4-2b6dc2c77b80",
+      "width": 0,
+      "x": 938.4203491210938,
+      "y": 688.3585205078125,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 378,
+      "layer": "",
+      "locked": false,
+      "name": "PlasticBag",
+      "persistentUuid": "79d028a4-f386-41fa-887c-3bdc4af0fe2d",
+      "width": 302.3999938964844,
+      "x": 1337.04833984375,
+      "y": 671,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "PlasticBag",
+      "persistentUuid": "bc42d727-9ebe-40bc-8124-25413e94c1d1",
+      "width": 0,
+      "x": 1124.4483642578125,
+      "y": 1030,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 26.897048950195312,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Electronics2",
+      "persistentUuid": "cb53c695-a65b-40ac-84f9-8f4e25b05c26",
+      "width": 0,
+      "x": 615.2013549804688,
+      "y": 886.4874267578125,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 130.22267150878906,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Electronics3",
+      "persistentUuid": "cc088224-c64f-4ff2-a80f-207858528a5c",
+      "width": 0,
+      "x": 348.81072998046875,
+      "y": 981.6278686523438,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Electronics3",
+      "persistentUuid": "7d175db7-5be9-4d4a-a7c5-2de14773d232",
+      "width": 0,
+      "x": 1725.8968505859375,
+      "y": 680,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 86.1947021484375,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Electronics2",
+      "persistentUuid": "57016956-2156-4e7a-bb5a-493e09b275d8",
+      "width": 0,
+      "x": 1334.8968505859375,
+      "y": 1009,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 26.897048950195312,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Electronics2",
+      "persistentUuid": "099ac954-e067-4dbc-96a1-c93e9db66b61",
+      "width": 0,
+      "x": 1455.745361328125,
+      "y": 930.4874267578125,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 59.5399055480957,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Electronics1",
+      "persistentUuid": "8171f029-5054-4cd3-8f13-993f6d978ab3",
+      "width": 0,
+      "x": 1668.296875,
+      "y": 848.9761962890625,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 130.22267150878906,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Electronics3",
+      "persistentUuid": "17a27b4b-725c-4071-84d6-a59d442a9740",
+      "width": 0,
+      "x": 1157.6591796875,
+      "y": 854.6041259765625,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "PlasticBag",
+      "persistentUuid": "0c681262-dc29-469c-88b6-44dc5e1e4030",
+      "width": 0,
+      "x": 1433.296875,
+      "y": 738.9761962890625,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 254.4366455078125,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "PlasticBag",
+      "persistentUuid": "a265824d-40bd-4d01-8346-7d88dd8c5392",
+      "width": 0,
+      "x": 1958.8687744140625,
+      "y": 945.3585205078125,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "PlasticBag",
+      "persistentUuid": "4f36feed-eca7-4e4a-a3c2-4eced965ec69",
+      "width": 0,
+      "x": 1953.296875,
+      "y": 679,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 378,
+      "layer": "",
+      "locked": false,
+      "name": "PlasticBag",
+      "persistentUuid": "00d694e7-388e-4d4c-b49e-73a4cfcde93a",
+      "width": 302.3999938964844,
+      "x": 2189.89697265625,
+      "y": 748,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 284.2343444824219,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "eb5dd156-416c-41a8-9ab5-76a814324424",
+      "width": 0,
+      "x": 734.0133056640625,
+      "y": -46.61405944824219,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 30.277748107910156,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "6288835b-0694-43d1-813e-1664dd24ef0c",
+      "width": 0,
+      "x": 768.0133056640625,
+      "y": 142.6140594482422,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 337.57208251953125,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "e851a065-a22c-4165-921c-593b87158cd5",
+      "width": 0,
+      "x": 1018.9147338867188,
+      "y": 44.74429702758789,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 104.0494155883789,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "PlasticBag",
+      "persistentUuid": "9a829fd6-27e1-4cd9-a73f-cc75ab1bde1f",
+      "width": 0,
+      "x": 1236,
+      "y": 16,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 30.88709831237793,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "ef571a1c-072f-4668-9ed7-5d0c514c0ae0",
+      "width": 0,
+      "x": 1569.6517333984375,
+      "y": 160.3651885986328,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 284.2343444824219,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "ae160f6e-a213-441a-9063-6a19942a7fb8",
+      "width": 0,
+      "x": 1585.9866943359375,
+      "y": -63.38594055175781,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 30.277748107910156,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "36e7bace-9fb1-4fb8-a2aa-92cb4ce8e015",
+      "width": 0,
+      "x": 597.9566040039062,
+      "y": 668.2373657226562,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 337.57208251953125,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "74ec4243-5b4e-41d5-98b8-ba964f624d6a",
+      "width": 0,
+      "x": 1769.88818359375,
+      "y": 189.972412109375,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 337.57208251953125,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "ab96d814-2189-4066-98f4-920e614a3f48",
+      "width": 0,
+      "x": 1870.88818359375,
+      "y": 27.972415924072266,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 233.59291076660156,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "PlasticBag",
+      "persistentUuid": "2934ced7-c1fd-494f-ac4b-8d3afeccdf5e",
+      "width": 0,
+      "x": 2087.973388671875,
+      "y": -0.7718803882598877,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 192.6516571044922,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "6219013a-bf4c-4a3c-a32f-b9f19920d634",
+      "width": 0,
+      "x": 2033.9146728515625,
+      "y": 311.7442932128906,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 284.2343444824219,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "3155b493-dc0e-479f-abea-64848715ec97",
+      "width": 0,
+      "x": 2453.98681640625,
+      "y": 23.614059448242188,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 337.57208251953125,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "4d5f4342-14f9-4efa-9537-e402241b44ac",
+      "width": 0,
+      "x": 2275.085205078125,
+      "y": 255.25570678710938,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 102.85713958740234,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "PlasticBag",
+      "persistentUuid": "5e9cd45f-fbf6-402a-890d-4d95310102c1",
+      "width": 0,
+      "x": 2955.973388671875,
+      "y": 86.22810363769531,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 337.57208251953125,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "6431a550-b1ca-4b7e-92d4-954a589e40c2",
+      "width": 0,
+      "x": 3169.88818359375,
+      "y": 198.972412109375,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 284.2343444824219,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "878733c6-eb2a-4de3-9490-8deb1617b255",
+      "width": 0,
+      "x": 1188.0133056640625,
+      "y": -58.38594055175781,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 30.277748107910156,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "c491007b-10fe-431d-948c-e440a7ebf6ce",
+      "width": 0,
+      "x": 1222.0133056640625,
+      "y": 130.84217834472656,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 337.57208251953125,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "34258704-7736-47a4-bcb0-fad625327f40",
+      "width": 0,
+      "x": 1371.914794921875,
+      "y": 194.97242736816406,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 337.57208251953125,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "13cfe5c0-a09e-4321-afbb-ff4306db6b20",
+      "width": 0,
+      "x": 1472.9146728515625,
+      "y": 32.97241973876953,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "PlasticBag",
+      "persistentUuid": "20fe155d-5f8a-4ad4-b2e3-f259b07d5118",
+      "width": 0,
+      "x": 1602,
+      "y": 260,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 88.99000549316406,
+      "customSize": true,
+      "height": 224.71963500976562,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "8075e8c1-6b88-431c-b4f6-6d2368252697",
+      "width": 102.63636779785156,
+      "x": 1999.9287109375,
+      "y": 165.34942626953125,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 284.2343444824219,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "dcbe438d-2998-476f-ba5a-5eaea23ed4dd",
+      "width": 0,
+      "x": 3002.98681640625,
+      "y": -71.38594055175781,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 30.277748107910156,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "0de456ff-70e3-4735-b6d8-c28a508ff810",
+      "width": 0,
+      "x": 3036.98681640625,
+      "y": 117.8421859741211,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 337.57208251953125,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "a52dbad9-cd01-4f9f-abf0-3aa0e72218db",
+      "width": 0,
+      "x": 3186.88818359375,
+      "y": 181.972412109375,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 337.57208251953125,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "6d74e304-8762-484d-b243-932af374aabd",
+      "width": 0,
+      "x": 3287.88818359375,
+      "y": 19.972427368164062,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "PlasticBag",
+      "persistentUuid": "09cec0c0-6103-4ed4-8bb3-2046145a4ffb",
+      "width": 0,
+      "x": 3504.973388671875,
+      "y": -8.771880149841309,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 337.57208251953125,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "1b2fb137-9dde-48c3-ad15-f2dbc338d716",
+      "width": 0,
+      "x": 3718.88818359375,
+      "y": 103.97241973876953,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 284.2343444824219,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "cfd94007-f22d-4f52-b3de-7155835fcdbe",
+      "width": 0,
+      "x": 2168.013427734375,
+      "y": 37.61405944824219,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 337.57208251953125,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "2c197d6f-2842-48dd-be99-5419a391f048",
+      "width": 0,
+      "x": 2452.914794921875,
+      "y": 128.972412109375,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "PlasticBag",
+      "persistentUuid": "bf8e42c8-4b10-44dd-953f-d316e17791eb",
+      "width": 0,
+      "x": 2670.000244140625,
+      "y": 100.22810363769531,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 337.57208251953125,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "d505002a-8ffe-475a-9fda-05bd5477f4a4",
+      "width": 0,
+      "x": 1763.1580810546875,
+      "y": 747.7443237304688,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 284.2343444824219,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "7a8453f9-599c-417f-ad2c-dc0ffdcac18c",
+      "width": 0,
+      "x": 1915.2569580078125,
+      "y": 659.385986328125,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 284.2343444824219,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "79cb4b91-3f1f-4b14-ac24-d05ed735fdb2",
+      "width": 0,
+      "x": 2299.257080078125,
+      "y": 893.385986328125,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 30.277748107910156,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "ba98464d-038f-4509-ad1a-96a3dcd1fee4",
+      "width": 0,
+      "x": 1949.2569580078125,
+      "y": 848.6140747070312,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 337.57208251953125,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "3a98acfe-e375-43aa-a404-496eb0cd07cf",
+      "width": 0,
+      "x": 2099.158447265625,
+      "y": 912.7443237304688,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 337.57208251953125,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "5463577e-0ed6-4ecc-b297-f45adc95aab6",
+      "width": 0,
+      "x": 3359.914794921875,
+      "y": 842.2556762695312,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 102.85713958740234,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "PlasticBag",
+      "persistentUuid": "3c5b3fff-6ab7-4db8-ba10-ff1dc5ad250d",
+      "width": 0,
+      "x": 2417.24365234375,
+      "y": 722,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 337.57208251953125,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "989dde89-59ab-489e-b72d-7142a7a19945",
+      "width": 0,
+      "x": 2631.158447265625,
+      "y": 834.7443237304688,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 284.2343444824219,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "29ebca25-b17f-468e-a805-393a833e87b2",
+      "width": 0,
+      "x": 2848.257080078125,
+      "y": 798.3859252929688,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 30.277748107910156,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "3cd90a2c-4606-4f59-98f1-2fb2fd4bfe4c",
+      "width": 0,
+      "x": 2498.257080078125,
+      "y": 753.6140747070312,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 337.57208251953125,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "f66c7039-037f-430a-a16c-dc092447c8c4",
+      "width": 0,
+      "x": 2648.158447265625,
+      "y": 817.7443237304688,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 337.57208251953125,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "b1f63f93-4948-4b7c-b0db-2b2af4bd0476",
+      "width": 0,
+      "x": 2749.158447265625,
+      "y": 655.7443237304688,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "PlasticBag",
+      "persistentUuid": "c98ebe7e-780c-4ca9-bd17-e2e41b737c3a",
+      "width": 0,
+      "x": 2966.24365234375,
+      "y": 627,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 337.57208251953125,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "ebb0bfe0-4982-4f81-b341-20e3b57131bc",
+      "width": 0,
+      "x": 3180.158447265625,
+      "y": 739.7443237304688,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 284.2343444824219,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "51d61a41-c625-4adb-8c1c-9b89b7a9f93e",
+      "width": 0,
+      "x": 1629.2835693359375,
+      "y": 673.385986328125,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 284.2343444824219,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "af6ec6d5-3249-4998-a052-28933b1c708f",
+      "width": 0,
+      "x": 2013.2835693359375,
+      "y": 907.3859252929688,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 30.277748107910156,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "90338084-15a8-4592-a141-81b4a16c8cb0",
+      "width": 0,
+      "x": 1663.2835693359375,
+      "y": 862.6140747070312,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 337.57208251953125,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "a6b785f4-247d-46c5-af56-c85ad1f2c6b5",
+      "width": 0,
+      "x": 1813.1849365234375,
+      "y": 926.7443237304688,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 337.57208251953125,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "e2d0b2f0-c5fc-45d2-8998-acf9483cc1ab",
+      "width": 0,
+      "x": 1914.1849365234375,
+      "y": 764.7443237304688,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "PlasticBag",
+      "persistentUuid": "4d1c85b1-b2b7-44f3-be79-22ae46a8dd66",
+      "width": 0,
+      "x": 2131.2705078125,
+      "y": 736,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 337.57208251953125,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BottleFake",
+      "persistentUuid": "b8eb9f15-ea41-4743-a37f-670735a41894",
+      "width": 0,
+      "x": 2345.18505859375,
+      "y": 848.7443237304688,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "PlasticBag",
+      "persistentUuid": "2f3dbcf8-a8c9-45ee-aeda-1206ca7f011b",
+      "width": 0,
+      "x": 3234.448486328125,
+      "y": 902.7442016601562,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 59.5399055480957,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Electronics1",
+      "persistentUuid": "0b7210ff-f481-42e2-861a-082a4b3c5ef3",
+      "width": 0,
+      "x": 3469.448486328125,
+      "y": 1012.7442016601562,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 86.1947021484375,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Electronics2",
+      "persistentUuid": "de3679ef-b5db-4c74-bf07-f29eb3d9b08a",
+      "width": 0,
+      "x": 2924.448486328125,
+      "y": 788.7442016601562,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 254.4366455078125,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "PlasticBag",
+      "persistentUuid": "b1d7fdba-78c6-465c-9399-7909ef749b16",
+      "width": 0,
+      "x": 3548.42041015625,
+      "y": 725.1027221679688,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 26.897048950195312,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Electronics2",
+      "persistentUuid": "0731618e-e6a8-40b3-aadb-d2908deb8a78",
+      "width": 0,
+      "x": 3225.201416015625,
+      "y": 923.2316284179688,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 130.22267150878906,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Electronics3",
+      "persistentUuid": "83158c7d-52d1-4519-99cd-9bc961240033",
+      "width": 0,
+      "x": 2958.810791015625,
+      "y": 1018.3721313476562,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "SceneTitle",
+      "persistentUuid": "2b668583-511b-429b-9a07-122c4337efed",
+      "width": 0,
+      "x": 518,
+      "y": 339,
+      "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -104,6 +1480,167 @@
           ]
         }
       ]
+    },
+    {
+      "height": 32,
+      "name": "NewTiledSprite",
+      "tags": "",
+      "texture": "",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "name": "Background",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\backgrounds\\hope these ones will work\\lvl4b.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": 1080,
+      "name": "p1_lvl1",
+      "tags": "",
+      "texture": "assets\\backgrounds\\lvl1\\p1.lvl1.1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 3840,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "height": 1080,
+      "name": "p2_lvl1",
+      "tags": "",
+      "texture": "assets\\backgrounds\\lvl1\\p2.lvl1.1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 3840,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "height": 32,
+      "name": "Obstacle",
+      "tags": "",
+      "texture": "NewFile-1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
+        }
+      ]
+    },
+    {
+      "name": "BottleFake",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\bottle\\bottle1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "SceneTitle",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0
+        }
+      ],
+      "string": "North Atlantic\n    ~2300",
+      "font": "KgCompassionSimpleRegular-p2DD.ttf",
+      "characterSize": 200,
+      "color": {
+        "b": 82,
+        "g": 59,
+        "r": 55
+      }
     }
   ],
   "events": [
@@ -128,6 +1665,19 @@
             "value": "CenterWindow"
           },
           "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"UI\"",
+            "",
             ""
           ],
           "subInstructions": []
@@ -162,6 +1712,441 @@
         }
       ],
       "events": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Camera Setup",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "FixCamera"
+              },
+              "parameters": [
+                "",
+                "Bottle",
+                "0",
+                "0",
+                "3840",
+                "1080",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetCameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(Camera.X(),Bottle.X(),0.7)",
+                "\"Parallex1\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetCameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Bottle.X()*0.7",
+                "\"Parallex1\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetCameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Bottle.X()*0.9",
+                "\"Parallex2\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Bottle Behavior",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Bottle"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Winning Destination",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Bottle",
+                "BaconDish",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TiledSpriteObject::SetOpacity"
+              },
+              "parameters": [
+                "BlackFadeOut",
+                "+",
+                "20"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Bubble"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "BubblesEmitter"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Fish"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TiledSpriteObject::Opacity"
+              },
+              "parameters": [
+                "BlackFadeOut",
+                "=",
+                "255"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "transition.wav",
+                "",
+                "50",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Prototype Level 2\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "General Obstacles ",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Bottle",
+                "Electronics3",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Electronics3",
+                "Bottle.TopDownMovement::XVelocity()/2",
+                "Bottle.TopDownMovement::YVelocity()/2",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Bottle",
+                "Electronics3",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Bottle",
+                "PlasticBag",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Bottle",
+                "PlasticBag",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "PlasticBag",
+                "Bottle.TopDownMovement::XVelocity()/2",
+                "Bottle.TopDownMovement::YVelocity()/2",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Bottle",
+                "BottleFake",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Bottle",
+                "BottleFake",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "BottleFake",
+                "Bottle.TopDownMovement::XVelocity()/2",
+                "Bottle.TopDownMovement::YVelocity()/2",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::Opacity"
+          },
+          "parameters": [
+            "SceneTitle",
+            "-",
+            "1"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::Opacity"
+          },
+          "parameters": [
+            "SceneYear",
+            "-",
+            "1"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
     }
   ],
   "layers": [
@@ -186,6 +2171,39 @@
         }
       ],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 117440512,
+      "ambientLightColorG": 6037952,
+      "ambientLightColorR": 10779392,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Parallex2",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 117440512,
+      "ambientLightColorG": 16777216,
+      "ambientLightColorR": 0,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Parallex1",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 134217728,
+      "ambientLightColorG": 6037952,
+      "ambientLightColorR": 9865456,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "UI",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
   "behaviorsSharedData": [
@@ -200,6 +2218,10 @@
     {
       "name": "PathfindingObstacle",
       "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+    },
+    {
+      "name": "RectangularMovement",
+      "type": "RectangularMovement::RectangularMovement"
     },
     {
       "name": "SineMovement",

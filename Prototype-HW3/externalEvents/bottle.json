@@ -176,7 +176,7 @@
               "parameters": [
                 "StaminaTxt",
                 "=",
-                "\"Stamina: \" + ToString(round(GlobalVariable(Stamina)))"
+                "ToString(round(GlobalVariable(Stamina)))"
               ],
               "subInstructions": []
             }
@@ -257,7 +257,7 @@
               "parameters": [
                 "StaminaTxt",
                 "=",
-                "\"Stamina: \" + ToString(round(GlobalVariable(Stamina)))"
+                "ToString(round(GlobalVariable(Stamina)))"
               ],
               "subInstructions": []
             },

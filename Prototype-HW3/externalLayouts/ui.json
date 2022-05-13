@@ -11,8 +11,8 @@
       "name": "HealthTxt",
       "persistentUuid": "4d9e8e09-752b-449f-9573-11efdb682bf6",
       "width": 0,
-      "x": 1756,
-      "y": 63,
+      "x": 1745,
+      "y": 131,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -27,9 +27,25 @@
       "name": "StaminaTxt",
       "persistentUuid": "f4ba8350-4b13-487e-993d-c7874adcc967",
       "width": 0,
-      "x": 1740,
-      "y": 36,
+      "x": 1623,
+      "y": 62,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "BubbleCount",
+      "persistentUuid": "82925ba9-eebe-40ae-a3f3-7b6a1b3abef4",
+      "width": 0,
+      "x": 1572,
+      "y": 11,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -45,7 +61,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3249999999999996,
+    "zoomFactor": 0.3999999999999997,
     "windowMask": false
   }
 }

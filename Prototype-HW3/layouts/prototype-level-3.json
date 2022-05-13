@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.15069497699736095,
+    "zoomFactor": 0.350694976997361,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -326,7 +326,7 @@
       "width": 1552.5113525390625,
       "x": 263,
       "y": 291,
-      "zOrder": 1,
+      "zOrder": 200,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -340,8 +340,8 @@
       "name": "Phrase1",
       "persistentUuid": "ba00c52e-b9e1-4d1d-b51b-638d113e79d5",
       "width": 0,
-      "x": 550,
-      "y": 940,
+      "x": 786,
+      "y": 935,
       "zOrder": 64,
       "numberProperties": [],
       "stringProperties": [],
@@ -573,6 +573,22 @@
       "x": -1394,
       "y": 583,
       "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 317.86627197265625,
+      "layer": "UI",
+      "locked": false,
+      "name": "TextBox",
+      "persistentUuid": "12f3de54-c496-4232-af9c-d728f1051cb8",
+      "width": 1414.30859375,
+      "x": 280.69140625,
+      "y": 796.1337280273438,
+      "zOrder": 63,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1196,9 +1212,9 @@
       "font": "KgCompassionBigRegular-3y0M.ttf",
       "characterSize": 50,
       "color": {
-        "b": 223,
-        "g": 223,
-        "r": 223
+        "b": 82,
+        "g": 59,
+        "r": 55
       }
     },
     {
@@ -1222,9 +1238,9 @@
       "font": "KgCompassionBigRegular-3y0M.ttf",
       "characterSize": 50,
       "color": {
-        "b": 223,
-        "g": 223,
-        "r": 223
+        "b": 82,
+        "g": 59,
+        "r": 55
       }
     },
     {
@@ -1631,7 +1647,7 @@
                   "parameters": [
                     "StaminaTxt",
                     "=",
-                    "\"Stamina: \" + ToString(round(GlobalVariable(Stamina)))"
+                    "ToString(round(GlobalVariable(Stamina)))"
                   ],
                   "subInstructions": []
                 },
@@ -2063,7 +2079,7 @@
               "parameters": [
                 "BlackFadeOut",
                 "+",
-                "20"
+                "0.5"
               ],
               "subInstructions": []
             },
@@ -2101,12 +2117,24 @@
               "parameters": [
                 "BlackFadeOut",
                 "=",
-                "255"
+                "0.5"
               ],
               "subInstructions": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Prototype Level 4\"",
+                ""
+              ],
+              "subInstructions": []
+            },
             {
               "type": {
                 "inverted": false,
@@ -2116,19 +2144,7 @@
                 "",
                 "transition.wav",
                 "",
-                "50",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Prototype Level 4\"",
+                "2",
                 ""
               ],
               "subInstructions": []
@@ -2231,7 +2247,7 @@
                 "",
                 "\"Phrase1\"",
                 ">",
-                "10"
+                "8"
               ],
               "subInstructions": []
             },
@@ -2263,7 +2279,7 @@
               "parameters": [
                 "",
                 "Phrase2",
-                "550",
+                "900",
                 "940",
                 "\"UI\""
               ],
@@ -2295,7 +2311,7 @@
                 "",
                 "\"PhraseDelete\"",
                 ">",
-                "14"
+                "11"
               ],
               "subInstructions": []
             }
@@ -2309,6 +2325,16 @@
               "parameters": [
                 "Phrase2",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TextBox"
               ],
               "subInstructions": []
             }
