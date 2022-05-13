@@ -133,6 +133,10 @@
       "type": "AnchorBehavior::AnchorBehavior"
     },
     {
+      "name": "PathfindingObstacle",
+      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+    },
+    {
       "name": "SineMovement",
       "type": "SineMovement::SineMovement"
     },

@@ -30,7 +30,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 649,
+      "height": 569,
       "layer": "",
       "locked": false,
       "name": "BaconDish",
@@ -1228,309 +1228,6 @@
       }
     },
     {
-      "name": "GeneralNet2",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\nets\\net2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 506.00006103515625,
-                        "y": 808.666748046875
-                      },
-                      {
-                        "x": 1119.333251953125,
-                        "y": 264.66668701171875
-                      },
-                      {
-                        "x": 1314,
-                        "y": 798
-                      },
-                      {
-                        "x": 1018,
-                        "y": 899.3333129882812
-                      }
-                    ],
-                    [
-                      {
-                        "x": 1292.6666259765625,
-                        "y": 800.6666870117188
-                      },
-                      {
-                        "x": 2023.33349609375,
-                        "y": 1781.9998779296875
-                      },
-                      {
-                        "x": 1551.333251953125,
-                        "y": 1710
-                      },
-                      {
-                        "x": 911.3333129882812,
-                        "y": 843.3333129882812
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "GeneralNet3",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\nets\\net3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Electronics1",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "RectangularMovement",
-          "type": "RectangularMovement::RectangularMovement",
-          "HorizontalSpeed": 300,
-          "VerticalSpeed": 50,
-          "HorizontalDistance": 0,
-          "VerticalDistance": 200,
-          "CenterPointX": 0,
-          "CenterPointY": 0,
-          "ProgressX": 0,
-          "ProgressY": 0,
-          "RectangularCounter": 0,
-          "ConstantSpeed": false,
-          "CounterClockwise": false,
-          "CurrentDirection": ""
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.20000000298023224,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\electronics\\phone1.1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 79,
-                        "y": 87.69999694824219
-                      },
-                      {
-                        "x": 133.39999389648438,
-                        "y": 78.90000915527344
-                      },
-                      {
-                        "x": 127.80001831054688,
-                        "y": 230.90000915527344
-                      },
-                      {
-                        "x": 64.60000610351562,
-                        "y": 232.50001525878906
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\electronics\\phone1.2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 79,
-                        "y": 87.69999694824219
-                      },
-                      {
-                        "x": 133.39999389648438,
-                        "y": 78.90000915527344
-                      },
-                      {
-                        "x": 127.80001831054688,
-                        "y": 230.90000915527344
-                      },
-                      {
-                        "x": 64.60000610351562,
-                        "y": 232.50001525878906
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Electronics2",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "RectangularMovement",
-          "type": "RectangularMovement::RectangularMovement",
-          "HorizontalSpeed": 100,
-          "VerticalSpeed": 50,
-          "HorizontalDistance": 0,
-          "VerticalDistance": 300,
-          "CenterPointX": 0,
-          "CenterPointY": 0,
-          "ProgressX": 0,
-          "ProgressY": 0,
-          "RectangularCounter": 0,
-          "ConstantSpeed": false,
-          "CounterClockwise": false,
-          "CurrentDirection": ""
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.20000000298023224,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\electronics\\phone2.1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\electronics\\phone2.2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "BackgroundLevel3",
       "tags": "",
       "type": "Sprite",
@@ -1619,33 +1316,121 @@
                 "\"Game over\""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "EnableEffect"
-              },
-              "parameters": [
-                "Fish",
-                "\"Poison\"",
-                "no"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "BaconDish",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
             }
           ],
           "events": [
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "BaconDish",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Effects",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "EnableEffect"
+                  },
+                  "parameters": [
+                    "Fish",
+                    "\"Poison\"",
+                    "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "EnableEffect"
+                  },
+                  "parameters": [
+                    "Electronics1",
+                    "\"Danger\"",
+                    "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "EnableEffect"
+                  },
+                  "parameters": [
+                    "Electronics2",
+                    "\"Danger\"",
+                    "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "EnableEffect"
+                  },
+                  "parameters": [
+                    "GeneralNet",
+                    "\"Danger\"",
+                    "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "EnableEffect"
+                  },
+                  "parameters": [
+                    "GeneralNet2",
+                    "\"Danger\"",
+                    "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "EnableEffect"
+                  },
+                  "parameters": [
+                    "GeneralNet4",
+                    "\"Danger\"",
+                    "no"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
             {
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
@@ -2278,7 +2063,7 @@
               "parameters": [
                 "BlackFadeOut",
                 "+",
-                "5"
+                "20"
               ],
               "subInstructions": []
             },
@@ -2557,25 +2342,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "General lose conditions",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Lose"
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
       "name": "Turtle Behavior",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2642,56 +2408,94 @@
             }
           ],
           "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Bottle",
+                "PlasticBag",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Bottle",
+                "PlasticBag",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "PlasticBag",
+                "Bottle.TopDownMovement::XVelocity()/2",
+                "Bottle.TopDownMovement::YVelocity()/2",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "parameters": []
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Danger",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "type": {
-            "inverted": false,
-            "value": "CollisionNP"
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
           },
-          "parameters": [
-            "Bottle",
-            "PlasticBag",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
+          "target": "Danger"
         }
       ],
-      "actions": [
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "General lose conditions",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "type": {
-            "inverted": false,
-            "value": "SeparateFromObjects"
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
           },
-          "parameters": [
-            "Bottle",
-            "PlasticBag",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "AddForceXY"
-          },
-          "parameters": [
-            "PlasticBag",
-            "Bottle.TopDownMovement::XVelocity()/2",
-            "Bottle.TopDownMovement::YVelocity()/2",
-            ""
-          ],
-          "subInstructions": []
+          "target": "Lose"
         }
       ],
-      "events": []
+      "parameters": []
     },
     {
       "disabled": true,

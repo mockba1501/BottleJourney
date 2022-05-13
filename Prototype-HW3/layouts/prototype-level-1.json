@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.12002171871661699,
+    "zoomFactor": 0.24502171871661696,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -164,8 +164,8 @@
       "name": "BubblesEmitterBottom",
       "persistentUuid": "e0078353-7320-4188-b771-9ac2a6b678d7",
       "width": 0,
-      "x": 3354.292724609375,
-      "y": 600.2928466796875,
+      "x": 3238.707275390625,
+      "y": 606.2928466796875,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -212,8 +212,8 @@
       "name": "BubblesEmitterBottom",
       "persistentUuid": "34fd13cd-e72c-4ebc-aca1-e180d31dfe5f",
       "width": 0,
-      "x": 3814,
-      "y": 279,
+      "x": 3760,
+      "y": 316,
       "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
@@ -228,25 +228,9 @@
       "name": "BubblesEmitterBottom",
       "persistentUuid": "b3a6bf37-c3e2-4e10-af42-ff3123e99414",
       "width": 0,
-      "x": 2833,
-      "y": 883,
+      "x": 2630,
+      "y": 897,
       "zOrder": 39,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 845,
-      "layer": "",
-      "locked": false,
-      "name": "GeneralNet",
-      "persistentUuid": "f1f99d9c-5fc2-4639-8119-e1063dad7150",
-      "width": 1107,
-      "x": 2787,
-      "y": 192,
-      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -490,8 +474,8 @@
       "name": "BlackFadeOut",
       "persistentUuid": "eca3ca06-448e-458b-9823-b1a18c528ebb",
       "width": 2506,
-      "x": 1615,
-      "y": -179,
+      "x": -418,
+      "y": 1134,
       "zOrder": 300,
       "numberProperties": [],
       "stringProperties": [],
@@ -589,6 +573,22 @@
       "x": -5,
       "y": 1098,
       "zOrder": 304,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "GeneralNet",
+      "persistentUuid": "68e6a280-09cb-45cc-b19e-1546b76cc54c",
+      "width": 0,
+      "x": 2523,
+      "y": 113,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1162,9 +1162,113 @@
                 "0"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "GeneralNet2",
+                "\"Danger\"",
+                "no"
+              ],
+              "subInstructions": []
             }
           ],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Effects",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "EnableEffect"
+                  },
+                  "parameters": [
+                    "Fish",
+                    "\"Poison\"",
+                    "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "EnableEffect"
+                  },
+                  "parameters": [
+                    "Electronics1",
+                    "\"Danger\"",
+                    "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "EnableEffect"
+                  },
+                  "parameters": [
+                    "Electronics2",
+                    "\"Danger\"",
+                    "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "EnableEffect"
+                  },
+                  "parameters": [
+                    "GeneralNet",
+                    "\"Danger\"",
+                    "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "EnableEffect"
+                  },
+                  "parameters": [
+                    "GeneralNet2",
+                    "\"Danger\"",
+                    "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "EnableEffect"
+                  },
+                  "parameters": [
+                    "GeneralNet4",
+                    "\"Danger\"",
+                    "no"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
             {
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
@@ -1706,7 +1810,7 @@
               "parameters": [
                 "BlackFadeOut",
                 "+",
-                "5"
+                "20"
               ],
               "subInstructions": []
             },
@@ -1924,25 +2028,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "Lose Conditions",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Lose"
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
       "name": "Fish Behavior",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1953,6 +2038,44 @@
             "includeConfig": 0
           },
           "target": "Fish"
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Danger",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Danger"
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Lose Conditions",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Lose"
         }
       ],
       "parameters": []
