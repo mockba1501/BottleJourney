@@ -983,17 +983,6 @@
       "behaviors": []
     },
     {
-      "height": 2161,
-      "name": "NewBackground",
-      "tags": "",
-      "texture": "assets\\backgrounds\\lvl1b.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 3841,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
       "bold": false,
       "italic": false,
       "name": "SceneTitle",
