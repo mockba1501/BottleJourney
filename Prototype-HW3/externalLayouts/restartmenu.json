@@ -1,6 +1,6 @@
 {
   "associatedLayout": "Prototype Level 1",
-  "name": "UI",
+  "name": "RestartMenu",
   "instances": [
     {
       "angle": 0,
@@ -8,27 +8,11 @@
       "height": 0,
       "layer": "UI",
       "locked": false,
-      "name": "HealthTxt",
-      "persistentUuid": "4d9e8e09-752b-449f-9573-11efdb682bf6",
+      "name": "RestartLevel",
+      "persistentUuid": "77987d21-5391-42a7-9abe-95c8f53e7c78",
       "width": 0,
-      "x": 1745,
-      "y": 131,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "UI",
-      "locked": false,
-      "name": "StaminaTxt",
-      "persistentUuid": "f4ba8350-4b13-487e-993d-c7874adcc967",
-      "width": 0,
-      "x": 1623,
-      "y": 62,
+      "x": 595,
+      "y": 695,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -40,12 +24,12 @@
       "height": 0,
       "layer": "UI",
       "locked": false,
-      "name": "BubbleCount",
-      "persistentUuid": "82925ba9-eebe-40ae-a3f3-7b6a1b3abef4",
+      "name": "RestartGame",
+      "persistentUuid": "8bfbbc9d-a64a-4388-93d7-06b4d90552fa",
       "width": 0,
-      "x": 1572,
-      "y": 11,
-      "zOrder": 2,
+      "x": 1021,
+      "y": 695,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -61,7 +45,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.24999999999999958,
+    "zoomFactor": 0.3499999999999995,
     "windowMask": false
   }
 }

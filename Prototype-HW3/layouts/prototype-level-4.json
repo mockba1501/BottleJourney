@@ -21,11 +21,22 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3249999999999994,
+    "zoomFactor": 0.12499999999999939,
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "levelStamina",
+      "type": "string",
+      "value": "200"
+    },
+    {
+      "name": "levelName",
+      "type": "string",
+      "value": "Prototype Level 4"
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -1661,73 +1672,101 @@
   ],
   "events": [
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Scene Setup",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "type": {
-            "inverted": false,
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
           ],
-          "subInstructions": []
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
+                "\"UI\"",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CenterWindow"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "SceneInitialization"
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "amb.wav",
+                    "yes",
+                    "25",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "sad.wav",
+                    "yes",
+                    "40",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "CenterWindow"
-          },
-          "parameters": [
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-          },
-          "parameters": [
-            "",
-            "\"UI\"",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "sad.wav",
-            "yes",
-            "40",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "amb.wav",
-            "yes",
-            "25",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
+      "parameters": []
     },
     {
       "colorB": 228,

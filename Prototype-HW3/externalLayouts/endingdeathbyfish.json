@@ -1,0 +1,35 @@
+{
+  "associatedLayout": "Prototype Level 1",
+  "name": "EndingDeathByFish",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "ConditionDeathbyFishText",
+      "persistentUuid": "3129cdde-1754-4450-b8f4-e27ba2d5e098",
+      "width": 0,
+      "x": 115,
+      "y": 481,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.19999999999999937,
+    "windowMask": false
+  }
+}
