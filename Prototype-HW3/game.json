@@ -58,24 +58,6 @@
     "resources": [
       {
         "alwaysLoaded": false,
-        "file": "SeekPng.com_sprite-bottle-png_1729035.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "SeekPng.com_sprite-bottle-png_1729035.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "eeeee.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "eeeee.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "05- Gameplay.jpg",
         "kind": "image",
         "metadata": "",
@@ -104,15 +86,6 @@
           "identifier": "https://resources.gdevelop-app.com/assets/32x32 Pixel art items/Pixel Food/Dishes/Bacon Dish.png",
           "name": "gdevelop-asset-store"
         }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "deeee.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "deeee.png",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -178,15 +151,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "sea.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "sea.jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewFile-2-1.png",
         "kind": "image",
         "metadata": "",
@@ -196,118 +160,12 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "SeekPng.com_sprite-bottle-png_1729035 - Copy.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "SeekPng.com_sprite-bottle-png_1729035 - Copy.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Brown Trout_No Shadow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Brown Trout_No Shadow.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/Brown Trout_No Shadow.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Brown Trout_Shadow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Brown Trout_Shadow.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/Brown Trout_Shadow.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Old Boot_No Shadow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Old Boot_No Shadow.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/Old Boot_No Shadow.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Old Boot_Shadow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Old Boot_Shadow.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/Old Boot_Shadow.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "deepSeaBackground.jpg",
         "kind": "image",
         "metadata": "",
         "name": "deepSeaBackground.jpg",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "deepSeaBackground2.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "deepSeaBackground2.jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "deepSeaBackground3.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "deepSeaBackground3.jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "fish1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "fish1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "shark.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "shark.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ship.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ship.png",
-        "smoothed": true,
-        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -518,15 +376,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/backgrounds/for parallax effect/bigbackground.0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\backgrounds\\for parallax effect\\bigbackground.0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/startmenu/startbutton.png",
         "kind": "image",
         "metadata": "",
@@ -710,15 +559,6 @@
         "userAdded": true
       },
       {
-        "file": "happy.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "happy.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
         "file": "sad.wav",
         "kind": "audio",
         "metadata": "",
@@ -750,15 +590,6 @@
         "kind": "audio",
         "metadata": "",
         "name": "bubble.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "fish.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "fish.wav",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": true
@@ -3419,15 +3250,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/prototype-level-1-old"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/garbage-collector-test"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/fullgameonecompletelevel"
     }
   ],
   "externalEvents": [
