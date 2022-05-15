@@ -1460,21 +1460,7 @@
           "value": true
         }
       ],
-      "effects": [
-        {
-          "effectType": "Glow",
-          "name": "Poison",
-          "doubleParameters": {
-            "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
-          },
-          "stringParameters": {
-            "color": "#ffffff"
-          },
-          "booleanParameters": {}
-        }
-      ],
+      "effects": [],
       "behaviors": [],
       "animations": [
         {
@@ -2848,7 +2834,7 @@
               "timeBetweenFrames": 0.20000000298023224,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\electronics\\phone2.1.png",
                   "points": [],
                   "originPoint": {
@@ -2862,10 +2848,33 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 97.39999389648438,
+                        "y": 78.09999084472656
+                      },
+                      {
+                        "x": 177.39999389648438,
+                        "y": 79.69999694824219
+                      },
+                      {
+                        "x": 199,
+                        "y": 181.3000030517578
+                      },
+                      {
+                        "x": 149.39999389648438,
+                        "y": 297.300048828125
+                      },
+                      {
+                        "x": 51,
+                        "y": 293.300048828125
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\electronics\\phone2.2.png",
                   "points": [],
                   "originPoint": {
@@ -2879,7 +2888,30 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 97.39999389648438,
+                        "y": 78.09999084472656
+                      },
+                      {
+                        "x": 177.39999389648438,
+                        "y": 79.69999694824219
+                      },
+                      {
+                        "x": 199,
+                        "y": 181.3000030517578
+                      },
+                      {
+                        "x": 149.39999389648438,
+                        "y": 297.300048828125
+                      },
+                      {
+                        "x": 51,
+                        "y": 293.300048828125
+                      }
+                    ]
+                  ]
                 }
               ]
             }

@@ -39,7 +39,27 @@
                 "Variable(levelStamina)"
               ],
               "subInstructions": []
-            },
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Stamina",
+                "=",
+                "Variable(levelStamina)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
                 "inverted": false,
@@ -233,18 +253,6 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "EnableEffect"
-              },
-              "parameters": [
-                "Fish",
-                "\"Poison\"",
-                "no"
-              ],
-              "subInstructions": []
-            },
             {
               "type": {
                 "inverted": false,
