@@ -18,246 +18,112 @@
             {
               "type": {
                 "inverted": false,
-                "value": "VarObjetTxt"
+                "value": "ObjectVariableAsBoolean"
               },
               "parameters": [
                 "Fish",
-                "direction",
-                "=",
-                "\"right\""
+                "aLive",
+                "True"
               ],
               "subInstructions": []
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceXY"
-              },
-              "parameters": [
-                "Fish",
-                "-90",
-                "0",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "FlipX"
-              },
-              "parameters": [
-                "Fish",
-                "no"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjetTxt"
-              },
-              "parameters": [
-                "Fish",
-                "direction",
-                "=",
-                "\"left\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceXY"
-              },
-              "parameters": [
-                "Fish",
-                "90",
-                "0",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "FlipX"
-              },
-              "parameters": [
-                "Fish",
-                "yes"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
           "actions": [],
-          "events": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "events": [
             {
-              "type": {
-                "inverted": false,
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"FishMovementTimerRight\"",
-                ">",
-                "RandomInRange(5,10)"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "Fish",
+                    "direction",
+                    "=",
+                    "\"right\""
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"FishMovementTimerLeft\""
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Fish",
+                    "-90",
+                    "0",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Fish",
+                    "no"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "events": []
             },
             {
-              "type": {
-                "inverted": false,
-                "value": "RemoveTimer"
-              },
-              "parameters": [
-                "",
-                "\"FishMovementTimerRight\""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "Fish",
+                    "direction",
+                    "=",
+                    "\"left\""
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Fish",
+                    "90",
+                    "0",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Fish",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
-          ],
-          "events": []
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"FishMovementTimerLeft\"",
-                ">",
-                "RandomInRange(5,10)"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "RemoveTimer"
-              },
-              "parameters": [
-                "",
-                "\"FishMovementTimerLeft\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"FishMovementTimerRight\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
+          ]
         }
       ],
       "parameters": []
-    },
-    {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"FishMovementTimerLeft\"",
-            ">",
-            "RandomInRange(5,10)"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [],
-      "events": []
-    },
-    {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"FishMovementTimerLeft\"",
-            ">",
-            "RandomInRange(5,10)"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [],
-      "events": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
-      "events": []
     },
     {
       "colorB": 228,
@@ -315,7 +181,7 @@
                 "",
                 "Fish",
                 "LeftFishSpwaner.X()",
-                "LeftFishSpwaner.Y()",
+                "LeftFishSpwaner.Y()+RandomInRange(100,300)",
                 ""
               ],
               "subInstructions": []
@@ -349,7 +215,7 @@
                 "",
                 "Fish",
                 "RightFishSpwaner.X()",
-                "RightFishSpwaner.Y()",
+                "RightFishSpwaner.Y()+RandomInRange(100,300)",
                 ""
               ],
               "subInstructions": []
@@ -385,16 +251,121 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
-      "events": []
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Fish Death Behavior",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
-      "events": []
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "Fish",
+            "aLive",
+            "False"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "Fish",
+            "=",
+            "1"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "AddForceVersPos"
+          },
+          "parameters": [
+            "Fish",
+            "Fish.X()",
+            "0",
+            "100",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Fish",
+                "\"FishDeathTimer\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Fish",
+                "\"FishDeathTimer\"",
+                ">",
+                "10"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Fish",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
     }
   ]
 }

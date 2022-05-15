@@ -334,6 +334,18 @@
             {
               "type": {
                 "inverted": false,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Fish",
+                "aLive",
+                "True"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": [],
@@ -381,18 +393,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "EnableEffect"
-              },
-              "parameters": [
-                "Fish",
-                "\"Poison\"",
-                "yes"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "PlaySound"
               },
               "parameters": [
@@ -401,6 +401,18 @@
                 "",
                 "50",
                 "1.4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Fish",
+                "aLive",
+                "False"
               ],
               "subInstructions": []
             }
@@ -440,6 +452,26 @@
               "events": []
             }
           ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "Fish",
+                "\"Poison\"",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",

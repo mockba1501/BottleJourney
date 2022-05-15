@@ -59,6 +59,41 @@
             {
               "type": {
                 "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Health",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "HealthTxt",
+                "=",
+                "ToString(round(GlobalVariable(Health)))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "GameOver",
+                "True"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
               },
               "parameters": [
@@ -174,54 +209,16 @@
                 "3"
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "GameOver",
-                "True"
-              ],
-              "subInstructions": []
             }
           ],
-          "events": []
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "events": [
             {
-              "type": {
-                "inverted": false,
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"DeathByLosingHealth\"",
-                ">",
-                "5"
-              ],
-              "subInstructions": []
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": []
             }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "VariableString(levelName)",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
+          ]
         },
         {
           "disabled": true,

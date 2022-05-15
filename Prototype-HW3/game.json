@@ -875,6 +875,15 @@
         "name": "assets\\UI\\restartLbutton3.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fish/verydeadfish.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fish\\verydeadfish.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1444,6 +1453,11 @@
           "name": "direction",
           "type": "string",
           "value": "left"
+        },
+        {
+          "name": "aLive",
+          "type": "boolean",
+          "value": true
         }
       ],
       "effects": [
@@ -1550,6 +1564,35 @@
                       }
                     ]
                   ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\fish\\verydeadfish.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
