@@ -3282,6 +3282,26 @@
           ]
         }
       ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "SpaceSkip",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Press SPACE to skip",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 25,
+      "color": {
+        "b": 29,
+        "g": 33,
+        "r": 55
+      }
     }
   ],
   "objectsGroups": [],
@@ -3298,6 +3318,11 @@
     },
     {
       "name": "GameOver",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "FontLarge",
       "type": "boolean",
       "value": false
     }
@@ -3326,6 +3351,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/garbage-collector-test"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/options-screen"
     }
   ],
   "externalEvents": [

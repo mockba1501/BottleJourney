@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.350694976997361,
+    "zoomFactor": 0.45069497699736105,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -351,8 +351,8 @@
       "name": "Phrase1",
       "persistentUuid": "ba00c52e-b9e1-4d1d-b51b-638d113e79d5",
       "width": 0,
-      "x": 786,
-      "y": 935,
+      "x": 300,
+      "y": 875,
       "zOrder": 64,
       "numberProperties": [],
       "stringProperties": [],
@@ -597,9 +597,25 @@
       "name": "TextBox",
       "persistentUuid": "12f3de54-c496-4232-af9c-d728f1051cb8",
       "width": 1414.30859375,
-      "x": 280.69140625,
+      "x": 0,
       "y": 796.1337280273438,
       "zOrder": 63,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "SpaceSkip",
+      "persistentUuid": "a79a0a83-e4d6-4d9c-a118-1df50fe07fba",
+      "width": 0,
+      "x": 1167,
+      "y": 1026,
+      "zOrder": 201,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1223,8 +1239,8 @@
       "font": "KgCompassionBigRegular-3y0M.ttf",
       "characterSize": 50,
       "color": {
-        "b": 82,
-        "g": 59,
+        "b": 29,
+        "g": 33,
         "r": 55
       }
     },
@@ -1249,8 +1265,8 @@
       "font": "KgCompassionBigRegular-3y0M.ttf",
       "characterSize": 50,
       "color": {
-        "b": 82,
-        "g": 59,
+        "b": 29,
+        "g": 33,
         "r": 55
       }
     },
@@ -1343,11 +1359,55 @@
               "target": "SceneInitialization"
             },
             {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "FontLarge",
+                    "True"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Text::SetFontSize"
+                  },
+                  "parameters": [
+                    "Phrase1",
+                    "=",
+                    "120"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Text::SetFontSize"
+                  },
+                  "parameters": [
+                    "Phrase2",
+                    "=",
+                    "120"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
               "colorB": 228,
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
               "disabled": true,
+              "folded": true,
               "name": "Initi",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -2262,6 +2322,44 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "name": "Fish Behavior",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Fish"
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Turtle Behavior",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Turtle"
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
       "name": "Phrases",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2278,7 +2376,7 @@
                 "",
                 "\"Phrase1\"",
                 ">",
-                "8"
+                "6"
               ],
               "subInstructions": []
             },
@@ -2310,9 +2408,31 @@
               "parameters": [
                 "",
                 "Phrase2",
-                "900",
-                "940",
+                "300",
+                "875",
                 "\"UI\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "SpaceSkip",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "TextBox",
+                ""
               ],
               "subInstructions": []
             },
@@ -2342,7 +2462,7 @@
                 "",
                 "\"PhraseDelete\"",
                 ">",
-                "11"
+                "10"
               ],
               "subInstructions": []
             }
@@ -2368,47 +2488,170 @@
                 "TextBox"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "SpaceSkip"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "Fish Behavior",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
+        },
         {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Fish"
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "Turtle Behavior",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "GameOver",
+                "True"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TextBox"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Phrase1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Phrase2",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "SpaceSkip"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "RemoveTimer"
+              },
+              "parameters": [
+                "",
+                "\"PhraseDelete\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "RemoveTimer"
+              },
+              "parameters": [
+                "",
+                "\"Phrase1\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
         {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Turtle"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Space"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Phrase1",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Phrase2",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TextBox"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "SpaceSkip"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "parameters": []

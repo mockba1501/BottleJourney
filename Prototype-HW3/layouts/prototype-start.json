@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.16000000000000114,
+    "zoomFactor": 0.41000000000000125,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -101,7 +101,7 @@
       "persistentUuid": "79bfb896-be34-4e81-bb40-f1004b4226f1",
       "width": 2497,
       "x": -102,
-      "y": -295,
+      "y": -2450,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -117,7 +117,7 @@
       "persistentUuid": "05c5f5b6-29c2-4588-9288-723317e3fafc",
       "width": 2294,
       "x": -246,
-      "y": -73,
+      "y": -2228,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -198,9 +198,9 @@
       ]
     },
     {
-      "bold": true,
+      "bold": false,
       "italic": false,
-      "name": "NewText",
+      "name": "SToStart",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -208,13 +208,13 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "A Bottle's Journey",
-      "font": "",
-      "characterSize": 40,
+      "string": "                    Press \"S\" to start !\n\"O\" for options, and \"F\" for free fucks ! ",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 60,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     },
     {
@@ -1391,7 +1391,20 @@
                   "subInstructions": []
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Options Screen\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "events": []
             },
             {
@@ -1425,6 +1438,154 @@
               "events": []
             }
           ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Menu Keyboard Access",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "s"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TiledSpriteObject::SetOpacity"
+              },
+              "parameters": [
+                "BlackFadeOut",
+                "+",
+                "5"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "StartBtn",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "transition.wav",
+                    "",
+                    "50",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "o"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Text::SetFontSize"
+              },
+              "parameters": [
+                "SToStart",
+                "=",
+                "120"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "f"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Text::SetFontSize"
+              },
+              "parameters": [
+                "SToStart",
+                "=",
+                "60"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "parameters": []
@@ -1802,6 +1963,10 @@
     {
       "name": "PathfindingObstacle",
       "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+    },
+    {
+      "name": "RectangularMovement",
+      "type": "RectangularMovement::RectangularMovement"
     },
     {
       "name": "SineMovement",

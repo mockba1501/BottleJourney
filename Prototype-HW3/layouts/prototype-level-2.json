@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.1756949769973609,
+    "zoomFactor": 0.07569497699736091,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -485,8 +485,8 @@
       "name": "Phrase1",
       "persistentUuid": "ba00c52e-b9e1-4d1d-b51b-638d113e79d5",
       "width": 0,
-      "x": 567,
-      "y": 910,
+      "x": 300,
+      "y": 875,
       "zOrder": 64,
       "numberProperties": [],
       "stringProperties": [],
@@ -609,9 +609,25 @@
       "name": "TextBox",
       "persistentUuid": "5b4f8d48-83a3-4295-a2e2-45b1216b7ff0",
       "width": 1414.30859375,
-      "x": 198,
+      "x": 0,
       "y": 792,
       "zOrder": 63,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "SpaceSkip",
+      "persistentUuid": "7da30461-f33a-477b-a743-1349d7ca8b9b",
+      "width": 0,
+      "x": 1166,
+      "y": 1018,
+      "zOrder": 69,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1271,12 +1287,12 @@
           "Interval": 0.03
         }
       ],
-      "string": "                    So much rubbish! Ugh, people..\nEven I know electronic waste in water is a BAD IDEA.",
+      "string": "So much rubbish! Ugh, people..\nEven I know electronic waste in water is a BAD IDEA.",
       "font": "KgCompassionBigRegular-3y0M.ttf",
       "characterSize": 50,
       "color": {
-        "b": 82,
-        "g": 59,
+        "b": 29,
+        "g": 33,
         "r": 55
       }
     },
@@ -1297,12 +1313,12 @@
           "Interval": 0.02
         }
       ],
-      "string": "It poisons everything, and can poison me as well.\n                  I should stay away from it.",
+      "string": "It poisons everything, and can poison me as well.\nI should stay away from it.",
       "font": "KgCompassionBigRegular-3y0M.ttf",
       "characterSize": 50,
       "color": {
-        "b": 82,
-        "g": 59,
+        "b": 29,
+        "g": 33,
         "r": 55
       }
     }
@@ -1754,6 +1770,49 @@
               "parameters": []
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "FontLarge",
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Text::SetFontSize"
+              },
+              "parameters": [
+                "Phrase1",
+                "=",
+                "60"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Text::SetFontSize"
+              },
+              "parameters": [
+                "Phrase2",
+                "=",
+                "60"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "parameters": []
@@ -2345,7 +2404,7 @@
                 "",
                 "\"Phrase1\"",
                 ">",
-                "10"
+                "8"
               ],
               "subInstructions": []
             },
@@ -2377,9 +2436,31 @@
               "parameters": [
                 "",
                 "Phrase2",
-                "600",
-                "890",
+                "300",
+                "875",
                 "\"UI\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "SpaceSkip",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "TextBox",
+                ""
               ],
               "subInstructions": []
             },
@@ -2409,7 +2490,7 @@
                 "",
                 "\"PhraseDelete\"",
                 ">",
-                "14"
+                "12"
               ],
               "subInstructions": []
             }
@@ -2433,6 +2514,167 @@
               },
               "parameters": [
                 "TextBox"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "SpaceSkip"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "GameOver",
+                "True"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TextBox"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Phrase1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Phrase2",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "SpaceSkip"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "RemoveTimer"
+              },
+              "parameters": [
+                "",
+                "\"PhraseDelete\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "RemoveTimer"
+              },
+              "parameters": [
+                "",
+                "\"Phrase1\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Space"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Phrase1",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Phrase2",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TextBox"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "SpaceSkip"
               ],
               "subInstructions": []
             }

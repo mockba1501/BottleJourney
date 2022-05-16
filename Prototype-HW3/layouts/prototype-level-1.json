@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.17002171871661698,
+    "zoomFactor": 0.2950217187166171,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -486,7 +486,7 @@
       "persistentUuid": "eca3ca06-448e-458b-9823-b1a18c528ebb",
       "width": 2506,
       "x": -418,
-      "y": 1134,
+      "y": 2960,
       "zOrder": 300,
       "numberProperties": [],
       "stringProperties": [],
@@ -518,7 +518,7 @@
       "persistentUuid": "6b992220-6dd5-4d55-928d-3589d0df8124",
       "width": 3491,
       "x": -1219,
-      "y": -338,
+      "y": 1488,
       "zOrder": 301,
       "numberProperties": [],
       "stringProperties": [],
@@ -565,8 +565,8 @@
       "name": "Phrase1",
       "persistentUuid": "2d5b2537-d14f-4188-97a6-9f1251b91aca",
       "width": 0,
-      "x": 544,
-      "y": 898,
+      "x": 300,
+      "y": 875,
       "zOrder": 303,
       "numberProperties": [],
       "stringProperties": [],
@@ -613,9 +613,25 @@
       "name": "TextBox",
       "persistentUuid": "28e4cbd3-7441-4650-afd2-2c8246081b55",
       "width": 1414.30859375,
-      "x": 198.69140625,
+      "x": 0,
       "y": 792,
       "zOrder": 302,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "SpaceSkip",
+      "persistentUuid": "00a19040-ca4d-4523-8cec-87755efc6a5b",
+      "width": 0,
+      "x": 1175,
+      "y": 1018,
+      "zOrder": 305,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1076,17 +1092,26 @@
       "effects": [],
       "behaviors": [
         {
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 1,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": false,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 0,
+          "type": "AnchorBehavior::AnchorBehavior"
+        },
+        {
           "name": "Text_AutoTyping",
           "type": "AutoTyping::Text_AutoTyping",
           "Interval": 0.03
         }
       ],
-      "string": "                            Ew! Cold water! How did I get here?\n          I was just having a picnic with a cool bunch on the beach\nMaybe I can find other bottles? I’ve heard about the Garbage Patches.",
+      "string": "Ew! Cold water! How did I get here? I was just having a picnic\nwith a cool bunch on the beach. Maybe I can find other bottles?\nI’ve heard about the Garbage Patches.",
       "font": "KgCompassionBigRegular-3y0M.ttf",
       "characterSize": 40,
       "color": {
-        "b": 82,
-        "g": 59,
+        "b": 29,
+        "g": 33,
         "r": 55
       }
     },
@@ -1107,12 +1132,12 @@
           "Interval": 0.02
         }
       ],
-      "string": "                                                    90% of us end up there.\nIf fish don’t eat you before. Or if you don’t lose air and slowly sink to the seabed. \n                                             Brrr… let’s get out of here. Quick!\n",
+      "string": "90% of us end up there. If fish don’t eat you before,\nOr if you don’t lose air and slowly sink to the seabed. \nBrrr… let’s get out of here. Quick!\n",
       "font": "KgCompassionBigRegular-3y0M.ttf",
       "characterSize": 40,
       "color": {
-        "b": 82,
-        "g": 59,
+        "b": 29,
+        "g": 33,
         "r": 55
       }
     }
@@ -1165,6 +1190,49 @@
               "target": "SceneInitialization"
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "FontLarge",
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Text::SetFontSize"
+              },
+              "parameters": [
+                "Phrase1",
+                "=",
+                "52"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Text::SetFontSize"
+              },
+              "parameters": [
+                "Phrase2",
+                "=",
+                "52"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "parameters": []
@@ -1552,7 +1620,7 @@
                 "",
                 "\"Phrase1\"",
                 ">",
-                "8"
+                "7"
               ],
               "subInstructions": []
             },
@@ -1584,9 +1652,31 @@
               "parameters": [
                 "",
                 "Phrase2",
-                "500",
-                "900",
+                "300",
+                "875",
                 "\"UI\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "TextBox",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "SpaceSkip",
+                ""
               ],
               "subInstructions": []
             },
@@ -1616,7 +1706,7 @@
                 "",
                 "\"PhraseDelete\"",
                 ">",
-                "13"
+                "12"
               ],
               "subInstructions": []
             }
@@ -1625,11 +1715,10 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Delete"
+                "value": "Cache"
               },
               "parameters": [
-                "Phrase2",
-                ""
+                "Phrase2"
               ],
               "subInstructions": []
             },
@@ -1640,6 +1729,16 @@
               },
               "parameters": [
                 "TextBox"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "SpaceSkip"
               ],
               "subInstructions": []
             }
@@ -1704,6 +1803,16 @@
             {
               "type": {
                 "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "SpaceSkip"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "RemoveTimer"
               },
               "parameters": [
@@ -1720,6 +1829,67 @@
               "parameters": [
                 "",
                 "\"Phrase1\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Space"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Phrase1",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Phrase2",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TextBox"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "SpaceSkip"
               ],
               "subInstructions": []
             }
@@ -1773,7 +1943,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Lose Conditions",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1818,12 +1987,6 @@
         }
       ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
-      "events": []
     }
   ],
   "layers": [
