@@ -884,6 +884,51 @@
         "name": "assets\\fish\\verydeadfish.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/backgrounds/lvl1/lvl1.1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\backgrounds\\lvl1\\lvl1.1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "notgrey.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "notgrey.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "grey.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "grey.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/startmenu/fishmenu.1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\startmenu\\fishmenu.1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/startmenu/fishmenu.2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\startmenu\\fishmenu.2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3325,6 +3370,11 @@
       "name": "FontLarge",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "Music",
+      "type": "boolean",
+      "value": true
     }
   ],
   "layouts": [

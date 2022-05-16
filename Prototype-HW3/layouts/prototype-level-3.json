@@ -1359,49 +1359,6 @@
               "target": "SceneInitialization"
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "FontLarge",
-                    "True"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::Text::SetFontSize"
-                  },
-                  "parameters": [
-                    "Phrase1",
-                    "=",
-                    "120"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::Text::SetFontSize"
-                  },
-                  "parameters": [
-                    "Phrase2",
-                    "=",
-                    "120"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
               "colorB": 228,
               "colorG": 176,
               "colorR": 74,
@@ -1769,6 +1726,90 @@
               "parameters": []
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Music",
+                "False"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PauseMusicCanal"
+              },
+              "parameters": [
+                "",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PauseMusicCanal"
+              },
+              "parameters": [
+                "",
+                "3"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "FontLarge",
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Text::SetFontSize"
+              },
+              "parameters": [
+                "Phrase1",
+                "=",
+                "65"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Text::SetFontSize"
+              },
+              "parameters": [
+                "Phrase2",
+                "=",
+                "65"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "parameters": []
@@ -1866,25 +1907,26 @@
             {
               "type": {
                 "inverted": false,
-                "value": "PlaySound"
+                "value": "ResetTimer"
               },
               "parameters": [
                 "",
-                "happy.mp3",
-                "yes",
-                "25",
-                "0.85"
+                "\"Phrase1\""
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "ResetTimer"
+                "value": "PlayMusicCanal"
               },
               "parameters": [
                 "",
-                "\"Phrase1\""
+                "happy.mp3",
+                "yes",
+                "25",
+                "0.85",
+                ""
               ],
               "subInstructions": []
             }
@@ -2376,7 +2418,7 @@
                 "",
                 "\"Phrase1\"",
                 ">",
-                "6"
+                "8"
               ],
               "subInstructions": []
             },
@@ -2462,7 +2504,7 @@
                 "",
                 "\"PhraseDelete\"",
                 ">",
-                "10"
+                "12"
               ],
               "subInstructions": []
             }

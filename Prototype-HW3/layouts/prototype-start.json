@@ -817,11 +817,12 @@
         {
           "type": {
             "inverted": false,
-            "value": "PlaySound"
+            "value": "PlayMusicCanal"
           },
           "parameters": [
             "",
             "amb.wav",
+            "2",
             "",
             "80",
             ""
@@ -831,11 +832,12 @@
         {
           "type": {
             "inverted": false,
-            "value": "PlaySound"
+            "value": "PlayMusicCanal"
           },
           "parameters": [
             "",
             "sad.wav",
+            "1",
             "yes",
             "40",
             ""
@@ -959,6 +961,47 @@
             "BlackFadeIn",
             "-",
             "5"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Music",
+            "False"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "PauseMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PauseMusicCanal"
+          },
+          "parameters": [
+            "",
+            "3"
           ],
           "subInstructions": []
         }
@@ -1544,12 +1587,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "TextObject::Text::SetFontSize"
+                "value": "Scene"
               },
               "parameters": [
-                "SToStart",
-                "=",
-                "120"
+                "",
+                "\"Options Screen\"",
+                ""
               ],
               "subInstructions": []
             }
@@ -1571,20 +1614,7 @@
               "subInstructions": []
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::Text::SetFontSize"
-              },
-              "parameters": [
-                "SToStart",
-                "=",
-                "60"
-              ],
-              "subInstructions": []
-            }
-          ],
+          "actions": [],
           "events": []
         }
       ],
