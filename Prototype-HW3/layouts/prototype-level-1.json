@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3950217187166172,
+    "zoomFactor": 0.27002171871661707,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -635,6 +635,134 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 243.94699096679688,
+      "customSize": true,
+      "height": 391.3708801269531,
+      "layer": "",
+      "locked": false,
+      "name": "BlockTrash",
+      "persistentUuid": "1a36c761-ad8a-4193-a828-76d80af821eb",
+      "width": 660,
+      "x": 377.26171875,
+      "y": -14.271835327148438,
+      "zOrder": 307,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BlockTrash",
+      "persistentUuid": "19fd17f5-bfda-41c4-9576-2fc9739d1937",
+      "width": 0,
+      "x": 435,
+      "y": 687,
+      "zOrder": 308,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 211.67649841308594,
+      "customSize": true,
+      "height": 386.96685791015625,
+      "layer": "",
+      "locked": false,
+      "name": "BlockTrash",
+      "persistentUuid": "97cc8c52-ffa1-47e5-b405-f3d194870aec",
+      "width": 652.5731201171875,
+      "x": 1457.9945068359375,
+      "y": -153.21316528320312,
+      "zOrder": 309,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 144.1669921875,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BlockTrash",
+      "persistentUuid": "4aa663cd-af63-495f-999f-89dbc82f066f",
+      "width": 0,
+      "x": 1902.7196044921875,
+      "y": -275.3648681640625,
+      "zOrder": 310,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Fish",
+      "persistentUuid": "bbe00f6d-2cb4-4cd5-ac95-2a298ce5161c",
+      "width": 0,
+      "x": 1305,
+      "y": 566,
+      "zOrder": 311,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 140,
+      "layer": "",
+      "locked": false,
+      "name": "FishReboundRight",
+      "persistentUuid": "e003b617-df54-49eb-a9cb-8690f24bc5e3",
+      "width": 32,
+      "x": 794,
+      "y": 550,
+      "zOrder": 312,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Fish",
+      "persistentUuid": "d8f0b14a-cd63-4bb0-9990-a0a0bb631743",
+      "width": 0,
+      "x": 901,
+      "y": 560,
+      "zOrder": 311,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 121,
+      "layer": "",
+      "locked": false,
+      "name": "FishReboundLeft",
+      "persistentUuid": "556bf6c6-9372-43e9-9f1b-d4f3f04a4692",
+      "width": 32,
+      "x": 1532,
+      "y": 570,
+      "zOrder": 313,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1179,6 +1307,26 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "FishReboundRight"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "FishReboundLeft"
+              ],
+              "subInstructions": []
             }
           ],
           "events": [
@@ -1273,6 +1421,33 @@
               "subInstructions": []
             }
           ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Fish",
+                "FishReboundRight",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
           "events": []
         }
       ],
@@ -1939,6 +2114,94 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Fish Rebound Movement",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Fish",
+                "FishReboundRight",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "Fish",
+                "direction",
+                "=",
+                "\"left\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Fish",
+                "FishReboundLeft",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "Fish",
+                "direction",
+                "=",
+                "\"right\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
     },
     {
       "colorB": 228,

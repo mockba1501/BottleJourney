@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.45069497699736105,
+    "zoomFactor": 0.2506949769973609,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -493,7 +493,7 @@
       "initialVariables": []
     },
     {
-      "angle": 89.33734893798828,
+      "angle": 287.0581970214844,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -517,8 +517,8 @@
       "name": "Electronics2",
       "persistentUuid": "ee714cd9-a7cd-46e5-9f60-9d3d399a95ff",
       "width": 0,
-      "x": 558,
-      "y": 1853,
+      "x": 1426,
+      "y": 915,
       "zOrder": 73,
       "numberProperties": [],
       "stringProperties": [],
@@ -533,8 +533,8 @@
       "name": "Electronics2",
       "persistentUuid": "c5424cd4-c0e6-4c42-bd53-8136d765049a",
       "width": 0,
-      "x": 282.69122314453125,
-      "y": 1555.4881591796875,
+      "x": 1498.308837890625,
+      "y": 1392.4881591796875,
       "zOrder": 74,
       "numberProperties": [],
       "stringProperties": [],
@@ -616,6 +616,230 @@
       "x": 1167,
       "y": 1026,
       "zOrder": 201,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BlockTrash",
+      "persistentUuid": "50d0839e-2831-4109-a892-3770b7e610bb",
+      "width": 0,
+      "x": 1005,
+      "y": 600,
+      "zOrder": 202,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 218.5049285888672,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BlockTrash",
+      "persistentUuid": "925ba37a-71e4-4a12-a051-7087b1247ae8",
+      "width": 0,
+      "x": 1658.392333984375,
+      "y": 79.7424545288086,
+      "zOrder": 203,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 108.222412109375,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BlockTrash",
+      "persistentUuid": "2770c0f3-643b-45bb-8299-8ea44f51ef40",
+      "width": 0,
+      "x": 1730.540283203125,
+      "y": 909.86474609375,
+      "zOrder": 204,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 34.9483757019043,
+      "customSize": true,
+      "height": 934,
+      "layer": "",
+      "locked": false,
+      "name": "Rope",
+      "persistentUuid": "c6742517-530e-489e-9629-dbc55bcafb1f",
+      "width": 168.5518341064453,
+      "x": 2563.31787109375,
+      "y": 1381.9383544921875,
+      "zOrder": 205,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 96.84708404541016,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BlockTrash",
+      "persistentUuid": "b75418d6-cfd7-4d99-b1e6-fac0fcde58a1",
+      "width": 0,
+      "x": 2574.39697265625,
+      "y": 1186.59326171875,
+      "zOrder": 206,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 137.00128173828125,
+      "customSize": true,
+      "height": 934,
+      "layer": "",
+      "locked": false,
+      "name": "Rope",
+      "persistentUuid": "605156bb-f3df-4a34-8fc8-12bd21389680",
+      "width": 168.5518341064453,
+      "x": 2965.846435546875,
+      "y": 210.02395629882812,
+      "zOrder": 205,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 299.2254943847656,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Electronics2",
+      "persistentUuid": "1c4a6aa8-90ea-4a59-81a8-e1e0edfca112",
+      "width": 0,
+      "x": 3332.939697265625,
+      "y": 858.3987426757812,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 355.037841796875,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BlockTrash",
+      "persistentUuid": "ba48f16b-7fe9-4484-b56b-353eadce96d7",
+      "width": 0,
+      "x": 3002.17333984375,
+      "y": 445.23223876953125,
+      "zOrder": 206,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 320.6093444824219,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Electronics1",
+      "persistentUuid": "02769016-81c9-499a-8d74-6eb33c6c1ab1",
+      "width": 0,
+      "x": 1718,
+      "y": 420,
+      "zOrder": 207,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Electronics1",
+      "persistentUuid": "df402833-e843-400a-a0b2-dafe8a8a75b4",
+      "width": 0,
+      "x": 966,
+      "y": 1114,
+      "zOrder": 208,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 299.2254943847656,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Electronics2",
+      "persistentUuid": "0125314a-5648-4995-9868-0a75aa4a30ac",
+      "width": 0,
+      "x": 2538.939697265625,
+      "y": 245.39874267578125,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Electronics2",
+      "persistentUuid": "055e24ad-a66f-4acf-8317-6c6e347b374b",
+      "width": 0,
+      "x": 2555,
+      "y": 854,
+      "zOrder": 73,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 346.9585266113281,
+      "customSize": true,
+      "height": 270.4312744140625,
+      "layer": "",
+      "locked": false,
+      "name": "PlasticBag",
+      "persistentUuid": "3f967d3f-664d-4273-ad17-7521533df366",
+      "width": 216.3450164794922,
+      "x": 2466.932861328125,
+      "y": 1215.646484375,
+      "zOrder": 68,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 346.9585266113281,
+      "customSize": true,
+      "height": 270.4312744140625,
+      "layer": "",
+      "locked": false,
+      "name": "PlasticBag",
+      "persistentUuid": "9fd5df72-5e51-47c9-9097-358401bf4c8f",
+      "width": 216.3450164794922,
+      "x": 2329.72216796875,
+      "y": 204.64654541015625,
+      "zOrder": 68,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1235,7 +1459,7 @@
           "Interval": 0.03
         }
       ],
-      "string": "Yay! It’s halfway and I’m still alive!",
+      "string": "Yay! It’s halfway and I’m still alive! Keep going, Joe!",
       "font": "KgCompassionBigRegular-3y0M.ttf",
       "characterSize": 50,
       "color": {
@@ -2445,36 +2669,20 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Create"
+                "value": "Cache"
               },
               "parameters": [
-                "",
-                "Phrase2",
-                "300",
-                "875",
-                "\"UI\""
+                "TextBox"
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "Montre"
+                "value": "Cache"
               },
               "parameters": [
-                "SpaceSkip",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "TextBox",
-                ""
+                "SpaceSkip"
               ],
               "subInstructions": []
             },
@@ -2504,7 +2712,7 @@
                 "",
                 "\"PhraseDelete\"",
                 ">",
-                "12"
+                "8"
               ],
               "subInstructions": []
             }
