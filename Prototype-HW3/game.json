@@ -98,19 +98,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Large Hole.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Large Hole.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Rolling Ball Pack/Hole/Large Hole.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Start button.png",
         "kind": "image",
         "metadata": "",
@@ -559,7 +546,7 @@
         "userAdded": true
       },
       {
-        "file": "sad.wav",
+        "file": "audio/sad.wav",
         "kind": "audio",
         "metadata": "",
         "name": "sad.wav",
@@ -568,7 +555,7 @@
         "userAdded": true
       },
       {
-        "file": "happy.mp3",
+        "file": "audio/happy.mp3",
         "kind": "audio",
         "metadata": "",
         "name": "happy.mp3",
@@ -577,7 +564,7 @@
         "userAdded": true
       },
       {
-        "file": "amb.wav",
+        "file": "audio/amb.wav",
         "kind": "audio",
         "metadata": "",
         "name": "amb.wav",
@@ -586,7 +573,7 @@
         "userAdded": true
       },
       {
-        "file": "bubble.wav",
+        "file": "audio/bubble.wav",
         "kind": "audio",
         "metadata": "",
         "name": "bubble.wav",
@@ -595,7 +582,7 @@
         "userAdded": true
       },
       {
-        "file": "fish2.wav",
+        "file": "audio/fish2.wav",
         "kind": "audio",
         "metadata": "",
         "name": "fish2.wav",
@@ -604,7 +591,7 @@
         "userAdded": true
       },
       {
-        "file": "ouch.wav",
+        "file": "audio/ouch.wav",
         "kind": "audio",
         "metadata": "",
         "name": "ouch.wav",
@@ -613,7 +600,7 @@
         "userAdded": true
       },
       {
-        "file": "fish.mp3",
+        "file": "audio/fish.mp3",
         "kind": "audio",
         "metadata": "",
         "name": "fish.mp3",
@@ -622,7 +609,7 @@
         "userAdded": true
       },
       {
-        "file": "transition.wav",
+        "file": "audio/transition.wav",
         "kind": "audio",
         "metadata": "",
         "name": "transition.wav",
@@ -640,7 +627,7 @@
         "userAdded": false
       },
       {
-        "file": "menu.mp3",
+        "file": "audio/menu.mp3",
         "kind": "audio",
         "metadata": "",
         "name": "menu.mp3",
@@ -649,7 +636,7 @@
         "userAdded": true
       },
       {
-        "file": "buttonstart.wav",
+        "file": "audio/buttonstart.wav",
         "kind": "audio",
         "metadata": "",
         "name": "buttonstart.wav",
@@ -658,7 +645,7 @@
         "userAdded": true
       },
       {
-        "file": "buttonhover.wav",
+        "file": "audio/buttonhover.wav",
         "kind": "audio",
         "metadata": "",
         "name": "buttonhover.wav",
@@ -697,7 +684,7 @@
         "userAdded": true
       },
       {
-        "file": "elec.wav",
+        "file": "audio/elec.wav",
         "kind": "audio",
         "metadata": "",
         "name": "elec.wav",

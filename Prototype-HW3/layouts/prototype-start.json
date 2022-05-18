@@ -927,7 +927,7 @@
           "parameters": [
             "BlackFadeOut",
             ">",
-            "4"
+            "3"
           ],
           "subInstructions": []
         }
@@ -1504,7 +1504,7 @@
               },
               "parameters": [
                 "",
-                "s"
+                "Space"
               ],
               "subInstructions": []
             }

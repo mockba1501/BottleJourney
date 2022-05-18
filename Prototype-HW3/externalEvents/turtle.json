@@ -140,35 +140,7 @@
           "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceVers"
-              },
-              "parameters": [
-                "Shark",
-                "BrownTrout",
-                "75",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "RotateTowardPosition"
-              },
-              "parameters": [
-                "Shark",
-                "Center.X()",
-                "Center.Y()",
-                "0",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
+          "actions": [],
           "events": []
         },
         {
