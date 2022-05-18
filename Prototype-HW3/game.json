@@ -925,6 +925,33 @@
         "name": "assets\\UI\\healthUI.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/endings/endingDeadfish.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\endings\\endingDeadfish.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/endings/endingNetshold.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\endings\\endingNetshold.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/endings/endingAnotherlife.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\endings\\endingAnotherlife.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1396,7 +1423,7 @@
       "behaviors": []
     },
     {
-      "bold": true,
+      "bold": false,
       "italic": false,
       "name": "ConditionSeaBedText",
       "smoothed": true,
@@ -1416,17 +1443,17 @@
           "relativeToOriginalWindowSize": true
         }
       ],
-      "string": "The bottle reached the sea bed",
-      "font": "",
-      "characterSize": 30,
+      "string": "70% percent of ocean garbage actually sinks to the seabed, so we’re unlikely to ever be able to clean it up. ",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 70,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 200,
+        "g": 204,
+        "r": 227
       }
     },
     {
-      "bold": true,
+      "bold": false,
       "italic": false,
       "name": "ConditionCollectedText",
       "smoothed": true,
@@ -1446,17 +1473,17 @@
           "relativeToOriginalWindowSize": true
         }
       ],
-      "string": "Joe got trapped in the net",
+      "string": "Fishing nets are made from nylon, a type of plastic. 10,000 of nets are lost or abandoned in the Baltic Sea each year.\n",
       "font": "KgCompassionBigRegular-3y0M.ttf",
-      "characterSize": 120,
+      "characterSize": 70,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 200,
+        "g": 204,
+        "r": 227
       }
     },
     {
-      "bold": true,
+      "bold": false,
       "italic": false,
       "name": "ConditionDeathbyFishText",
       "smoothed": true,
@@ -1476,13 +1503,13 @@
           "relativeToOriginalWindowSize": true
         }
       ],
-      "string": "55% of fish species we eat contain microplastics.",
+      "string": "55% of fish species we eat contain microplastics.\n     Save Joe from all the troubles - RECYCLE!",
       "font": "KgCompassionBigRegular-3y0M.ttf",
-      "characterSize": 120,
+      "characterSize": 70,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 207,
+        "g": 212,
+        "r": 240
       }
     },
     {
@@ -3421,6 +3448,126 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\UI\\healthUI.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "endingDeadfish",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\endings\\endingDeadfish.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "endingFishnet",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\endings\\endingNetshold.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "endingSeaBed",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\endings\\endingAnotherlife.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

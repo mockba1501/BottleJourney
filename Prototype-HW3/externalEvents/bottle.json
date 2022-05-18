@@ -208,7 +208,7 @@
               "parameters": [
                 "Stamina",
                 "<",
-                "500"
+                "Variable(levelStamina)"
               ],
               "subInstructions": []
             }
@@ -245,7 +245,7 @@
               "parameters": [
                 "Stamina",
                 "=",
-                "clamp(GlobalVariable(Stamina)+10,10,500)"
+                "clamp(GlobalVariable(Stamina)+10,10,Variable(levelStamina))"
               ],
               "subInstructions": []
             },
