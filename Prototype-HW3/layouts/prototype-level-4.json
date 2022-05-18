@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.19999999999999937,
+    "zoomFactor": 0.27499999999999936,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -39,12 +39,12 @@
     {
       "name": "levelChannalOneVol",
       "type": "string",
-      "value": "40"
+      "value": "25"
     },
     {
       "name": "levelChannalTwoVol",
       "type": "string",
-      "value": "60"
+      "value": "40"
     },
     {
       "name": "levelNum",
@@ -1524,6 +1524,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 271,
+      "layer": "",
+      "locked": false,
+      "name": "FinalDestination",
+      "persistentUuid": "e0851ab1-d03c-4f03-a98c-57b6f22c7bbb",
+      "width": 84,
+      "x": 3793,
+      "y": 428,
+      "zOrder": 66,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1759,6 +1775,46 @@
         "g": 33,
         "r": 55
       }
+    },
+    {
+      "name": "FinalDestination",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Bacon Dish.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -2101,7 +2157,7 @@
               },
               "parameters": [
                 "Bottle",
-                "BaconDish",
+                "FinalDestination",
                 "",
                 "",
                 ""
@@ -2151,11 +2207,35 @@
                 "Fish"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "GameOver",
+                "True"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LoseBy",
+                "=",
+                "-1"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2515,6 +2595,7 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {

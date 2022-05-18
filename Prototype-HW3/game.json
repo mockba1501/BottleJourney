@@ -17,7 +17,7 @@
     "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "Game Assets",
+    "name": "A Bottle's Journey",
     "description": "",
     "author": "",
     "windowWidth": 1920,
@@ -952,6 +952,42 @@
         "name": "assets\\endings\\endingAnotherlife.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/endings/endingElectronicsjuice.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\endings\\endingElectronicsjuice.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/endings/endingAlgaeinvasion.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\endings\\endingAlgaeinvasion.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/endings/endingTrashmountain.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\endings\\endingTrashmountain.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bacon Dish.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bacon Dish.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1455,6 +1491,36 @@
     {
       "bold": false,
       "italic": false,
+      "name": "ConditionZeroOxygenText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true
+        }
+      ],
+      "string": "Algae bloom in polluted water. They consume oxygen and can cause entire populations of marine life to leave an area or even die.",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 70,
+      "color": {
+        "b": 200,
+        "g": 204,
+        "r": 227
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
       "name": "ConditionCollectedText",
       "smoothed": true,
       "tags": "",
@@ -1504,6 +1570,66 @@
         }
       ],
       "string": "55% of fish species we eat contain microplastics.\n     Save Joe from all the troubles - RECYCLE!",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 70,
+      "color": {
+        "b": 207,
+        "g": 212,
+        "r": 240
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "ConditionDeathbyElectronicsText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true
+        }
+      ],
+      "string": "Toxic chemicals from landfilled e-Waste contaminates ground water and gets into the sea endangering 70% of marine life.\n",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 70,
+      "color": {
+        "b": 207,
+        "g": 212,
+        "r": 240
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "ConditionFinalDestination",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true
+        }
+      ],
+      "string": "Our Joe will be slowly dying for 450 years polluting the surrounding area.\n\nHe dreamed of another life - get recycled and be back on the shelves. Or be turned into a pencil holder. But definitely not this miserable existence.\n\nTo learn more about the Baltic Sea pollution, click HERE.",
       "font": "KgCompassionBigRegular-3y0M.ttf",
       "characterSize": 70,
       "color": {
@@ -3587,6 +3713,126 @@
           ]
         }
       ]
+    },
+    {
+      "name": "endingElectronics",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\endings\\endingElectronicsjuice.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "endingNoOxygen",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\endings\\endingAlgaeinvasion.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "endingTrash",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\endings\\endingTrashmountain.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [],
@@ -3615,6 +3861,11 @@
       "name": "Music",
       "type": "boolean",
       "value": true
+    },
+    {
+      "name": "LoseBy",
+      "type": "string",
+      "value": "1"
     }
   ],
   "layouts": [
@@ -3722,11 +3973,23 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/endingnooxygen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/endinglosestamina"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/endingfishnet"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/endingdeathbyelectronics"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/endingfinaldestination"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

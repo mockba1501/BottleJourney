@@ -1,0 +1,51 @@
+{
+  "associatedLayout": "Prototype Level 1",
+  "name": "EndingFinalDestination",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 570,
+      "layer": "UI",
+      "locked": false,
+      "name": "ConditionFinalDestination",
+      "persistentUuid": "db57b8d2-8da6-4523-8a01-0fb495c0c890",
+      "width": 1379,
+      "x": 304,
+      "y": 124,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "endingTrash",
+      "persistentUuid": "3171e280-cd17-4bec-9519-58a744ae328e",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.19999999999999937,
+    "windowMask": false
+  }
+}

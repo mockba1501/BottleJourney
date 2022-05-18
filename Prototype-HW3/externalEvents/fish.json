@@ -148,7 +148,7 @@
             "",
             "\"FishMovementTimer\"",
             ">",
-            "15"
+            "RandomInRange(5,8) + Variable(levelNum)*5"
           ],
           "subInstructions": []
         }

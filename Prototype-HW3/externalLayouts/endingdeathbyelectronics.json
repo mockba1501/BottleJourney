@@ -1,0 +1,51 @@
+{
+  "associatedLayout": "Prototype Level 1",
+  "name": "EndingDeathByElectronics",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 207,
+      "layer": "UI",
+      "locked": false,
+      "name": "ConditionDeathbyElectronicsText",
+      "persistentUuid": "faef1e20-3370-47c5-857e-fd51a2e2b50e",
+      "width": 1547,
+      "x": 188,
+      "y": 564,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "endingElectronics",
+      "persistentUuid": "b7bb823c-6dd0-40b5-bac9-8a33cf773595",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.3499999999999994,
+    "windowMask": false
+  }
+}

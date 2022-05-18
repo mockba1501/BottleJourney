@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2700217187166171,
+    "zoomFactor": 0.19502171871661714,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -29,7 +29,7 @@
     {
       "name": "levelStamina",
       "type": "string",
-      "value": "50"
+      "value": "500"
     },
     {
       "name": "levelName",

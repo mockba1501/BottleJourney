@@ -190,9 +190,9 @@
       "name": "BubblesEmitterBottom",
       "persistentUuid": "a58d4ff0-5580-4663-a8b3-f6071b8c3fbf",
       "width": 0,
-      "x": 3392,
-      "y": 814,
-      "zOrder": 18,
+      "x": 3242,
+      "y": 706,
+      "zOrder": 80,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -560,8 +560,8 @@
       "name": "GeneralNet4",
       "persistentUuid": "8aa8b0e8-e965-4d93-857c-5226e6e7bab7",
       "width": 0,
-      "x": 2063,
-      "y": 455,
+      "x": 2003,
+      "y": 468,
       "zOrder": 65,
       "numberProperties": [],
       "stringProperties": [],
@@ -2435,6 +2435,7 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {

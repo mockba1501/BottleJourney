@@ -85,7 +85,7 @@
                 "",
                 "\"StartBubble\"",
                 ">",
-                "RandomInRange(5,10)"
+                "RandomInRange(0,3)+Variable(levelNum)*5"
               ],
               "subInstructions": []
             }
