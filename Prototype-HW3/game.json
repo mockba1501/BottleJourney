@@ -3722,11 +3722,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalLayouts/conditionseabed"
+      "referenceTo": "/externalLayouts/endinglosestamina"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalLayouts/conditioncollected"
+      "referenceTo": "/externalLayouts/endingfishnet"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

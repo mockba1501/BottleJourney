@@ -153,6 +153,18 @@
                 "\"Down\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Stamina",
+                ">",
+                "0"
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [

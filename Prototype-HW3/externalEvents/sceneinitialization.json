@@ -467,7 +467,7 @@
                 "sad.wav",
                 "1",
                 "yes",
-                "40",
+                "Variable(levelChannalOneVol)",
                 ""
               ],
               "subInstructions": []
@@ -482,7 +482,7 @@
                 "amb.wav",
                 "2",
                 "yes",
-                "60",
+                "Variable(levelChannalTwoVol)",
                 ""
               ],
               "subInstructions": []

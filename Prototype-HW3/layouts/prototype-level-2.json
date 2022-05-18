@@ -35,6 +35,21 @@
       "name": "levelName",
       "type": "string",
       "value": "Prototype Level 2"
+    },
+    {
+      "name": "levelChannalOneVol",
+      "type": "string",
+      "value": "40"
+    },
+    {
+      "name": "levelChannalTwoVol",
+      "type": "string",
+      "value": "60"
+    },
+    {
+      "name": "levelNum",
+      "type": "string",
+      "value": "2"
     }
   ],
   "instances": [

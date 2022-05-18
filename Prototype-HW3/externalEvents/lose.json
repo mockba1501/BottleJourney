@@ -49,6 +49,18 @@
             {
               "type": {
                 "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Stamina",
+                ">=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": [],
@@ -129,8 +141,8 @@
               },
               "parameters": [
                 "Stamina",
-                "<=",
-                "0"
+                "<",
+                "1"
               ],
               "subInstructions": []
             },
@@ -144,17 +156,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "GameOver",
-                "True"
-              ],
-              "subInstructions": []
-            },
             {
               "type": {
                 "inverted": false,
@@ -182,24 +183,23 @@
             {
               "type": {
                 "inverted": false,
-                "value": "TopDownMovementBehavior::SimulateDownKey"
+                "value": "TopDownMovementBehavior::IgnoreDefaultControls"
               },
               "parameters": [
                 "Bottle",
-                "TopDownMovement"
+                "TopDownMovement",
+                "yes"
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                "value": "ResetTimer"
               },
               "parameters": [
                 "",
-                "\"ConditionSeaBed\"",
-                "0",
-                "0"
+                "\"DeathByLosingOxygen\""
               ],
               "subInstructions": []
             }
@@ -207,7 +207,38 @@
           "events": []
         },
         {
-          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"DeathByLosingOxygen\"",
+                "<",
+                "5"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TopDownMovementBehavior::SimulateDownKey"
+              },
+              "parameters": [
+                "Bottle",
+                "TopDownMovement"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -228,87 +259,24 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "GameOver",
+                "True"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
               },
               "parameters": [
                 "",
-                "\"Prototype Start\"",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"DeathByLosingOxygen\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Bottle",
-                "SeaBed",
-                "480",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Delete"
-              },
-              "parameters": [
-                "Phrase2",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Delete"
-              },
-              "parameters": [
-                "Phrase1",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Delete"
-              },
-              "parameters": [
-                "TextBox",
-                ""
+                "\"EndingLoseStamina\"",
+                "0",
+                "0"
               ],
               "subInstructions": []
             }
@@ -423,7 +391,7 @@
               },
               "parameters": [
                 "",
-                "\"ConditionCollected\"",
+                "\"EndingFishNet\"",
                 "0",
                 "0"
               ],
@@ -460,18 +428,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TopDownMovementBehavior::IgnoreDefaultControls"
-              },
-              "parameters": [
-                "Bottle",
-                "TopDownMovement",
-                "yes"
-              ],
-              "subInstructions": []
-            },
             {
               "type": {
                 "inverted": false,
@@ -526,6 +482,18 @@
               "parameters": [
                 "Bottle",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TopDownMovementBehavior::IgnoreDefaultControls"
+              },
+              "parameters": [
+                "Bottle",
+                "TopDownMovement",
+                "yes"
               ],
               "subInstructions": []
             },

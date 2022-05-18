@@ -29,12 +29,27 @@
     {
       "name": "levelStamina",
       "type": "string",
-      "value": "100"
+      "value": "50"
     },
     {
       "name": "levelName",
       "type": "string",
       "value": "Prototype Level 1"
+    },
+    {
+      "name": "levelChannalOneVol",
+      "type": "string",
+      "value": "40"
+    },
+    {
+      "name": "levelChannalTwoVol",
+      "type": "string",
+      "value": "60"
+    },
+    {
+      "name": "levelNum",
+      "type": "string",
+      "value": "1"
     }
   ],
   "instances": [
