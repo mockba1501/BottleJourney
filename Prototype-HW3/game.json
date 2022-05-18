@@ -929,6 +929,15 @@
         "name": "assets\\startmenu\\fishmenu.2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI/healthUI.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\healthUI.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -981,7 +990,7 @@
               "timeBetweenFrames": 1,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\bottle\\bottle1.png",
                   "points": [],
                   "originPoint": {
@@ -995,7 +1004,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.5,
+                        "y": 11.400012016296387
+                      },
+                      {
+                        "x": 68.10000610351562,
+                        "y": 11.400012016296387
+                      },
+                      {
+                        "x": 87.30001831054688,
+                        "y": 193.00001525878906
+                      },
+                      {
+                        "x": 4.899993896484375,
+                        "y": 189.8000030517578
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1010,7 +1038,7 @@
               "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\bottle\\bottle1.png",
                   "points": [],
                   "originPoint": {
@@ -1024,10 +1052,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.5,
+                        "y": 11.400012016296387
+                      },
+                      {
+                        "x": 68.10000610351562,
+                        "y": 11.400012016296387
+                      },
+                      {
+                        "x": 87.30001831054688,
+                        "y": 193.00001525878906
+                      },
+                      {
+                        "x": 4.899993896484375,
+                        "y": 189.8000030517578
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\bottle\\bottle2.png",
                   "points": [],
                   "originPoint": {
@@ -1041,7 +1088,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.5,
+                        "y": 11.400012016296387
+                      },
+                      {
+                        "x": 68.10000610351562,
+                        "y": 11.400012016296387
+                      },
+                      {
+                        "x": 87.30001831054688,
+                        "y": 193.00001525878906
+                      },
+                      {
+                        "x": 4.899993896484375,
+                        "y": 189.8000030517578
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1194,13 +1260,13 @@
           "topEdgeAnchor": 1
         }
       ],
-      "string": "Health: 100",
+      "string": "100",
       "font": "KgCompassionBigRegular-3y0M.ttf",
       "characterSize": 40,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 200,
+        "g": 216,
+        "r": 216
       }
     },
     {
@@ -3347,6 +3413,46 @@
         "g": 33,
         "r": 55
       }
+    },
+    {
+      "name": "HealthUI",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\UI\\healthUI.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [],

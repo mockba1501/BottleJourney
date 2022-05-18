@@ -58,6 +58,7 @@
           "events": []
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -90,6 +91,7 @@
           "events": []
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -123,7 +125,19 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "GameOver",
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -133,6 +147,30 @@
               "parameters": [
                 "GameOver",
                 "False"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Stamina",
+                "=",
+                "Variable(levelStamina)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Health",
+                "=",
+                "100"
               ],
               "subInstructions": []
             }
@@ -229,7 +267,7 @@
               "parameters": [
                 "HealthTxt",
                 "=",
-                "\"Health: \" + ToString(round(GlobalVariable(Health)))"
+                "ToString(round(GlobalVariable(Health)))"
               ],
               "subInstructions": []
             }
