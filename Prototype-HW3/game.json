@@ -4016,7 +4016,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -4075,7 +4082,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -4134,7 +4148,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -4193,7 +4214,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -4252,7 +4280,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -4311,7 +4346,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -4370,7 +4412,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -4429,7 +4478,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -4506,7 +4562,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -4565,7 +4628,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -4593,56 +4663,74 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1415,
-                        "y": 95.00005340576172
+                        "x": 297.5,
+                        "y": 92.50001525878906
                       },
                       {
-                        "x": 1475,
-                        "y": 39
+                        "x": 885.4999389648438,
+                        "y": 122.50001525878906
                       },
                       {
-                        "x": 1848,
-                        "y": 330.9999694824219
+                        "x": 923.5,
+                        "y": 190.5000457763672
                       },
                       {
-                        "x": 1775,
-                        "y": 423.0000915527344
+                        "x": 311.5,
+                        "y": 150.5000457763672
                       }
                     ],
                     [
                       {
-                        "x": 183.00009155273438,
-                        "y": 95.00005340576172
+                        "x": 183,
+                        "y": 164.59999084472656
                       },
                       {
-                        "x": 1458.9998779296875,
-                        "y": 35.00006103515625
+                        "x": 329.5000305175781,
+                        "y": 106.50003051757812
                       },
                       {
-                        "x": 1498.9998779296875,
-                        "y": 143.00009155273438
+                        "x": 59.80000305175781,
+                        "y": 485.4000244140625
                       },
                       {
-                        "x": 179,
-                        "y": 210.99996948242188
+                        "x": 13.400009155273438,
+                        "y": 447.800048828125
                       }
                     ],
                     [
                       {
-                        "x": 210.99996948242188,
-                        "y": 83.00008392333984
+                        "x": 887.5,
+                        "y": 114.49998474121094
                       },
                       {
-                        "x": 290.9999694824219,
-                        "y": 90.99996185302734
+                        "x": 1291.4998779296875,
+                        "y": 30.500043869018555
                       },
                       {
-                        "x": 98.99999237060547,
-                        "y": 483.0000915527344
+                        "x": 1451.4998779296875,
+                        "y": 62.50001525878906
                       },
                       {
-                        "x": 15.00006103515625,
-                        "y": 450.9999694824219
+                        "x": 921.5000610351562,
+                        "y": 178.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 1371.4998779296875,
+                        "y": 46.500030517578125
+                      },
+                      {
+                        "x": 1477.5,
+                        "y": 56.500030517578125
+                      },
+                      {
+                        "x": 1751.4998779296875,
+                        "y": 216.50003051757812
+                      },
+                      {
+                        "x": 1801.4998779296875,
+                        "y": 406.5
                       }
                     ]
                   ]
@@ -4660,7 +4748,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -4852,6 +4947,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/restartbuttons"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/objects"
     }
   ],
   "eventsFunctionsExtensions": [

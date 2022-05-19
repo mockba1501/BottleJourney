@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.19502171871661714,
+    "zoomFactor": 0.37002171871661715,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -334,7 +334,7 @@
       "name": "Octopos",
       "persistentUuid": "2941b09a-c787-4969-a48b-82147f10bdf5",
       "width": 0,
-      "x": 1261,
+      "x": 1409,
       "y": 35,
       "zOrder": 49,
       "numberProperties": [],
@@ -647,6 +647,102 @@
       "x": 1175,
       "y": 1018,
       "zOrder": 305,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -25,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "objectCan",
+      "persistentUuid": "ae18bd8c-701f-4d14-ba81-e8b4259201e4",
+      "width": 0,
+      "x": 1282.7994384765625,
+      "y": 24.413671493530273,
+      "zOrder": 306,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 70,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "objectDetergent",
+      "persistentUuid": "2b33bb89-00ac-4cac-bc7c-a6230740b357",
+      "width": 0,
+      "x": 1397.470458984375,
+      "y": 905.8121948242188,
+      "zOrder": 307,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 45,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "objectWine",
+      "persistentUuid": "b87016ac-0575-4d54-b7aa-c2f447753272",
+      "width": 0,
+      "x": 728.37109375,
+      "y": 752.62890625,
+      "zOrder": 308,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 45,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "rope1",
+      "persistentUuid": "0e877ec2-152e-49b9-8582-a9261d5760f9",
+      "width": 0,
+      "x": -586.8002319335938,
+      "y": -223.8002166748047,
+      "zOrder": 309,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "rope2",
+      "persistentUuid": "3e25703b-6e1f-4a4b-88d8-63f8b0350e5c",
+      "width": 0,
+      "x": 2685,
+      "y": -866,
+      "zOrder": 310,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "objectFork",
+      "persistentUuid": "34d152ca-50f3-4fe8-a790-02373b411a8e",
+      "width": 0,
+      "x": 1603,
+      "y": 1005,
+      "zOrder": 311,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1970,6 +2066,25 @@
             "includeConfig": 0
           },
           "target": "Fish"
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "General Obstacles ",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Objects"
         }
       ],
       "parameters": []
