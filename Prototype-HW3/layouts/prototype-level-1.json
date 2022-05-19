@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.045021718716617275,
+    "zoomFactor": 0.09502171871661733,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -794,6 +794,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 17.45459747314453,
+      "customSize": true,
+      "height": 890,
+      "layer": "",
+      "locked": false,
+      "name": "NetTextTrigger",
+      "persistentUuid": "bd3fd9d7-7d21-401c-80fe-6768e77c7876",
+      "width": 138,
+      "x": 2506.300537109375,
+      "y": 173.2064971923828,
+      "zOrder": 314,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1299,6 +1315,43 @@
         "g": 33,
         "r": 55
       }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "Phrase3",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.02
+        }
+      ],
+      "string": "Wait, what else is this?! Old nets?\nIf I get stuck in one, my journey will end here.\n",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 40,
+      "color": {
+        "b": 29,
+        "g": 33,
+        "r": 55
+      }
+    },
+    {
+      "height": 32,
+      "name": "NetTextTrigger",
+      "tags": "",
+      "texture": "NewFile-2-1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "events": [
@@ -1336,6 +1389,16 @@
                 "\"UI\"",
                 "",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "NetTextTrigger"
               ],
               "subInstructions": []
             }
@@ -1456,6 +1519,18 @@
               },
               "parameters": [
                 "Phrase2",
+                "=",
+                "55"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Text::SetFontSize"
+              },
+              "parameters": [
+                "Phrase3",
                 "=",
                 "55"
               ],
@@ -1767,6 +1842,116 @@
             {
               "type": {
                 "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Bottle",
+                "NetTextTrigger",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Phrase2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Phrase3",
+                "300",
+                "875",
+                "\"UI\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "TextBox",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "SpaceSkip",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "TextBox",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "NetTextTrigger",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"PhraseDelete2\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "TiledSpriteObject::Opacity"
               },
               "parameters": [
@@ -2023,6 +2208,57 @@
             {
               "type": {
                 "inverted": false,
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"PhraseDelete2\"",
+                ">",
+                "9"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Phrase3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TextBox"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "SpaceSkip"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "GlobalVariableAsBoolean"
               },
               "parameters": [
@@ -2068,6 +2304,17 @@
               },
               "parameters": [
                 "Phrase2",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Phrase3",
                 ""
               ],
               "subInstructions": []
@@ -2141,6 +2388,17 @@
               },
               "parameters": [
                 "Phrase2",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Phrase3",
                 ""
               ],
               "subInstructions": []

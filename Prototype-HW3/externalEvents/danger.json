@@ -170,7 +170,7 @@
               "parameters": [
                 "GeneralNet",
                 "\"Danger\"",
-                "yes"
+                "no"
               ],
               "subInstructions": []
             }
@@ -236,7 +236,7 @@
               "parameters": [
                 "GeneralNet2",
                 "\"Danger\"",
-                "yes"
+                "no"
               ],
               "subInstructions": []
             }
@@ -302,7 +302,7 @@
               "parameters": [
                 "GeneralNet4",
                 "\"Danger\"",
-                "yes"
+                "no"
               ],
               "subInstructions": []
             }
