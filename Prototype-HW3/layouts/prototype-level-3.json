@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3006949769973607,
+    "zoomFactor": 0.06000000000000002,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -302,8 +302,8 @@
       "name": "BlackFadeOut",
       "persistentUuid": "637230f5-1663-4e3a-a07e-886d6ffc615a",
       "width": 4460,
-      "x": 1273,
-      "y": 3220,
+      "x": 1988,
+      "y": -5095,
       "zOrder": 61,
       "numberProperties": [],
       "stringProperties": [],
@@ -319,7 +319,7 @@
       "persistentUuid": "ded44fb7-d989-48b3-bd5a-7009cfac9596",
       "width": 4682,
       "x": -2364,
-      "y": 2601,
+      "y": -1216,
       "zOrder": 62,
       "numberProperties": [],
       "stringProperties": [],
@@ -1252,7 +1252,7 @@
           "Interval": 0.03
         }
       ],
-      "string": "Yay! It’s halfway and I’m still alive! Keep going!",
+      "string": "Yay! It’s halfway and I’m still alive! Joe is riding the wave !",
       "font": "KgCompassionBigRegular-3y0M.ttf",
       "characterSize": 50,
       "color": {

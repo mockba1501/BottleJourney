@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.09502171871661733,
+    "zoomFactor": 0.0700217187166175,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -495,14 +495,14 @@
       "angle": 0,
       "customSize": true,
       "height": 2543,
-      "layer": "",
+      "layer": "UI",
       "locked": false,
       "name": "BlackFadeOut",
       "persistentUuid": "eca3ca06-448e-458b-9823-b1a18c528ebb",
       "width": 2506,
-      "x": -418,
-      "y": 2960,
-      "zOrder": 300,
+      "x": 1616,
+      "y": -274,
+      "zOrder": 320,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -527,14 +527,14 @@
       "angle": 0,
       "customSize": true,
       "height": 1858,
-      "layer": "",
+      "layer": "UI",
       "locked": false,
       "name": "BlackFadeIn",
       "persistentUuid": "6b992220-6dd5-4d55-928d-3589d0df8124",
       "width": 3491,
       "x": -1219,
-      "y": 1488,
-      "zOrder": 301,
+      "y": -179,
+      "zOrder": 320,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -548,8 +548,8 @@
       "name": "SceneTitle",
       "persistentUuid": "4e36a072-d3f5-4ab6-86f8-519e3f22f954",
       "width": 747.9163208007812,
-      "x": 634,
-      "y": 390,
+      "x": 582,
+      "y": 323.18829345703125,
       "zOrder": 303,
       "numberProperties": [],
       "stringProperties": [],
@@ -564,8 +564,8 @@
       "name": "SceneYear",
       "persistentUuid": "ccb07612-cf87-4ee6-bc92-6f503d827ed8",
       "width": 456.790771484375,
-      "x": 798,
-      "y": 563,
+      "x": 714,
+      "y": 489,
       "zOrder": 303,
       "numberProperties": [],
       "stringProperties": [],
@@ -700,7 +700,7 @@
       "initialVariables": []
     },
     {
-      "angle": 37.866111755371094,
+      "angle": 47.51802062988281,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -708,9 +708,9 @@
       "name": "rope1",
       "persistentUuid": "0e877ec2-152e-49b9-8582-a9261d5760f9",
       "width": 0,
-      "x": -470.1855773925781,
-      "y": -15.154420852661133,
-      "zOrder": 309,
+      "x": -460.6965637207031,
+      "y": -110.31700134277344,
+      "zOrder": 200,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1352,6 +1352,46 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "name": "emptyBG",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "empty_png.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -1832,6 +1872,50 @@
                 "Fish"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "TextBox",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Phrase3",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "SpaceSkip",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "RemoveTimer"
+              },
+              "parameters": [
+                "",
+                "\"PhraseDelete2\""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -1940,6 +2024,17 @@
               "parameters": [
                 "",
                 "\"PhraseDelete2\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "RemoveTimer"
+              },
+              "parameters": [
+                "",
+                "\"PhraseDelete\""
               ],
               "subInstructions": []
             }

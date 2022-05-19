@@ -23,7 +23,7 @@
               "parameters": [
                 "Turtle",
                 "Bottle",
-                "500",
+                "400",
                 ""
               ],
               "subInstructions": []
@@ -83,7 +83,7 @@
               "parameters": [
                 "Turtle",
                 "Bottle",
-                "500",
+                "400",
                 ""
               ],
               "subInstructions": []

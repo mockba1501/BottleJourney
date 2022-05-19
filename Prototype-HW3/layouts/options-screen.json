@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4249999999999994,
+    "zoomFactor": 0.3249999999999993,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -343,6 +343,22 @@
       "x": 1133,
       "y": 605,
       "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "OPTIONS",
+      "persistentUuid": "3c9c6a25-b367-415a-b324-0273fbbcccb2",
+      "width": 0,
+      "x": 786,
+      "y": 82,
+      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -806,6 +822,26 @@
     {
       "bold": false,
       "italic": false,
+      "name": "OPTIONS",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "OPTIONS",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 100,
+      "color": {
+        "b": 200,
+        "g": 204,
+        "r": 227
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
       "name": "small",
       "smoothed": true,
       "tags": "",
@@ -958,9 +994,9 @@
       "font": "KgCompassionBigRegular-3y0M.ttf",
       "characterSize": 60,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 29,
+        "g": 33,
+        "r": 55
       }
     },
     {

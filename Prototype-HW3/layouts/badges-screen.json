@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.39999999999999947,
+    "zoomFactor": 0.19999999999999943,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -52,7 +52,7 @@
       "name": "BADGES",
       "persistentUuid": "e4f87218-2afa-42c3-83d1-8b14e6aef1d8",
       "width": 0,
-      "x": 832,
+      "x": 820,
       "y": 87,
       "zOrder": 1,
       "numberProperties": [],
@@ -68,8 +68,8 @@
       "name": "BadgeNoOxygen",
       "persistentUuid": "8cef9443-caa6-425f-b675-d1f2316db7d4",
       "width": 0,
-      "x": 390,
-      "y": 247,
+      "x": 370,
+      "y": 222,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -84,8 +84,8 @@
       "name": "BadgeLoseStamina",
       "persistentUuid": "f32ccf4c-7b5f-46ed-8b84-0f92c8d9b1f8",
       "width": 0,
-      "x": 790,
-      "y": 250,
+      "x": 770,
+      "y": 225,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -100,8 +100,8 @@
       "name": "BadgeFishnet",
       "persistentUuid": "93c37d1f-7eb7-4474-8ea1-6fc910faf879",
       "width": 0,
-      "x": 1190,
-      "y": 250,
+      "x": 1170,
+      "y": 225,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -116,8 +116,8 @@
       "name": "BadgeElectronics",
       "persistentUuid": "2cfc5586-680f-4a99-a2be-ffb3aa7fbab5",
       "width": 0,
-      "x": 390,
-      "y": 534,
+      "x": 370,
+      "y": 569,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -132,8 +132,8 @@
       "name": "BadgeFinalDest",
       "persistentUuid": "795123f7-f5fb-439d-85f1-f94c58ef49dd",
       "width": 0,
-      "x": 790,
-      "y": 540,
+      "x": 770,
+      "y": 575,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -148,8 +148,8 @@
       "name": "BadgeDeathByFish",
       "persistentUuid": "57710d70-6814-4b53-846d-6f1058810370",
       "width": 0,
-      "x": 1190,
-      "y": 536,
+      "x": 1170,
+      "y": 571,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -164,8 +164,8 @@
       "name": "BackButton",
       "persistentUuid": "8f20a107-1960-415b-b9bf-9ee843fc5f6d",
       "width": 290,
-      "x": 810,
-      "y": 917,
+      "x": 805,
+      "y": 932,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -180,8 +180,8 @@
       "name": "back",
       "persistentUuid": "6dbfcc7f-9716-4482-9bb0-f81c74a17fec",
       "width": 0,
-      "x": 911,
-      "y": 929,
+      "x": 906,
+      "y": 944,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -197,8 +197,72 @@
       "persistentUuid": "d74cf2cd-1700-47ba-998d-e72e021482ba",
       "width": 0,
       "x": 1999,
-      "y": 510,
+      "y": 530,
       "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "description",
+      "persistentUuid": "25446e8a-85a6-4867-80dd-475917f5d90c",
+      "width": 0,
+      "x": 433,
+      "y": 178,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "FishOptions",
+      "persistentUuid": "b7e047ba-99d4-4107-b77a-d9472d1d9eab",
+      "width": 0,
+      "x": 1828,
+      "y": 779,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "FishOptions",
+      "persistentUuid": "75f3aeee-c5a9-4476-b885-1f01d299c897",
+      "width": 0,
+      "x": 2644,
+      "y": 159,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "FishOptions",
+      "persistentUuid": "9cdccd51-8c10-476c-b57d-9f11d3866699",
+      "width": 0,
+      "x": 3873,
+      "y": 560,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -284,7 +348,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\UI\\backMbutton3.png",
+                  "image": "assets\\badge\\unlocked.badge.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -353,7 +417,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\UI\\backMbutton3.png",
+                  "image": "assets\\badge\\unlocked.badge.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -422,7 +486,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\UI\\backMbutton3.png",
+                  "image": "assets\\badge\\unlocked.badge.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -491,7 +555,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\UI\\backMbutton3.png",
+                  "image": "assets\\badge\\unlocked.badge.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -560,7 +624,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\UI\\backMbutton3.png",
+                  "image": "assets\\badge\\unlocked.badge.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -629,7 +693,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\UI\\backMbutton3.png",
+                  "image": "assets\\badge\\unlocked.badge.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -658,7 +722,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\UI\\backMbutton2.png",
+                  "image": "assets\\badge\\fish.badge.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -694,9 +758,86 @@
       "font": "KgCompassionBigRegular-3y0M.ttf",
       "characterSize": 60,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 29,
+        "g": 33,
+        "r": 55
+      }
+    },
+    {
+      "name": "FishOptions",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\startmenu\\fishmenu.1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\startmenu\\fishmenu.2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "description",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Discover the hidden game endings to unlock all the badges!",
+      "font": "KgCompassionRegular-xXGO.ttf",
+      "characterSize": 60,
+      "color": {
+        "b": 200,
+        "g": 204,
+        "r": 227
       }
     },
     {
@@ -1806,6 +1947,55 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Fish Behavior",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "FishOptions",
+                "-90",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlipX"
+              },
+              "parameters": [
+                "FishOptions",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
     }
   ],
   "layers": [

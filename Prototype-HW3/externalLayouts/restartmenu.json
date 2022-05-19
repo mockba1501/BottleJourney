@@ -33,6 +33,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1100,
+      "layer": "UI",
+      "locked": false,
+      "name": "emptyBG",
+      "persistentUuid": "10162562-c131-450c-b991-26e1137d5d50",
+      "width": 1943,
+      "x": -13,
+      "y": -9,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {

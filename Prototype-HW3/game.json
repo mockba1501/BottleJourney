@@ -1213,6 +1213,33 @@
         "name": "assets\\UI\\backMbutton2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "empty_png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "empty_png.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/badge/unlocked.badge.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\badge\\unlocked.badge.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/badge/fish.badge.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\badge\\fish.badge.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
