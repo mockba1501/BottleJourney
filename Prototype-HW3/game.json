@@ -564,15 +564,6 @@
         "userAdded": true
       },
       {
-        "file": "audio/amb.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "amb.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
         "file": "audio/bubble.wav",
         "kind": "audio",
         "metadata": "",
@@ -928,7 +919,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/endings/endingDeadfish.png",
+        "file": "assets/endings/deadfish.end.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\endings\\endingDeadfish.png",
@@ -937,7 +928,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/endings/endingNetshold.png",
+        "file": "assets/endings/netshold.end.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\endings\\endingNetshold.png",
@@ -946,7 +937,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/endings/endingAnotherlife.png",
+        "file": "assets/endings/anotherlife.end.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\endings\\endingAnotherlife.png",
@@ -955,7 +946,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/endings/endingElectronicsjuice.png",
+        "file": "assets/endings/electronicsjuice.end.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\endings\\endingElectronicsjuice.png",
@@ -964,7 +955,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/endings/endingAlgaeinvasion.png",
+        "file": "assets/endings/algaeinvasion.end.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\endings\\endingAlgaeinvasion.png",
@@ -973,7 +964,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/endings/endingTrashmountain.png",
+        "file": "assets/endings/trashmountain.end.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\endings\\endingTrashmountain.png",
@@ -1113,15 +1104,6 @@
         "metadata": "",
         "name": "assets\\bottle\\deadjoe.png",
         "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "file": "audio/newsad.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "audio\\newsad.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -1721,7 +1703,7 @@
           "relativeToOriginalWindowSize": true
         }
       ],
-      "string": "Fishing nets are made from nylon, a type of plastic. 10 000 nets are lost or abandoned in the Baltic Sea each year. 6% of all nets get lost in the ocean and continue to kill or injure marine life for many years. \n                                                Ghostdivers help clean our oceans of the old nets.\n                                                                                  their mission! ",
+      "string": "Fishing nets are made from nylon, a type of plastic. 10 000 nets are lost or abandoned in the Baltic Sea each year. These nets continue to kill or injure marine life for many years. \n\nGhostdivers help clean our oceans of the old nets.\n                                                                            their mission! ",
       "font": "KgCompassionBigRegular-3y0M.ttf",
       "characterSize": 50,
       "color": {
@@ -2560,7 +2542,7 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.20000000298023224,
+              "timeBetweenFrames": 0.5,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -3284,20 +3266,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 97.39999389648438,
-                        "y": 78.09999084472656
-                      },
-                      {
-                        "x": 177.39999389648438,
+                        "x": 108.60000610351562,
                         "y": 79.69999694824219
                       },
                       {
-                        "x": 199,
-                        "y": 181.3000030517578
+                        "x": 168.60000610351562,
+                        "y": 80.50001525878906
                       },
                       {
-                        "x": 149.39999389648438,
-                        "y": 297.300048828125
+                        "x": 188.60000610351562,
+                        "y": 158.90000915527344
+                      },
+                      {
+                        "x": 131.80001831054688,
+                        "y": 298.10003662109375
                       },
                       {
                         "x": 51,
@@ -3324,20 +3306,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 97.39999389648438,
-                        "y": 78.09999084472656
-                      },
-                      {
-                        "x": 177.39999389648438,
+                        "x": 108.60000610351562,
                         "y": 79.69999694824219
                       },
                       {
-                        "x": 199,
-                        "y": 181.3000030517578
+                        "x": 168.60000610351562,
+                        "y": 80.50001525878906
                       },
                       {
-                        "x": 149.39999389648438,
-                        "y": 297.300048828125
+                        "x": 188.60000610351562,
+                        "y": 158.90000915527344
+                      },
+                      {
+                        "x": 131.80001831054688,
+                        "y": 298.10003662109375
                       },
                       {
                         "x": 51,
@@ -3401,7 +3383,7 @@
               "timeBetweenFrames": 0.20000000298023224,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\electronics\\phone3.1.png",
                   "points": [],
                   "originPoint": {
@@ -3415,10 +3397,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 77.5,
+                        "y": 92.19999694824219
+                      },
+                      {
+                        "x": 182.30001831054688,
+                        "y": 97.80000305175781
+                      },
+                      {
+                        "x": 178.30001831054688,
+                        "y": 253.80006408691406
+                      },
+                      {
+                        "x": 68.70001220703125,
+                        "y": 251.40000915527344
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\electronics\\phone3.2.png",
                   "points": [],
                   "originPoint": {
@@ -3432,7 +3433,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 77.5,
+                        "y": 92.19999694824219
+                      },
+                      {
+                        "x": 182.30001831054688,
+                        "y": 97.80000305175781
+                      },
+                      {
+                        "x": 178.30001831054688,
+                        "y": 253.80006408691406
+                      },
+                      {
+                        "x": 68.70001220703125,
+                        "y": 251.40000915527344
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -4981,7 +5001,7 @@
       "behaviors": [],
       "string": "HELP",
       "font": "KgCompassionBigRegular-3y0M.ttf",
-      "characterSize": 55,
+      "characterSize": 50,
       "color": {
         "b": 200,
         "g": 204,
@@ -5082,6 +5102,50 @@
         "g": 194,
         "r": 179
       }
+    },
+    {
+      "additive": false,
+      "destroyWhenNoParticles": false,
+      "emitterAngleA": 0,
+      "emitterAngleB": 360,
+      "emitterForceMax": 85,
+      "emitterForceMin": 45,
+      "flow": 45,
+      "maxParticleNb": 300,
+      "name": "Destination",
+      "particleAlpha1": 204,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 216,
+      "particleBlue2": 128,
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGreen1": 213,
+      "particleGreen2": 118,
+      "particleLifeTimeMax": 2.5,
+      "particleLifeTimeMin": 0.5,
+      "particleRed1": 205,
+      "particleRed2": 104,
+      "particleSize1": 100,
+      "particleSize2": 100,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 15,
+      "rendererParam2": 1,
+      "rendererType": "Point",
+      "tags": "",
+      "tank": -1,
+      "textureParticleName": "",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 7,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsGroups": [],
@@ -5150,6 +5214,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/options-screen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/untitled-scene"
     }
   ],
   "externalEvents": [
