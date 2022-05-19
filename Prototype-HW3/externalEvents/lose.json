@@ -146,6 +146,17 @@
                     "0"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "BadgeDeathByFish",
+                    "True"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -177,6 +188,17 @@
                     "\"EndingDeathByElectronics\"",
                     "0",
                     "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "BadgeElectronics",
+                    "True"
                   ],
                   "subInstructions": []
                 }
@@ -384,6 +406,17 @@
                     "0"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "BadgeLoseStamina",
+                    "True"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -423,6 +456,17 @@
                     "\"EndingNoOxygen\"",
                     "0",
                     "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "BadgeNoOxygen",
+                    "True"
                   ],
                   "subInstructions": []
                 }
@@ -554,6 +598,17 @@
                 "\"EndingFishNet\"",
                 "0",
                 "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "BadgeFishnet",
+                "True"
               ],
               "subInstructions": []
             }
@@ -842,6 +897,17 @@
             {
               "type": {
                 "inverted": false,
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "BadgeFinalDest",
+                "True"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "PauseTimer"
               },
               "parameters": [
@@ -987,6 +1053,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "External Links",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

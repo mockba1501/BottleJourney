@@ -13,7 +13,7 @@
       "width": 267,
       "x": 597,
       "y": 850,
-      "zOrder": 3,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -21,15 +21,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 202,
+      "height": 250,
       "layer": "UI",
       "locked": false,
       "name": "RestartGame",
       "persistentUuid": "8bfbbc9d-a64a-4388-93d7-06b4d90552fa",
       "width": 275,
-      "x": 1031,
-      "y": 850,
-      "zOrder": 3,
+      "x": 1023,
+      "y": 820,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -45,7 +45,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3499999999999995,
+    "zoomFactor": 0.3499999999999994,
     "windowMask": false
   }
 }

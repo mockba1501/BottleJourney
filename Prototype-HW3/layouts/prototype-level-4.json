@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.14999999999999927,
+    "zoomFactor": 0.3249999999999993,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2129,22 +2129,6 @@
       "x": 2288,
       "y": 1017,
       "zOrder": 102,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Destination",
-      "persistentUuid": "5ee185f0-54f2-46bc-86ab-4e39c3a35bb2",
-      "width": 0,
-      "x": 236,
-      "y": 215,
-      "zOrder": 103,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
