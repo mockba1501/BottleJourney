@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.060000000000000046,
+    "zoomFactor": 0.185,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -36,7 +36,7 @@
       "name": "StartBtn",
       "persistentUuid": "5bc0429b-114e-45ac-84bc-2ab11873ebf1",
       "width": 0,
-      "x": 810,
+      "x": 770,
       "y": 548,
       "zOrder": 3,
       "numberProperties": [],
@@ -52,7 +52,7 @@
       "name": "MenuBottle",
       "persistentUuid": "c9cf33b6-d073-4815-b4ca-9a386631764d",
       "width": 0,
-      "x": 363,
+      "x": 323,
       "y": -1,
       "zOrder": -1,
       "numberProperties": [],
@@ -68,7 +68,7 @@
       "name": "OptionsBtn",
       "persistentUuid": "74c0df05-1934-430d-968f-9c843c373fdc",
       "width": 0,
-      "x": 525,
+      "x": 485,
       "y": 679,
       "zOrder": 4,
       "numberProperties": [],
@@ -84,7 +84,7 @@
       "name": "FactsBtn",
       "persistentUuid": "0ee84bfc-3263-43fb-9b7d-e7107d43b2cc",
       "width": 0,
-      "x": 1179,
+      "x": 1139,
       "y": 678,
       "zOrder": 5,
       "numberProperties": [],
@@ -129,12 +129,28 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "RalucaRef",
-      "persistentUuid": "87655871-8412-48ca-bfc2-95fc84eea322",
+      "name": "background_lvl1_1",
+      "persistentUuid": "f6191bc5-4a2b-4501-baef-3b513e69c440",
       "width": 0,
+      "x": -2252,
+      "y": 1173,
+      "zOrder": -3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 744,
+      "layer": "",
+      "locked": false,
+      "name": "background_lvl1_2",
+      "persistentUuid": "82e74c3e-db8c-44fc-b852-2976c85411f8",
+      "width": 744,
       "x": 0,
       "y": 0,
-      "zOrder": 0,
+      "zOrder": -5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -145,11 +161,75 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "background_lvl1_1",
-      "persistentUuid": "f6191bc5-4a2b-4501-baef-3b513e69c440",
+      "name": "parallax_forward_lvl1_2",
+      "persistentUuid": "b08bba97-45dc-483d-a154-dca27de1485e",
       "width": 0,
-      "x": 0,
-      "y": 0,
+      "x": -1,
+      "y": 3,
+      "zOrder": -4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1076.4205322265625,
+      "layer": "",
+      "locked": false,
+      "name": "parallax_forward_lvl1",
+      "persistentUuid": "238c30ad-9d04-4389-96f6-89c9bb210e11",
+      "width": 3826,
+      "x": -714,
+      "y": 411.5794677734375,
+      "zOrder": -3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "FishOptions",
+      "persistentUuid": "806f0b2b-65c1-4de6-a5d6-0b7de63b90ca",
+      "width": 0,
+      "x": 1909,
+      "y": 603,
+      "zOrder": -3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "FishOptions",
+      "persistentUuid": "9af8eedc-0f69-43ec-ac5c-fc242de389e2",
+      "width": 0,
+      "x": 2469,
+      "y": 98,
+      "zOrder": -3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "FishOptions",
+      "persistentUuid": "4d89711f-0527-47a6-bdb4-a1669e127c27",
+      "width": 0,
+      "x": 281,
+      "y": 98,
       "zOrder": -3,
       "numberProperties": [],
       "stringProperties": [],
@@ -726,7 +806,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\backgrounds\\lvl1\\blvl1.2.png",
+                  "image": "assets\\backgrounds\\hope these ones will work\\lvl4b.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -786,6 +866,103 @@
           ]
         }
       ]
+    },
+    {
+      "name": "parallax_forward_lvl1",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\backgrounds\\hope these ones will work\\background1.1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FishOptions",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\startmenu\\fishmenu.1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\startmenu\\fishmenu.2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -821,7 +998,7 @@
           },
           "parameters": [
             "",
-            "amb.wav",
+            "audio\\newamb.mp3",
             "2",
             "",
             "80",
@@ -836,7 +1013,7 @@
           },
           "parameters": [
             "",
-            "sad.wav",
+            "audio\\sad.wav",
             "1",
             "yes",
             "40",
@@ -1009,6 +1186,36 @@
       "events": []
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "SFX",
+            "False"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "PauseMusicCanal"
+          },
+          "parameters": [
+            "",
+            "2"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
@@ -1061,6 +1268,49 @@
         }
       ],
       "events": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Fish Behavior",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "FishOptions",
+                "-90",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlipX"
+              },
+              "parameters": [
+                "FishOptions",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
     },
     {
       "colorB": 228,
@@ -1153,20 +1403,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "transition.wav",
-                    "",
-                    "50",
-                    "2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "TiledSpriteObject::SetOpacity"
                   },
                   "parameters": [
@@ -1177,7 +1413,41 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "SFX",
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "transition.wav",
+                        "",
+                        "50",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -1188,6 +1458,17 @@
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": [],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "True"
+                  ],
                   "subInstructions": []
                 }
               ],
@@ -1334,6 +1615,17 @@
                   },
                   "parameters": [],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "True"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -1460,6 +1752,17 @@
                   },
                   "parameters": [],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "True"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -1545,6 +1848,17 @@
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": [],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "True"
+                  ],
                   "subInstructions": []
                 }
               ],
@@ -2001,6 +2315,10 @@
     {
       "name": "SineMovement",
       "type": "SineMovement::SineMovement"
+    },
+    {
+      "name": "Text_AutoTyping",
+      "type": "AutoTyping::Text_AutoTyping"
     },
     {
       "name": "TopDownMovement",

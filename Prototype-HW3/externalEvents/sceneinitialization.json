@@ -479,7 +479,7 @@
               },
               "parameters": [
                 "",
-                "amb.wav",
+                "audio\\newamb.mp3",
                 "2",
                 "yes",
                 "Variable(levelChannalTwoVol)",

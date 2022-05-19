@@ -1114,6 +1114,33 @@
         "name": "assets\\bottle\\deadjoe.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "audio/newsad.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\newsad.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sad.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\sad.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/newamb.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\newamb.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5088,6 +5115,11 @@
       "name": "LoseBy",
       "type": "string",
       "value": "1"
+    },
+    {
+      "name": "SFX",
+      "type": "boolean",
+      "value": true
     }
   ],
   "layouts": [

@@ -276,20 +276,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "bubble.wav",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -299,7 +285,41 @@
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "True"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "bubble.wav",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -464,20 +484,6 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "fish.mp3",
-                        "",
-                        "50",
-                        "1.4"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
@@ -528,6 +534,39 @@
                             "HealthDec",
                             "=",
                             "\"-5\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "SFX",
+                            "True"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "fish.mp3",
+                            "",
+                            "50",
+                            "1.4"
                           ],
                           "subInstructions": []
                         }
@@ -603,20 +642,6 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "fish.mp3",
-                        "",
-                        "50",
-                        "1.4"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
                         "value": "Flash::Flash::Flash"
                       },
                       "parameters": [
@@ -668,6 +693,39 @@
                             "HealthDec",
                             "=",
                             "\"-10\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "SFX",
+                            "True"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "fish.mp3",
+                            "",
+                            "50",
+                            "1.4"
                           ],
                           "subInstructions": []
                         }
@@ -743,20 +801,6 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "fish.mp3",
-                        "",
-                        "50",
-                        "1.4"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
                         "value": "Flash::Flash::Flash"
                       },
                       "parameters": [
@@ -808,6 +852,39 @@
                             "HealthDec",
                             "=",
                             "\"-20\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "SFX",
+                            "True"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "fish.mp3",
+                            "",
+                            "50",
+                            "1.4"
                           ],
                           "subInstructions": []
                         }
@@ -920,20 +997,6 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "elec.wav",
-                        "",
-                        "80",
-                        "1.4"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
                         "value": "Flash::Flash::Flash"
                       },
                       "parameters": [
@@ -985,6 +1048,39 @@
                             "HealthDec",
                             "=",
                             "\"-50\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "SFX",
+                            "True"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "elec.wav",
+                            "",
+                            "80",
+                            "1.4"
                           ],
                           "subInstructions": []
                         }

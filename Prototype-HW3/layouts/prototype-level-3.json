@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.500694976997361,
+    "zoomFactor": 0.1256949769973608,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -190,8 +190,8 @@
       "name": "Bottle",
       "persistentUuid": "5e5b2d7f-37ef-4a47-a533-2fe4b74350c2",
       "width": 0,
-      "x": 60,
-      "y": 44,
+      "x": 126.30001831054688,
+      "y": 253.39999389648438,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -350,8 +350,8 @@
       "name": "SceneTitle",
       "persistentUuid": "b4c95468-0928-450f-ab1b-5e5e96aaf220",
       "width": 1552.5113525390625,
-      "x": 263,
-      "y": 291,
+      "x": 185,
+      "y": 155,
       "zOrder": 200,
       "numberProperties": [],
       "stringProperties": [],
@@ -420,8 +420,8 @@
       "name": "PlasticBag",
       "persistentUuid": "b015bb3a-9245-4da6-9261-695e5b4b4774",
       "width": 179.6456298828125,
-      "x": 372.2185363769531,
-      "y": 140.04783630371094,
+      "x": 402.2185363769531,
+      "y": 37.04783248901367,
       "zOrder": 66,
       "numberProperties": [],
       "stringProperties": [],
@@ -500,8 +500,8 @@
       "name": "Electronics2",
       "persistentUuid": "f0480486-24e7-44b2-91e3-a6fda6065414",
       "width": 0,
-      "x": 1344,
-      "y": 379,
+      "x": 1310,
+      "y": 522,
       "zOrder": 71,
       "numberProperties": [],
       "stringProperties": [],
@@ -812,7 +812,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 27.76318359375,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -820,8 +820,8 @@
       "name": "objectFork",
       "persistentUuid": "c0710aa4-2e4d-40f0-a795-18209fc8016b",
       "width": 0,
-      "x": 901,
-      "y": 68,
+      "x": 612.2930908203125,
+      "y": 370.05035400390625,
       "zOrder": 222,
       "numberProperties": [],
       "stringProperties": [],
@@ -1148,7 +1148,7 @@
           "topEdgeAnchor": 0
         }
       ],
-      "string": "Somewhere in the middle of the ocean",
+      "string": " Somewhere in the\nmiddle of the ocean",
       "font": "KgCompassionSimpleRegular-p2DD.ttf",
       "characterSize": 250,
       "color": {
@@ -1705,6 +1705,36 @@
                 "value": "GlobalVariableAsBoolean"
               },
               "parameters": [
+                "SFX",
+                "False"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PauseMusicCanal"
+              },
+              "parameters": [
+                "",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
                 "Music",
                 "False"
               ],
@@ -1893,8 +1923,8 @@
                 "",
                 "happy.mp3",
                 "yes",
-                "25",
-                "0.85",
+                "yes",
+                "15",
                 ""
               ],
               "subInstructions": []
@@ -2236,23 +2266,43 @@
                 ""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "transition.wav",
-                "",
-                "2",
-                ""
-              ],
-              "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "True"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "transition.wav",
+                    "",
+                    "50",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Comment",

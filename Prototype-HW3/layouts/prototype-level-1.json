@@ -1368,6 +1368,36 @@
                 "value": "GlobalVariableAsBoolean"
               },
               "parameters": [
+                "SFX",
+                "False"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PauseMusicCanal"
+              },
+              "parameters": [
+                "",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
                 "FontLarge",
                 "True"
               ],
@@ -1504,7 +1534,7 @@
                 "",
                 "happy.mp3",
                 "3",
-                "60",
+                "yes",
                 "50",
                 "1"
               ],
@@ -1719,20 +1749,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "transition.wav",
-                "",
-                "50",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "Scene"
               },
               "parameters": [
@@ -1743,7 +1759,41 @@
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "True"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "transition.wav",
+                    "",
+                    "50",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         }
       ],
       "parameters": []
