@@ -988,6 +988,123 @@
         "name": "assets\\Bacon Dish.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI/textboxUI2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\textboxUI2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI/textboxUI3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\textboxUI3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/blocktrash/bags.objects.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\blocktrash\\bags.objects.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/blocktrash/can.object.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\blocktrash\\can.object.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/blocktrash/coffee.object.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\blocktrash\\coffee.object.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/blocktrash/detergent.object.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\blocktrash\\detergent.object.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/blocktrash/fork.object.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\blocktrash\\fork.object.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/blocktrash/gel.object.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\blocktrash\\gel.object.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/blocktrash/wine.object.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\blocktrash\\wine.object.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/blocktrash/blocktrash1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\blocktrash\\blocktrash1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/other objects/barrel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\other objects\\barrel.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/other objects/rope1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\other objects\\rope1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/other objects/rope2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\other objects\\rope2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3295,6 +3412,64 @@
               ]
             }
           ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\UI\\textboxUI2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\UI\\textboxUI3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3827,6 +4002,745 @@
                     "y": 0
                   },
                   "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "objectBags",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\blocktrash\\bags.objects.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 21.5,
+                        "y": 20.700000762939453
+                      },
+                      {
+                        "x": 203.9000244140625,
+                        "y": 25.500003814697266
+                      },
+                      {
+                        "x": 255.10003662109375,
+                        "y": 423.9000244140625
+                      },
+                      {
+                        "x": 37.5,
+                        "y": 420.70001220703125
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "objectCan",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\blocktrash\\can.object.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19.100006103515625,
+                        "y": 9.699999809265137
+                      },
+                      {
+                        "x": 105.5,
+                        "y": 10.500018119812012
+                      },
+                      {
+                        "x": 105.5,
+                        "y": 117.69999694824219
+                      },
+                      {
+                        "x": 15.100006103515625,
+                        "y": 116.09999084472656
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "objectCoffee",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\blocktrash\\coffee.object.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3.399993896484375,
+                        "y": 66.80000305175781
+                      },
+                      {
+                        "x": 86.60000610351562,
+                        "y": 63.59999465942383
+                      },
+                      {
+                        "x": 93.80001831054688,
+                        "y": 149.1999969482422
+                      },
+                      {
+                        "x": 14.600006103515625,
+                        "y": 161.1999969482422
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "objectDetergent",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\blocktrash\\detergent.object.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25.100006103515625,
+                        "y": 6.599993705749512
+                      },
+                      {
+                        "x": 97.89999389648438,
+                        "y": 5.000018119812012
+                      },
+                      {
+                        "x": 119.5,
+                        "y": 182.59999084472656
+                      },
+                      {
+                        "x": 8.300018310546875,
+                        "y": 187.40000915527344
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "objectFork",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\blocktrash\\fork.object.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.099993705749512
+                      },
+                      {
+                        "x": 34.100006103515625,
+                        "y": 7.099993705749512
+                      },
+                      {
+                        "x": 25.300018310546875,
+                        "y": 111.90000915527344
+                      },
+                      {
+                        "x": 15.70001220703125,
+                        "y": 109.50001525878906
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "objectJel",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\blocktrash\\gel.object.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 21.70001220703125,
+                        "y": 8.900012016296387
+                      },
+                      {
+                        "x": 61.70001220703125,
+                        "y": 8.900012016296387
+                      },
+                      {
+                        "x": 64.89999389648438,
+                        "y": 149.6999969482422
+                      },
+                      {
+                        "x": 9.70001220703125,
+                        "y": 149.6999969482422
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "objectWine",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\blocktrash\\wine.object.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33.600006103515625,
+                        "y": 13.399996757507324
+                      },
+                      {
+                        "x": 80,
+                        "y": 12.600008964538574
+                      },
+                      {
+                        "x": 96.80001831054688,
+                        "y": 263.8000793457031
+                      },
+                      {
+                        "x": 20.800018310546875,
+                        "y": 268.6000061035156
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "trashBlock",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\blocktrash\\blocktrash1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 670.3333740234375,
+                        "y": 102.00000762939453
+                      },
+                      {
+                        "x": 877,
+                        "y": 131.33334350585938
+                      },
+                      {
+                        "x": 941,
+                        "y": 558
+                      },
+                      {
+                        "x": 734.3333740234375,
+                        "y": 551.3333740234375
+                      }
+                    ],
+                    [
+                      {
+                        "x": 50.33332824707031,
+                        "y": 7.333338260650635
+                      },
+                      {
+                        "x": 665,
+                        "y": 115.33334350585938
+                      },
+                      {
+                        "x": 683.6666870117188,
+                        "y": 323.3333435058594
+                      },
+                      {
+                        "x": 18.33333396911621,
+                        "y": 306
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Barrel",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\other objects\\barrel.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33.5,
+                        "y": 72.09999084472656
+                      },
+                      {
+                        "x": 311.10003662109375,
+                        "y": 24.099994659423828
+                      },
+                      {
+                        "x": 344.70001220703125,
+                        "y": 187.3000030517578
+                      },
+                      {
+                        "x": 47.100006103515625,
+                        "y": 241.6999969482422
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "rope1",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\other objects\\rope1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1415,
+                        "y": 95.00005340576172
+                      },
+                      {
+                        "x": 1475,
+                        "y": 39
+                      },
+                      {
+                        "x": 1848,
+                        "y": 330.9999694824219
+                      },
+                      {
+                        "x": 1775,
+                        "y": 423.0000915527344
+                      }
+                    ],
+                    [
+                      {
+                        "x": 183.00009155273438,
+                        "y": 95.00005340576172
+                      },
+                      {
+                        "x": 1458.9998779296875,
+                        "y": 35.00006103515625
+                      },
+                      {
+                        "x": 1498.9998779296875,
+                        "y": 143.00009155273438
+                      },
+                      {
+                        "x": 179,
+                        "y": 210.99996948242188
+                      }
+                    ],
+                    [
+                      {
+                        "x": 210.99996948242188,
+                        "y": 83.00008392333984
+                      },
+                      {
+                        "x": 290.9999694824219,
+                        "y": 90.99996185302734
+                      },
+                      {
+                        "x": 98.99999237060547,
+                        "y": 483.0000915527344
+                      },
+                      {
+                        "x": 15.00006103515625,
+                        "y": 450.9999694824219
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "rope2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\other objects\\rope2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 138.5,
+                        "y": 22.500011444091797
+                      },
+                      {
+                        "x": 242,
+                        "y": 42.50000762939453
+                      },
+                      {
+                        "x": 106.50003051757812,
+                        "y": 644.4999389648438
+                      },
+                      {
+                        "x": 0,
+                        "y": 628.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 12.500015258789062,
+                        "y": 574.5
+                      },
+                      {
+                        "x": 94.49998474121094,
+                        "y": 580.5
+                      },
+                      {
+                        "x": 212.50001525878906,
+                        "y": 934.4999389648438
+                      },
+                      {
+                        "x": 68.5,
+                        "y": 1004.4999389648438
+                      }
+                    ],
+                    [
+                      {
+                        "x": 130.5000457763672,
+                        "y": 960.4999389648438
+                      },
+                      {
+                        "x": 188.5,
+                        "y": 926.5
+                      },
+                      {
+                        "x": 122.50001525878906,
+                        "y": 1326.4998779296875
+                      },
+                      {
+                        "x": 20.500043869018555,
+                        "y": 1308.5
+                      }
+                    ]
+                  ]
                 }
               ]
             }
