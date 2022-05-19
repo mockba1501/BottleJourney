@@ -11,8 +11,8 @@
       "name": "ConditionDeathbyFishText",
       "persistentUuid": "3129cdde-1754-4450-b8f4-e27ba2d5e098",
       "width": 0,
-      "x": 443,
-      "y": 561,
+      "x": 230,
+      "y": 551,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -33,6 +33,54 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "LinkDeathByFish",
+      "persistentUuid": "f300b9ea-8bf2-4185-8812-6b9fa6e06c74",
+      "width": 0,
+      "x": 1118,
+      "y": 662,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "underline",
+      "persistentUuid": "fdd590d8-ce2c-4df3-a65d-1f048d418e18",
+      "width": 0,
+      "x": 1118,
+      "y": 652,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "underline",
+      "persistentUuid": "f95eeaee-34af-464f-8e43-d846500c8f5e",
+      "width": 0,
+      "x": 1183,
+      "y": 652,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -45,7 +93,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.19999999999999937,
+    "zoomFactor": 0.3249999999999993,
     "windowMask": false
   }
 }

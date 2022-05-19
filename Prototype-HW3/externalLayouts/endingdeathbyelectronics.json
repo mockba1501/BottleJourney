@@ -5,14 +5,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 207,
+      "height": 351,
       "layer": "UI",
       "locked": false,
       "name": "ConditionDeathbyElectronicsText",
       "persistentUuid": "faef1e20-3370-47c5-857e-fd51a2e2b50e",
-      "width": 1547,
-      "x": 188,
-      "y": 564,
+      "width": 1514,
+      "x": 190,
+      "y": 546,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -33,6 +33,54 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "LinkDeathByElectronics",
+      "persistentUuid": "fd0571e3-c67f-4019-88eb-fd83cdab3c15",
+      "width": 0,
+      "x": 992,
+      "y": 658,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "underline",
+      "persistentUuid": "d221edfb-81fb-46fc-9e8b-f44b455de3c2",
+      "width": 0,
+      "x": 990,
+      "y": 648,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "underline",
+      "persistentUuid": "d6085385-1391-41b0-9982-a226b2590591",
+      "width": 0,
+      "x": 1055,
+      "y": 648,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -45,7 +93,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3499999999999994,
+    "zoomFactor": 0.5999999999999996,
     "windowMask": false
   }
 }

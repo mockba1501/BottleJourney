@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.41000000000000125,
+    "zoomFactor": 0.060000000000000046,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -208,7 +208,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "                    Press \"S\" to start !\n\"O\" for options, and \"F\" for free fucks ! ",
+      "string": "https://www.google.com",
       "font": "KgCompassionBigRegular-3y0M.ttf",
       "characterSize": 60,
       "color": {

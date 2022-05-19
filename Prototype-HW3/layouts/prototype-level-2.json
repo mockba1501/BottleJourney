@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.10069497699736091,
+    "zoomFactor": 0.20069497699736089,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -94,7 +94,7 @@
       "name": "Obstacle",
       "persistentUuid": "3cc7c519-453f-444f-be4b-5c72691c3f4c",
       "width": 32,
-      "x": 3840,
+      "x": 3847,
       "y": 1,
       "zOrder": 9,
       "numberProperties": [],
@@ -110,7 +110,7 @@
       "name": "Obstacle",
       "persistentUuid": "dbb397be-f0af-414c-9629-362632393822",
       "width": 25,
-      "x": -21,
+      "x": -28,
       "y": 1,
       "zOrder": 10,
       "numberProperties": [],
@@ -143,7 +143,7 @@
       "persistentUuid": "b8f5660f-44db-4340-83a4-3fc01bcf7034",
       "width": 3840,
       "x": -2,
-      "y": -30,
+      "y": -33,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -222,8 +222,8 @@
       "name": "Bottle",
       "persistentUuid": "5e5b2d7f-37ef-4a47-a533-2fe4b74350c2",
       "width": 0,
-      "x": 83.30001831054688,
-      "y": 151.39999389648438,
+      "x": 133,
+      "y": 217,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -420,8 +420,8 @@
       "name": "Electronics1",
       "persistentUuid": "5d993432-61e2-4af0-aabe-15a2a57a89e9",
       "width": 0,
-      "x": 1456.1224365234375,
-      "y": 226.50686645507812,
+      "x": 1394.1224365234375,
+      "y": 465.4931335449219,
       "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
@@ -484,9 +484,9 @@
       "name": "SceneTitle",
       "persistentUuid": "b4c95468-0928-450f-ab1b-5e5e96aaf220",
       "width": 1552.5113525390625,
-      "x": 263,
-      "y": 291,
-      "zOrder": 1,
+      "x": 210,
+      "y": 280,
+      "zOrder": 83,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -500,8 +500,8 @@
       "name": "Phrase1",
       "persistentUuid": "ba00c52e-b9e1-4d1d-b51b-638d113e79d5",
       "width": 0,
-      "x": 300,
-      "y": 875,
+      "x": 302,
+      "y": 868,
       "zOrder": 64,
       "numberProperties": [],
       "stringProperties": [],
@@ -684,12 +684,12 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": true,
+      "locked": false,
       "name": "rope2",
       "persistentUuid": "ba0ef2f0-f182-4504-8dd7-cddfaee8d5bc",
       "width": 0,
-      "x": 1080,
-      "y": -514,
+      "x": 1107,
+      "y": -631,
       "zOrder": 82,
       "numberProperties": [],
       "stringProperties": [],
@@ -1231,6 +1231,18 @@
                 "\"UI\"",
                 "",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "TextBox",
+                "=",
+                "1"
               ],
               "subInstructions": []
             }
@@ -2268,6 +2280,28 @@
                 "\"PhraseDelete\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "TextBox",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "joe"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -2469,6 +2503,16 @@
               },
               "parameters": [
                 "SpaceSkip"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "joe"
               ],
               "subInstructions": []
             }
@@ -2805,10 +2849,6 @@
     {
       "name": "Flash",
       "type": "Flash::Flash"
-    },
-    {
-      "name": "LightObstacleBehavior",
-      "type": "Lighting::LightObstacleBehavior"
     },
     {
       "name": "PathfindingObstacle",

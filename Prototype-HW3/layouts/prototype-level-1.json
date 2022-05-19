@@ -126,7 +126,7 @@
       "name": "Obstacle",
       "persistentUuid": "6fb1b38f-3cde-46cf-92f7-bfc530c07f41",
       "width": 24,
-      "x": 3840,
+      "x": 3842,
       "y": -10,
       "zOrder": 7,
       "numberProperties": [],
@@ -581,7 +581,7 @@
       "persistentUuid": "2d5b2537-d14f-4188-97a6-9f1251b91aca",
       "width": 0,
       "x": 300,
-      "y": 875,
+      "y": 900,
       "zOrder": 303,
       "numberProperties": [],
       "stringProperties": [],
@@ -743,6 +743,22 @@
       "x": 1603,
       "y": 1005,
       "zOrder": 311,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 45,
+      "layer": "UI",
+      "locked": false,
+      "name": "joe",
+      "persistentUuid": "5be46dfe-186c-428d-a3ed-9407004596f8",
+      "width": 87,
+      "x": 295,
+      "y": 851,
+      "zOrder": 312,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1217,7 +1233,7 @@
           "Interval": 0.03
         }
       ],
-      "string": "Ew! Cold water! How did I get here? I was just having a picnic\nwith a cool bunch on the beach. Maybe I can find other bottles?\nI’ve heard about the Garbage Patches.",
+      "string": "Ew! Cold water! How did I get here? I was just having a picnic\nwith a cool bunch on the beach. Maybe I can find other bottles?\n",
       "font": "KgCompassionBigRegular-3y0M.ttf",
       "characterSize": 40,
       "color": {
@@ -1243,7 +1259,7 @@
           "Interval": 0.02
         }
       ],
-      "string": "90% of us end up there. If fish don’t eat you before,\nOr if you don’t lose air and slowly sink to the seabed. \nBrrr… let’s get out of here. Quick!\n",
+      "string": "I’ve heard about the Garbage Patches.\n90% of us end up there. If fish don’t eat you before,\nOr if you don’t lose air and slowly sink to the seabed.\n",
       "font": "KgCompassionBigRegular-3y0M.ttf",
       "characterSize": 40,
       "color": {
@@ -1842,6 +1858,28 @@
                 "\"PhraseDelete\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "TextBox",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "joe"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -2042,6 +2080,16 @@
               },
               "parameters": [
                 "SpaceSkip"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "joe"
               ],
               "subInstructions": []
             }

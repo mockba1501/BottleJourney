@@ -5,14 +5,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 166,
+      "height": 300,
       "layer": "UI",
       "locked": false,
       "name": "ConditionSeaBedText",
       "persistentUuid": "c9fbcc94-cbf0-4bbd-926b-9725b0dea1e4",
       "width": 1494,
-      "x": 250,
-      "y": 505,
+      "x": 344,
+      "y": 516,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -33,6 +33,54 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "LinkLoseStamina",
+      "persistentUuid": "cef56212-30bc-452e-89ec-d688f903f9ff",
+      "width": 0,
+      "x": 1073,
+      "y": 625,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "underline",
+      "persistentUuid": "18505605-26ca-44ff-b342-5f1c9d31e1ab",
+      "width": 0,
+      "x": 1070,
+      "y": 613,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "underline",
+      "persistentUuid": "0f226fb1-2294-46c6-9386-cdb428ccc581",
+      "width": 0,
+      "x": 1140,
+      "y": 613,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -45,7 +93,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.37499999999999944,
+    "zoomFactor": 0.44999999999999996,
     "windowMask": false
   }
 }

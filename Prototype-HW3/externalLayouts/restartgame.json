@@ -1,23 +1,7 @@
 {
   "associatedLayout": "Prototype Level 1",
-  "name": "RestartMenu",
+  "name": "RestartGame",
   "instances": [
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "UI",
-      "locked": false,
-      "name": "RestartLevel",
-      "persistentUuid": "77987d21-5391-42a7-9abe-95c8f53e7c78",
-      "width": 0,
-      "x": 595,
-      "y": 705,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": false,
@@ -27,8 +11,8 @@
       "name": "RestartGame",
       "persistentUuid": "8bfbbc9d-a64a-4388-93d7-06b4d90552fa",
       "width": 0,
-      "x": 1021,
-      "y": 705,
+      "x": 780,
+      "y": 722,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],

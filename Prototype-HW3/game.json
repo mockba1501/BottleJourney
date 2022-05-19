@@ -1105,6 +1105,15 @@
         "name": "assets\\other objects\\rope2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bottle/deadjoe.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bottle\\deadjoe.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1279,6 +1288,35 @@
               ]
             }
           ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\bottle\\deadjoe.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1407,7 +1445,7 @@
       ]
     },
     {
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "HealthTxt",
       "smoothed": true,
@@ -1429,7 +1467,7 @@
       ],
       "string": "100",
       "font": "KgCompassionBigRegular-3y0M.ttf",
-      "characterSize": 40,
+      "characterSize": 50,
       "color": {
         "b": 200,
         "g": 216,
@@ -1596,9 +1634,9 @@
           "relativeToOriginalWindowSize": true
         }
       ],
-      "string": "70% percent of ocean garbage actually sinks to the seabed, so we’re unlikely to ever be able to clean it up. ",
+      "string": "70% percent of ocean garbage actually sinks to the seabed, so we’re\n                                unlikely to ever be able to clean it up. \n                             Help Joe avoid this destiny - ",
       "font": "KgCompassionBigRegular-3y0M.ttf",
-      "characterSize": 70,
+      "characterSize": 55,
       "color": {
         "b": 200,
         "g": 204,
@@ -1626,9 +1664,9 @@
           "relativeToOriginalWindowSize": true
         }
       ],
-      "string": "Algae bloom in polluted water. They consume oxygen and can cause entire populations of marine life to leave an area or even die.",
+      "string": "Some types of algae bloom in polluted water consuming all the oxygen.\n   This can cause entire populations of marine life to leave or even die.\n                              Help Joe avoid this destiny -",
       "font": "KgCompassionBigRegular-3y0M.ttf",
-      "characterSize": 70,
+      "characterSize": 55,
       "color": {
         "b": 200,
         "g": 204,
@@ -1656,9 +1694,9 @@
           "relativeToOriginalWindowSize": true
         }
       ],
-      "string": "Fishing nets are made from nylon, a type of plastic. 10,000 of nets are lost or abandoned in the Baltic Sea each year.\n",
+      "string": "Fishing nets are made from nylon, a type of plastic. 10 000 nets are lost or abandoned in the Baltic Sea each year. 6% of all nets get lost in the ocean and continue to kill or injure marine life for many years. \n                                                Ghostdivers help clean our oceans of the old nets.\n                                                                                  their mission! ",
       "font": "KgCompassionBigRegular-3y0M.ttf",
-      "characterSize": 70,
+      "characterSize": 50,
       "color": {
         "b": 200,
         "g": 204,
@@ -1686,9 +1724,9 @@
           "relativeToOriginalWindowSize": true
         }
       ],
-      "string": "55% of fish species we eat contain microplastics.\n     Save Joe from all the troubles - RECYCLE!",
+      "string": "70% of deep sea fish have eaten plastic. 55% of fish species we eat contain microplastics.\n                                           No surprise, Joe’s got swallowed by the fish.\n                                         Save Joe from all the troubles - \n",
       "font": "KgCompassionBigRegular-3y0M.ttf",
-      "characterSize": 70,
+      "characterSize": 55,
       "color": {
         "b": 207,
         "g": 212,
@@ -1716,9 +1754,9 @@
           "relativeToOriginalWindowSize": true
         }
       ],
-      "string": "Toxic chemicals from landfilled e-Waste contaminates ground water and gets into the sea endangering 70% of marine life.\n",
+      "string": "Toxic chemicals from landfilled e-Waste contaminates ground water and gets into the sea. \n             70% of marine life is considered to be an endangered species because of it.\n                           Save Joe and marine inhabitants -                       e-Waste!",
       "font": "KgCompassionBigRegular-3y0M.ttf",
-      "characterSize": 70,
+      "characterSize": 55,
       "color": {
         "b": 207,
         "g": 212,
@@ -1746,9 +1784,9 @@
           "relativeToOriginalWindowSize": true
         }
       ],
-      "string": "Our Joe will be slowly dying for 450 years polluting the surrounding area.\n\nHe dreamed of another life - get recycled and be back on the shelves. Or be turned into a pencil holder. But definitely not this miserable existence.\n\nTo learn more about the Baltic Sea pollution, click HERE.",
+      "string": "              Joe has reached the final destination. But has he reached happiness? \nOur Joe will be slowly dying for 450 years in the company of millions of other Joes.\n                            Polluting the surrounding area and poisoning marine life.\n                  If you want to learn more about the Baltic Sea pollution, click",
       "font": "KgCompassionBigRegular-3y0M.ttf",
-      "characterSize": 70,
+      "characterSize": 55,
       "color": {
         "b": 207,
         "g": 212,
@@ -4842,6 +4880,181 @@
           ]
         }
       ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "underline",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "___",
+      "font": "",
+      "characterSize": 55,
+      "color": {
+        "b": 200,
+        "g": 204,
+        "r": 227
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "LinkNoOxygen",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "RECYCLE!",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 55,
+      "color": {
+        "b": 200,
+        "g": 204,
+        "r": 227
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "LinkLoseStamina",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "RECYCLE!",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 55,
+      "color": {
+        "b": 200,
+        "g": 204,
+        "r": 227
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "LinkFishNet",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "HELP",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 55,
+      "color": {
+        "b": 200,
+        "g": 204,
+        "r": 227
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "LinkDeathByElectronics",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "RECYCLE",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 55,
+      "color": {
+        "b": 200,
+        "g": 204,
+        "r": 227
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "LinkFinalDestination",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "HERE",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 55,
+      "color": {
+        "b": 200,
+        "g": 204,
+        "r": 227
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "LinkDeathByFish",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "RECYCLE!",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 55,
+      "color": {
+        "b": 200,
+        "g": 204,
+        "r": 227
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "joe",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": false,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 0
+        },
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.03
+        }
+      ],
+      "string": "JOE :",
+      "font": "KgCompassionSimpleRegular-p2DD.ttf",
+      "characterSize": 45,
+      "color": {
+        "b": 202,
+        "g": 194,
+        "r": 179
+      }
     }
   ],
   "objectsGroups": [],
@@ -5007,6 +5220,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/endingdeathbyfish"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/restartgame"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

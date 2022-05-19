@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.1256949769973609,
+    "zoomFactor": 0.500694976997361,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -94,7 +94,7 @@
       "name": "Obstacle",
       "persistentUuid": "3cc7c519-453f-444f-be4b-5c72691c3f4c",
       "width": 32,
-      "x": 3840,
+      "x": 3844,
       "y": 1,
       "zOrder": 9,
       "numberProperties": [],
@@ -110,7 +110,7 @@
       "name": "Obstacle",
       "persistentUuid": "dbb397be-f0af-414c-9629-362632393822",
       "width": 25,
-      "x": -21,
+      "x": -29,
       "y": 1,
       "zOrder": 10,
       "numberProperties": [],
@@ -143,7 +143,7 @@
       "persistentUuid": "b8f5660f-44db-4340-83a4-3fc01bcf7034",
       "width": 3840,
       "x": -2,
-      "y": -18,
+      "y": -33,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -367,7 +367,7 @@
       "persistentUuid": "ba00c52e-b9e1-4d1d-b51b-638d113e79d5",
       "width": 0,
       "x": 300,
-      "y": 875,
+      "y": 882,
       "zOrder": 64,
       "numberProperties": [],
       "stringProperties": [],
@@ -1204,7 +1204,7 @@
           "Interval": 0.03
         }
       ],
-      "string": "Yay! It’s halfway and I’m still alive!",
+      "string": "Yay! It’s halfway and I’m still alive! Keep going!",
       "font": "KgCompassionBigRegular-3y0M.ttf",
       "characterSize": 50,
       "color": {
@@ -1230,7 +1230,7 @@
           "Interval": 0.02
         }
       ],
-      "string": "Keep going!",
+      "string": "",
       "font": "KgCompassionBigRegular-3y0M.ttf",
       "characterSize": 50,
       "color": {
@@ -2400,36 +2400,20 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Create"
+                "value": "Cache"
               },
               "parameters": [
-                "",
-                "Phrase2",
-                "300",
-                "875",
-                "\"UI\""
+                "TextBox"
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "Montre"
+                "value": "Cache"
               },
               "parameters": [
-                "SpaceSkip",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "TextBox",
-                ""
+                "SpaceSkip"
               ],
               "subInstructions": []
             },
