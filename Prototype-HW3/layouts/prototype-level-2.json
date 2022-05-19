@@ -29,7 +29,7 @@
     {
       "name": "levelStamina",
       "type": "string",
-      "value": "400"
+      "value": "300"
     },
     {
       "name": "levelName",
