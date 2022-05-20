@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.0700217187166175,
+    "zoomFactor": 0.04502171871661744,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -494,15 +494,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 2543,
+      "height": 2452,
       "layer": "UI",
       "locked": false,
       "name": "BlackFadeOut",
       "persistentUuid": "eca3ca06-448e-458b-9823-b1a18c528ebb",
       "width": 2506,
-      "x": 1616,
-      "y": -274,
-      "zOrder": 320,
+      "x": 1924,
+      "y": -1172,
+      "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -532,9 +532,9 @@
       "name": "BlackFadeIn",
       "persistentUuid": "6b992220-6dd5-4d55-928d-3589d0df8124",
       "width": 3491,
-      "x": -1219,
-      "y": -179,
-      "zOrder": 320,
+      "x": -1459,
+      "y": -85,
+      "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -807,6 +807,38 @@
       "x": 2506.300537109375,
       "y": 173.2064971923828,
       "zOrder": 314,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "SeaBedNew",
+      "persistentUuid": "b52e1898-2684-4307-96ac-c9e996503df7",
+      "width": 0,
+      "x": 0,
+      "y": 931,
+      "zOrder": 315,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "SeaBedNew",
+      "persistentUuid": "0ac81a3d-98a9-4aac-934c-ee4ee0839a93",
+      "width": 0,
+      "x": 1917,
+      "y": 927,
+      "zOrder": 315,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1354,7 +1386,7 @@
       "behaviors": []
     },
     {
-      "name": "emptyBG",
+      "name": "SeaBedNew",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -1372,7 +1404,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "empty_png.png",
+                  "image": "assets\\backgrounds\\seabed.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

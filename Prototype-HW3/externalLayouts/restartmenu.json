@@ -11,7 +11,7 @@
       "name": "RestartLevel",
       "persistentUuid": "77987d21-5391-42a7-9abe-95c8f53e7c78",
       "width": 267,
-      "x": 597,
+      "x": 572,
       "y": 850,
       "zOrder": 6,
       "numberProperties": [],
@@ -21,31 +21,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 250,
+      "height": 218,
       "layer": "UI",
       "locked": false,
       "name": "RestartGame",
       "persistentUuid": "8bfbbc9d-a64a-4388-93d7-06b4d90552fa",
       "width": 275,
-      "x": 1023,
-      "y": 820,
+      "x": 1037,
+      "y": 849,
       "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 1100,
-      "layer": "UI",
-      "locked": false,
-      "name": "emptyBG",
-      "persistentUuid": "10162562-c131-450c-b991-26e1137d5d50",
-      "width": 1943,
-      "x": -13,
-      "y": -9,
-      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -61,7 +45,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3499999999999994,
+    "zoomFactor": 0.39999999999999947,
     "windowMask": false
   }
 }

@@ -1240,6 +1240,123 @@
         "name": "assets\\badge\\fish.badge.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI/newaftergamebuttons/restartLbutton1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\newaftergamebuttons\\restartLbutton1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI/newaftergamebuttons/restartLbutton2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\newaftergamebuttons\\restartLbutton2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI/newaftergamebuttons/restartLbutton3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\newaftergamebuttons\\restartLbutton3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI/newaftergamebuttons/restartGbutton1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\newaftergamebuttons\\restartGbutton1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI/newaftergamebuttons/restartGbutton2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\newaftergamebuttons\\restartGbutton2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI/newaftergamebuttons/restartGbutton3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\newaftergamebuttons\\restartGbutton3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/backgrounds/seabed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\backgrounds\\seabed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI/newaftergamebuttons/nrestartGbutton3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\newaftergamebuttons\\nrestartGbutton3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI/newaftergamebuttons/nrestartGbutton2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\newaftergamebuttons\\nrestartGbutton2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI/newaftergamebuttons/nrestartGbutton1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\newaftergamebuttons\\nrestartGbutton1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI/newaftergamebuttons/nrestartLbutton3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\newaftergamebuttons\\nrestartLbutton3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI/newaftergamebuttons/nrestartLbutton2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\newaftergamebuttons\\nrestartLbutton2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI/newaftergamebuttons/nrestartLbutton1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\newaftergamebuttons\\nrestartLbutton1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3734,7 +3851,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\UI\\backMbutton1.png",
+                  "image": "assets\\UI\\newaftergamebuttons\\nrestartGbutton3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3763,7 +3880,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\UI\\backMbutton2.png",
+                  "image": "assets\\UI\\newaftergamebuttons\\nrestartGbutton2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3792,7 +3909,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\UI\\backMbutton3.png",
+                  "image": "assets\\UI\\newaftergamebuttons\\nrestartGbutton1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3832,7 +3949,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\UI\\restartLbutton1.png",
+                  "image": "assets\\UI\\newaftergamebuttons\\nrestartLbutton3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3861,7 +3978,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\UI\\restartLbutton2.png",
+                  "image": "assets\\UI\\newaftergamebuttons\\nrestartLbutton2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3890,7 +4007,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\UI\\restartLbutton3.png",
+                  "image": "assets\\UI\\newaftergamebuttons\\nrestartLbutton1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

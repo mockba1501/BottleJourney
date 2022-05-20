@@ -652,6 +652,14 @@
                 "0"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -814,6 +822,17 @@
                 "Bottle",
                 "=",
                 "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "joe",
+                ""
               ],
               "subInstructions": []
             }
@@ -1038,6 +1057,17 @@
               },
               "parameters": [
                 "RestartLevel",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "joe",
                 ""
               ],
               "subInstructions": []
