@@ -451,8 +451,8 @@
                       },
                       "parameters": [
                         "Health",
-                        "-",
-                        "5"
+                        "=",
+                        "clamp(GlobalVariable(Health)-5,0,100)"
                       ],
                       "subInstructions": []
                     },
@@ -622,8 +622,8 @@
                       },
                       "parameters": [
                         "Health",
-                        "-",
-                        "10"
+                        "=",
+                        "clamp(GlobalVariable(Health)-10,0,100)"
                       ],
                       "subInstructions": []
                     },
@@ -781,8 +781,8 @@
                       },
                       "parameters": [
                         "Health",
-                        "-",
-                        "20"
+                        "=",
+                        "clamp(GlobalVariable(Health)-20,0,100)"
                       ],
                       "subInstructions": []
                     },
@@ -977,8 +977,8 @@
                       },
                       "parameters": [
                         "Health",
-                        "-",
-                        "50"
+                        "=",
+                        "clamp(GlobalVariable(Health)-50,0,100)"
                       ],
                       "subInstructions": []
                     },
@@ -1854,6 +1854,40 @@
           "parameters": [
             "Bottle",
             "SeaBed",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Bottle",
+            "SeaBedNew",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Bottle",
+            "SeaBedNew",
             ""
           ],
           "subInstructions": []

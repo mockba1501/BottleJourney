@@ -321,6 +321,18 @@
                 "value": "EnableEffect"
               },
               "parameters": [
+                "Electronics3",
+                "\"Danger\"",
+                "no"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "EnableEffect"
+              },
+              "parameters": [
                 "GeneralNet",
                 "\"Danger\"",
                 "no"

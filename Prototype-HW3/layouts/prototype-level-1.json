@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.04502171871661744,
+    "zoomFactor": 0.08500000000000002,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -532,8 +532,8 @@
       "name": "BlackFadeIn",
       "persistentUuid": "6b992220-6dd5-4d55-928d-3589d0df8124",
       "width": 3491,
-      "x": -1459,
-      "y": -85,
+      "x": -1447,
+      "y": -631,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -708,8 +708,8 @@
       "name": "rope1",
       "persistentUuid": "0e877ec2-152e-49b9-8582-a9261d5760f9",
       "width": 0,
-      "x": -460.6965637207031,
-      "y": -110.31700134277344,
+      "x": -491.6965637207031,
+      "y": -189.31700134277344,
       "zOrder": 200,
       "numberProperties": [],
       "stringProperties": [],
@@ -821,7 +821,7 @@
       "persistentUuid": "b52e1898-2684-4307-96ac-c9e996503df7",
       "width": 0,
       "x": 0,
-      "y": 931,
+      "y": 936,
       "zOrder": 315,
       "numberProperties": [],
       "stringProperties": [],
@@ -1384,46 +1384,6 @@
       "variables": [],
       "effects": [],
       "behaviors": []
-    },
-    {
-      "name": "SeaBedNew",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\backgrounds\\seabed.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "events": [
