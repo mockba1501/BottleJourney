@@ -25,7 +25,13 @@
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "HideText",
+      "type": "boolean",
+      "value": true
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -53,7 +59,7 @@
       "persistentUuid": "e4f87218-2afa-42c3-83d1-8b14e6aef1d8",
       "width": 0,
       "x": 820,
-      "y": 87,
+      "y": 32,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -61,14 +67,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 340,
       "layer": "",
       "locked": false,
       "name": "BadgeNoOxygen",
       "persistentUuid": "8cef9443-caa6-425f-b675-d1f2316db7d4",
-      "width": 0,
-      "x": 370,
+      "width": 350,
+      "x": 385,
       "y": 222,
       "zOrder": 1,
       "numberProperties": [],
@@ -77,14 +83,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 340,
       "layer": "",
       "locked": false,
       "name": "BadgeLoseStamina",
       "persistentUuid": "f32ccf4c-7b5f-46ed-8b84-0f92c8d9b1f8",
-      "width": 0,
-      "x": 770,
+      "width": 350,
+      "x": 787,
       "y": 225,
       "zOrder": 1,
       "numberProperties": [],
@@ -93,13 +99,13 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 340,
       "layer": "",
       "locked": false,
       "name": "BadgeFishnet",
       "persistentUuid": "93c37d1f-7eb7-4474-8ea1-6fc910faf879",
-      "width": 0,
+      "width": 350,
       "x": 1170,
       "y": 225,
       "zOrder": 1,
@@ -109,15 +115,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 340,
       "layer": "",
       "locked": false,
       "name": "BadgeElectronics",
       "persistentUuid": "2cfc5586-680f-4a99-a2be-ffb3aa7fbab5",
-      "width": 0,
-      "x": 370,
-      "y": 569,
+      "width": 350,
+      "x": 385,
+      "y": 600,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -125,15 +131,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 340,
       "layer": "",
       "locked": false,
       "name": "BadgeFinalDest",
       "persistentUuid": "795123f7-f5fb-439d-85f1-f94c58ef49dd",
-      "width": 0,
-      "x": 770,
-      "y": 575,
+      "width": 350,
+      "x": 787,
+      "y": 600,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -141,15 +147,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 340,
       "layer": "",
       "locked": false,
       "name": "BadgeDeathByFish",
       "persistentUuid": "57710d70-6814-4b53-846d-6f1058810370",
-      "width": 0,
+      "width": 350,
       "x": 1170,
-      "y": 571,
+      "y": 600,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -165,7 +171,7 @@
       "persistentUuid": "8f20a107-1960-415b-b9bf-9ee843fc5f6d",
       "width": 290,
       "x": 805,
-      "y": 932,
+      "y": 972,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -181,7 +187,7 @@
       "persistentUuid": "6dbfcc7f-9716-4482-9bb0-f81c74a17fec",
       "width": 0,
       "x": 906,
-      "y": 944,
+      "y": 984,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -213,7 +219,7 @@
       "persistentUuid": "25446e8a-85a6-4867-80dd-475917f5d90c",
       "width": 0,
       "x": 433,
-      "y": 178,
+      "y": 104,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -262,6 +268,102 @@
       "width": 0,
       "x": 3873,
       "y": 560,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 54,
+      "layer": "",
+      "locked": false,
+      "name": "BadgeNoOxygenTitle",
+      "persistentUuid": "0aaf085a-30ca-4fed-a9df-92d89866b3b8",
+      "width": 86,
+      "x": 516,
+      "y": 182,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BadgeLoseStaminaTitle",
+      "persistentUuid": "b26be2b4-e2b1-40d2-ae77-c7d2782af8dd",
+      "width": 0,
+      "x": 803,
+      "y": 185,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BadgeFishNetTitle",
+      "persistentUuid": "eb946b99-1a36-482c-a64b-baabd484a9b1",
+      "width": 0,
+      "x": 1214,
+      "y": 186,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BadgeElectronicsTitle",
+      "persistentUuid": "2d3ca599-65d6-4259-a3c8-ec6eb47b3fe2",
+      "width": 0,
+      "x": 442,
+      "y": 565,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BadgeFinalTitle",
+      "persistentUuid": "9eca0f87-d9c1-4a2d-9365-b4febe8d50b6",
+      "width": 0,
+      "x": 832,
+      "y": 560,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BadgeDeathByFishTitle",
+      "persistentUuid": "9168e727-e3bd-4292-8444-34802afdd7ef",
+      "width": 0,
+      "x": 1269,
+      "y": 563,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -330,6 +432,126 @@
       }
     },
     {
+      "bold": true,
+      "italic": false,
+      "name": "BadgeNoOxygenTitle",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Alga",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 50,
+      "color": {
+        "b": 200,
+        "g": 204,
+        "r": 227
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "BadgeLoseStaminaTitle",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Can't swim no more",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 50,
+      "color": {
+        "b": 200,
+        "g": 204,
+        "r": 227
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "BadgeFishNetTitle",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Dolce Far Niente",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 50,
+      "color": {
+        "b": 200,
+        "g": 204,
+        "r": 227
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "BadgeElectronicsTitle",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text in a Bottle",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 50,
+      "color": {
+        "b": 200,
+        "g": 204,
+        "r": 227
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "BadgeFinalTitle",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Rest In Pollution",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 50,
+      "color": {
+        "b": 200,
+        "g": 204,
+        "r": 227
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "BadgeDeathByFishTitle",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "New Hat",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 50,
+      "color": {
+        "b": 200,
+        "g": 204,
+        "r": 227
+      }
+    },
+    {
       "name": "BadgeNoOxygen",
       "tags": "",
       "type": "Sprite",
@@ -377,7 +599,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\UI\\backMbutton2.png",
+                  "image": "assets\\badge\\algae.badge.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -446,7 +668,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\UI\\backMbutton2.png",
+                  "image": "assets\\startmenu\\factsbutton3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -515,7 +737,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\UI\\backMbutton2.png",
+                  "image": "assets\\badge\\net.badge.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -584,7 +806,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\UI\\backMbutton2.png",
+                  "image": "assets\\badge\\message.badge.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -653,7 +875,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\UI\\backMbutton2.png",
+                  "image": "assets\\badge\\end.badge.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -916,7 +1138,68 @@
           "subInstructions": []
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "BadgeNoOxygenTitle"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "BadgeLoseStaminaTitle"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "BadgeFishNetTitle"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "BadgeElectronicsTitle"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "BadgeFinalTitle"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "BadgeDeathByFishTitle"
+          ],
+          "subInstructions": []
+        }
+      ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -1015,6 +1298,17 @@
             "1"
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Montre"
+          },
+          "parameters": [
+            "BadgeNoOxygenTitle",
+            ""
+          ],
+          "subInstructions": []
         }
       ],
       "events": [
@@ -1104,6 +1398,17 @@
             "BadgeLoseStamina",
             "=",
             "1"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Montre"
+          },
+          "parameters": [
+            "BadgeLoseStaminaTitle",
+            ""
           ],
           "subInstructions": []
         }
@@ -1197,6 +1502,17 @@
             "1"
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Montre"
+          },
+          "parameters": [
+            "BadgeFishNetTitle",
+            ""
+          ],
+          "subInstructions": []
         }
       ],
       "events": [
@@ -1225,6 +1541,14 @@
                 "",
                 "Left"
               ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
               "subInstructions": []
             }
           ],
@@ -1286,6 +1610,17 @@
             "BadgeElectronics",
             "=",
             "1"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Montre"
+          },
+          "parameters": [
+            "BadgeElectronicsTitle",
+            ""
           ],
           "subInstructions": []
         }
@@ -1379,6 +1714,17 @@
             "1"
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Montre"
+          },
+          "parameters": [
+            "BadgeFinalTitle",
+            ""
+          ],
+          "subInstructions": []
         }
       ],
       "events": [
@@ -1468,6 +1814,17 @@
             "BadgeDeathByFish",
             "=",
             "1"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Montre"
+          },
+          "parameters": [
+            "BadgeDeathByFishTitle",
+            ""
           ],
           "subInstructions": []
         }

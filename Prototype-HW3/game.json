@@ -1243,60 +1243,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/UI/newaftergamebuttons/restartLbutton1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\UI\\newaftergamebuttons\\restartLbutton1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/UI/newaftergamebuttons/restartLbutton2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\UI\\newaftergamebuttons\\restartLbutton2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/UI/newaftergamebuttons/restartLbutton3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\UI\\newaftergamebuttons\\restartLbutton3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/UI/newaftergamebuttons/restartGbutton1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\UI\\newaftergamebuttons\\restartGbutton1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/UI/newaftergamebuttons/restartGbutton2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\UI\\newaftergamebuttons\\restartGbutton2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/UI/newaftergamebuttons/restartGbutton3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\UI\\newaftergamebuttons\\restartGbutton3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/backgrounds/seabed.png",
         "kind": "image",
         "metadata": "",
@@ -1355,6 +1301,42 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\UI\\newaftergamebuttons\\nrestartLbutton1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/badge/net.badge.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\badge\\net.badge.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/badge/message.badge.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\badge\\message.badge.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/badge/end.badge.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\badge\\end.badge.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/badge/algae.badge.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\badge\\algae.badge.png",
         "smoothed": true,
         "userAdded": true
       }
@@ -5401,10 +5383,10 @@
       "effects": [],
       "behaviors": [
         {
-          "cost": 2,
-          "impassable": true,
           "name": "PathfindingObstacle",
-          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
         }
       ],
       "animations": [
