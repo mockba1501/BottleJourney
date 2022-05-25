@@ -65,6 +65,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "EndingTitleDeathbyFishText",
+      "persistentUuid": "a1bfb6af-cd83-4aaf-9f45-f7b4c555e9a8",
+      "width": 0,
+      "x": 836,
+      "y": 80,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {

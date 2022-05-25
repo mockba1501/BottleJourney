@@ -65,6 +65,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "EndingTitleCollectedText",
+      "persistentUuid": "8fc8cc35-6ab0-468a-ac96-ccca4c22168a",
+      "width": 0,
+      "x": 867,
+      "y": 78,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {

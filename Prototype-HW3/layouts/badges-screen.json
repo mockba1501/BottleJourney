@@ -281,8 +281,8 @@
       "locked": false,
       "name": "BadgeNoOxygenTitle",
       "persistentUuid": "0aaf085a-30ca-4fed-a9df-92d89866b3b8",
-      "width": 86,
-      "x": 516,
+      "width": 252,
+      "x": 426,
       "y": 182,
       "zOrder": 1,
       "numberProperties": [],
@@ -442,7 +442,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Alga",
+      "string": "Free Algae Hugs",
       "font": "KgCompassionBigRegular-3y0M.ttf",
       "characterSize": 50,
       "color": {
@@ -668,7 +668,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\startmenu\\factsbutton3.png",
+                  "image": "assets\\badge\\seabed.badge.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

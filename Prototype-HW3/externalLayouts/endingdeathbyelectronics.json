@@ -65,6 +65,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "EndingTitleDeathbyElectronicsText",
+      "persistentUuid": "150b6039-6d5e-431a-93ed-9e0bf0ce9915",
+      "width": 0,
+      "x": 712,
+      "y": 74,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {

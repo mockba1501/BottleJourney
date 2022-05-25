@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.15000000000000002,
+    "zoomFactor": 0.44449999999999934,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1315,12 +1315,24 @@
       "type": "AnchorBehavior::AnchorBehavior"
     },
     {
+      "name": "Flash",
+      "type": "Flash::Flash"
+    },
+    {
       "name": "PathfindingObstacle",
       "type": "PathfindingBehavior::PathfindingObstacleBehavior"
     },
     {
+      "name": "RectangularMovement",
+      "type": "RectangularMovement::RectangularMovement"
+    },
+    {
       "name": "SineMovement",
       "type": "SineMovement::SineMovement"
+    },
+    {
+      "name": "Text_AutoTyping",
+      "type": "AutoTyping::Text_AutoTyping"
     },
     {
       "name": "TopDownMovement",

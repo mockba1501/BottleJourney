@@ -65,6 +65,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "EndingTitleSeaBedText",
+      "persistentUuid": "1b5c97e0-b3ef-4f4d-aa64-2dbfa46954b1",
+      "width": 0,
+      "x": 747,
+      "y": 90,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -77,7 +93,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5750000000000001,
+    "zoomFactor": 0.3999999999999999,
     "windowMask": false
   }
 }

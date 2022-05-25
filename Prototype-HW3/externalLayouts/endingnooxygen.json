@@ -13,7 +13,7 @@
       "width": 0,
       "x": 0,
       "y": 0,
-      "zOrder": 1,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -29,7 +29,7 @@
       "width": 1152,
       "x": 402,
       "y": 465,
-      "zOrder": 2,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -78,6 +78,22 @@
       "x": 816,
       "y": 629,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "EndingTitleNoOxygenText",
+      "persistentUuid": "88f7cee2-3d80-4e7b-8bd3-a4b35c8d3993",
+      "width": 0,
+      "x": 780,
+      "y": 89,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []

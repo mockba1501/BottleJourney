@@ -1339,6 +1339,15 @@
         "name": "assets\\badge\\algae.badge.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/badge/seabed.badge.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\badge\\seabed.badge.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1869,6 +1878,36 @@
       }
     },
     {
+      "bold": true,
+      "italic": false,
+      "name": "EndingTitleSeaBedText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true
+        }
+      ],
+      "string": "No Bubbles Left Ending",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 50,
+      "color": {
+        "b": 200,
+        "g": 204,
+        "r": 227
+      }
+    },
+    {
       "bold": false,
       "italic": false,
       "name": "ConditionZeroOxygenText",
@@ -1890,6 +1929,36 @@
         }
       ],
       "string": "Some types of algae bloom in polluted water consuming all the oxygen.\n   This can cause entire populations of marine life to leave or even die. \n                          Help Joe avoid this destiny - RECYCLE!",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 55,
+      "color": {
+        "b": 200,
+        "g": 204,
+        "r": 227
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "EndingTitleNoOxygenText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true
+        }
+      ],
+      "string": "No Oxygen Left Ending",
       "font": "KgCompassionBigRegular-3y0M.ttf",
       "characterSize": 55,
       "color": {
@@ -1929,6 +1998,36 @@
       }
     },
     {
+      "bold": true,
+      "italic": false,
+      "name": "EndingTitleCollectedText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true
+        }
+      ],
+      "string": "Trapped Ending",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 50,
+      "color": {
+        "b": 200,
+        "g": 204,
+        "r": 227
+      }
+    },
+    {
       "bold": false,
       "italic": false,
       "name": "ConditionDeathbyFishText",
@@ -1952,6 +2051,36 @@
       "string": "70% of marine life have eaten plastic. 55% of fish species we eat contain microplastics.\n                                       No surprise, Joe’s got swallowed by a fish. \n                                      Save Joe from all the troubles - RECYCLE!\n\n",
       "font": "KgCompassionBigRegular-3y0M.ttf",
       "characterSize": 55,
+      "color": {
+        "b": 207,
+        "g": 212,
+        "r": 240
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "EndingTitleDeathbyFishText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true
+        }
+      ],
+      "string": "Damaged Ending",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 50,
       "color": {
         "b": 207,
         "g": 212,
@@ -1989,6 +2118,36 @@
       }
     },
     {
+      "bold": true,
+      "italic": false,
+      "name": "EndingTitleDeathbyElectronicsText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true
+        }
+      ],
+      "string": "Electronic Waste Ending",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 50,
+      "color": {
+        "b": 207,
+        "g": 212,
+        "r": 240
+      }
+    },
+    {
       "bold": false,
       "italic": false,
       "name": "ConditionFinalDestination",
@@ -2012,6 +2171,36 @@
       "string": "            Joe has reached the final destination. But has he reached happiness? \n\nOur Joe will be slowly dying for 450 years in the company of millions of other Joes.\n                 Polluting the surrounding area and poisoning marine life.\n\n                    If you want to learn more about the Baltic Sea pollution",
       "font": "KgCompassionBigRegular-3y0M.ttf",
       "characterSize": 55,
+      "color": {
+        "b": 207,
+        "g": 212,
+        "r": 240
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "EndingTitleFinalDestinationText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true
+        }
+      ],
+      "string": "Family Reunion Ending",
+      "font": "KgCompassionBigRegular-3y0M.ttf",
+      "characterSize": 50,
       "color": {
         "b": 207,
         "g": 212,
